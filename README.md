@@ -22,3 +22,6 @@ DB_URL=mongodb://mongodburl.example.com:portnumber
 3. In another command window, `cd` into `server` and run `yarn install` and `yarn start`
    to install all dependencies and start the server.
 4. Happy hacking!
+
+
+Sean was here
