@@ -1,0 +1,112 @@
+Food,Calories,Calories from Fat,Tot. Fat,%DV,Tot. Carb,%DV,Sat. Fat,%DV,Dietary Fiber,%DV,Trans Fat,%DV,Sugars,%DV,Cholesterol,%DV,Protein,%DV,Sodium,%DV,Allergens
+Bean & Cheese Burrito ,588,173,Total Fat 19.2g,50,Tot. Carb. 80.5g,,Sat. Fat 9.6g,48%,Dietary Fiber 5.4g,18,Trans Fat 0g,,Sugars 2.3g,2,Cholesterol 19mg,,Protein 25.6g,,Sodium 1310mg,57,"Milk, Wheat, Soybeans, Gluten"
+Bean Squared Burrito ,837,177,Total Fat 19.6g,52,Tot. Carb. 130.7g,,Sat. Fat 9.3g,46%,Dietary Fiber 18.9g,63,Trans Fat 0g,,Sugars 8.1g,6,Cholesterol 21.1mg,,Protein 37.6g,,Sodium 1884.5mg,82,"Milk, Wheat, Soybeans, Gluten"
+Carne Asada Burrito ,849,162,Total Fat 18g,47,Tot. Carb. 115.1g,,Sat. Fat 7.3g,36%,Dietary Fiber 19.1g,64,Trans Fat 0g,,Sugars 8.1g,6,Cholesterol 87.1mg,,Protein 58.7g,,Sodium 2585.6mg,112,"Milk, Wheat, Soybeans, Gluten"
+Carnitas Burrito ,604,200,Total Fat 22.2g,58,Tot. Carb. 70.9g,,Sat. Fat 7.9g,40%,Dietary Fiber 9.7g,32,Trans Fat 0g,,Sugars 4.7g,4,Cholesterol 69mg,,Protein 34.1g,,Sodium 1895.9mg,82,"Wheat, Soybeans, Gluten"
+El Jefe Burrito ,1032,353,Total Fat 39.2g,103,Tot. Carb. 110.1g,,Sat. Fat 14.8g,74%,Dietary Fiber 10.3g,34,Trans Fat 3.1g,,Sugars 10g,8,Cholesterol 134.7mg,,Protein 59.6g,,Sodium 3701.5mg,161,"Milk, Wheat, Soybeans, Gluten"
+Pollo Asada Burrito ,881,205,Total Fat 22.8g,60,Tot. Carb. 118.2g,,Sat. Fat 6.9g,35%,Dietary Fiber 20.5g,68,Trans Fat 0g,,Sugars 9.9g,8,Cholesterol 142.1mg,,Protein 53.9g,,Sodium 2775.2mg,121,"Wheat, Soybeans, Gluten"
+Shrimp Asada Burrito ,900,223,Total Fat 24.7g,65,Tot. Carb. 115.2g,,Sat. Fat 6.2g,31%,Dietary Fiber 19.4g,65,Trans Fat 0g,,Sugars 7.8g,6,Cholesterol 248.5mg,,Protein 58.3g,,Sodium 2082.1mg,91,"Milk, Crustacean Shellfish, Wheat, Soybeans, Gluten"
+Surf & Turf Burrito ,781,184,Total Fat 20.4g,54,Tot. Carb. 96.6g,,Sat. Fat 6.6g,33%,Dietary Fiber 17.7g,59,Trans Fat 0g,,Sugars 6.7g,5,Cholesterol 167.8mg,,Protein 56.2g,,Sodium 1771.7mg,77,"Milk, Crustacean Shellfish, Wheat, Soybeans, Gluten"
+Veggie Burrito ,635,136,Total Fat 15.1g,40,Tot. Carb. 100.9g,,Sat. Fat 7g,35%,Dietary Fiber 18.5g,62,Trans Fat 0g,,Sugars 7.9g,6,Cholesterol 12.7mg,,Protein 30g,,Sodium 1410.5mg,61,"Milk, Wheat, Soybeans, Gluten"
+Bean & Rice Bowl ,465,104,Total Fat 11.5g,30,Tot. Carb. 67g,,Sat. Fat 6.5g,32%,Dietary Fiber 13.5g,45,Trans Fat 0g,,Sugars 5.2g,4,Cholesterol 29.5mg,,Protein 23.1g,,Sodium 1032.9mg,45,"Milk, Soybeans"
+Carne Asada Burrito Bowl ,656,149,Total Fat 16.5g,44,Tot. Carb. 70.8g,,Sat. Fat 8.2g,41%,Dietary Fiber 13.9g,46,Trans Fat 0g,,Sugars 7.9g,6,Cholesterol 108.2mg,,Protein 53.9g,,Sodium 2084.5mg,91,"Milk, Soybeans"
+Carnitas Burrito Bowl ,658,147,Total Fat 16.3g,43,Tot. Carb. 69.7g,,Sat. Fat 7.9g,40%,Dietary Fiber 13.5g,45,Trans Fat 0g,,Sugars 6.9g,5,Cholesterol 122.1mg,,Protein 56.8g,,Sodium 2192.5mg,95,"Milk, Soybeans"
+Pollo Asada Burrito Bowl ,682,183,Total Fat 20.3g,53,Tot. Carb. 73.6g,,Sat. Fat 8.9g,44%,Dietary Fiber 13.9g,46,Trans Fat 0g,,Sugars 11.2g,9,Cholesterol 171.6mg,,Protein 49.3g,,Sodium 2320.2mg,101,"Milk, Soybeans"
+Shrimp Asada Burrito Bowl ,702,210,Total Fat 23.3g,61,Tot. Carb. 70.1g,,Sat. Fat 7.1g,36%,Dietary Fiber 13.9g,46,Trans Fat 0g,,Sugars 7.1g,5,Cholesterol 269.6mg,,Protein 53.4g,,Sodium 1577.6mg,69,"Milk, Crustacean Shellfish, Soybeans"
+Surf & Turf Burrito Bowl ,679,180,Total Fat 19.9g,52,Tot. Carb. 70.5g,,Sat. Fat 7.7g,38%,Dietary Fiber 13.9g,46,Trans Fat 0g,,Sugars 7.5g,6,Cholesterol 188.9mg,,Protein 53.6g,,Sodium 1831mg,80,"Milk, Crustacean Shellfish, Soybeans"
+Veggie Burrito Bowl ,506,109,Total Fat 12.1g,32,Tot. Carb. 75.5g,,Sat. Fat 6.5g,33%,Dietary Fiber 14.9g,50,Trans Fat 0g,,Sugars 9.6g,7,Cholesterol 29.5mg,,Protein 24.4g,,Sodium 1451.6mg,63,"Milk, Soybeans"
+Agua de Sandia ,30,1,Total Fat 0.1g,0,Tot. Carb. 7.6g,,Sat. Fat 0g,0%,Dietary Fiber 0.4g,1,Trans Fat 0g,,Sugars 6.1g,5,Cholesterol 0mg,,Protein 0.5g,,Sodium 17.5mg,1,
+Charro Beans ,69,10,Total Fat 1.1g,3,Tot. Carb. 13.6g,,Sat. Fat 0.1g,0%,Dietary Fiber 4.7g,16,Trans Fat 0g,,Sugars 2.2g,2,Cholesterol 0mg,,Protein 4.3g,,Sodium 460.2mg,20,Soybeans
+Chips and Guacamole ,199,75,Total Fat 8.3g,22,Tot. Carb. 29.8g,,Sat. Fat 1.2g,6%,Dietary Fiber 6.4g,21,Trans Fat 0g,,Sugars 1.8g,1,Cholesterol 0mg,,Protein 4.2g,,Sodium 188.6mg,8,
+Cilantro Rice ,128,11,Total Fat 1.2g,3,Tot. Carb. 25.2g,,Sat. Fat 0.2g,1%,Dietary Fiber 2.3g,8,Trans Fat 0g,,Sugars 1.9g,1,Cholesterol 0mg,,Protein 3.2g,,Sodium 751.8mg,33,Soybeans
+Refried Beans ,346,22,Total Fat 2.4g,6,Tot. Carb. 61.4g,,Sat. Fat 0.4g,2%,Dietary Fiber 15.4g,51,Trans Fat 0g,,Sugars 3.4g,3,Cholesterol 0mg,,Protein 21.5g,,Sodium 300.1mg,13,Soybeans
+Tortilla  Chips ,64,9,Total Fat 1g,3,Tot. Carb. 12.7g,,Sat. Fat 0.1g,1%,Dietary Fiber 1.8g,6,Trans Fat 0g,,Sugars 0.3g,0,Cholesterol 0mg,,Protein 1.6g,,Sodium 69.5mg,3,
+Chipotle Lime Crema ,52,38,Total Fat 4.2g,11,Tot. Carb. 1.2g,,Sat. Fat 2.9g,15%,Dietary Fiber 0g,0,Trans Fat 0g,,Sugars 1g,1,Cholesterol 16.8mg,,Protein 0.9g,,Sodium 145.5mg,6,Milk
+Guacamole ,36,28,Total Fat 3.1g,8,Tot. Carb. 2.3g,,Sat. Fat 0.4g,2%,Dietary Fiber 1.4g,5,Trans Fat 0g,,Sugars 0.6g,0,Cholesterol 0mg,,Protein 0.5g,,Sodium 24.8mg,1,
+Pollo Asada ,209,80,Total Fat 8.8g,23,Tot. Carb. 4.9g,,Sat. Fat 2.4g,12%,Dietary Fiber 0.3g,1,Trans Fat 0g,,Sugars 4.2g,3,Cholesterol 142.1mg,,Protein 25.8g,,Sodium 1281.6mg,56,Soybeans
+Pork Carnitas ,187,43,Total Fat 4.8g,13,Tot. Carb. 1.2g,,Sat. Fat 1.5g,7%,Dietary Fiber 0g,0,Trans Fat 0g,,Sugars 0g,0,Cholesterol 92.6mg,,Protein 33.4g,,Sodium 1158.1mg,50,Soybeans
+Sauteed Mixed Vegetables ,33,6,Total Fat 0.6g,2,Tot. Carb. 6.7g,,Sat. Fat 0.1g,0%,Dietary Fiber 1.3g,4,Trans Fat 0g,,Sugars 2.5g,2,Cholesterol 0mg,,Protein 0.9g,,Sodium 413mg,18,
+Shrimp Asada ,231,107,Total Fat 11.8g,31,Tot. Carb. 1.6g,,Sat. Fat 0.7g,3%,Dietary Fiber 0.4g,1,Trans Fat 0g,,Sugars 0.1g,0,Cholesterol 240.1mg,,Protein 30g,,Sodium 543.2mg,24,Crustacean Shellfish
+BYO Poke Bowl ,853,358,Total Fat 39.7g,104,Tot. Carb. 89.3g,,Sat. Fat 5.7g,29%,Dietary Fiber 7.3g,24,Trans Fat 0g,,Sugars 20.9g,16,Cholesterol 76.3mg,,Protein 34.8g,,Sodium 2517.3mg,109,"Eggs, Fish, Crustacean Shellfish, Wheat, Soybeans, Gluten, Sesame"
+Bahng Bowl ,692,362,Total Fat 40.1g,106,Tot. Carb. 63.2g,,Sat. Fat 10g,50%,Dietary Fiber 5.2g,17,Trans Fat 0.3g,,Sugars 6.7g,5,Cholesterol 64.1mg,,Protein 19.3g,,Sodium 1160.8mg,50,"Milk, Eggs, Fish, Soybeans, Sesame"
+Lava Poke Bowl ,317,77,Total Fat 8.5g,22,Tot. Carb. 31.8g,,Sat. Fat 1.3g,6%,Dietary Fiber 2.3g,8,Trans Fat 0g,,Sugars 22.7g,17,Cholesterol 39.7mg,,Protein 28.2g,,Sodium 1954.4mg,85,"Eggs, Fish, Crustacean Shellfish, Soybeans, Sesame"
+Lilo Poke Bowl ,284,110,Total Fat 12.2g,32,Tot. Carb. 28.6g,,Sat. Fat 1.8g,9%,Dietary Fiber 7.9g,26,Trans Fat 0g,,Sugars 12.1g,9,Cholesterol 0mg,,Protein 17.6g,,Sodium 1631.5mg,71,"Soybeans, Sesame"
+Makai Poke Bowl ,362,164,Total Fat 18.2g,48,Tot. Carb. 21.8g,,Sat. Fat 2.4g,12%,Dietary Fiber 3g,10,Trans Fat 0g,,Sugars 11.5g,9,Cholesterol 43.3mg,,Protein 26.4g,,Sodium 1909.7mg,83,"Fish, Crustacean Shellfish, Soybeans, Sesame"
+Ohana Poke Bowl ,267,94,Total Fat 10.4g,27,Tot. Carb. 22.1g,,Sat. Fat 2.1g,11%,Dietary Fiber 2.9g,10,Trans Fat 0g,,Sugars 10.4g,8,Cholesterol 39.4mg,,Protein 21.5g,,Sodium 1740mg,76,"Fish, Wheat, Soybeans, Gluten, Sesame"
+Brown Rice ,189,14,Total Fat 1.5g,4,Tot. Carb. 39.1g,,Sat. Fat 0.3g,2%,Dietary Fiber 3.1g,10,Trans Fat 0g,,Sugars 0.6g,0,Cholesterol 0mg,,Protein 4.4g,,Sodium 8.5mg,0,
+"Mixed Greens
+ Base ",12,0,Total Fat 0g,0,Tot. Carb. 2.3g,,Sat. Fat 0g,0%,Dietary Fiber 0.7g,2,Trans Fat 0g,,Sugars 0.7g,1,Cholesterol 0mg,,Protein 0.5g,,Sodium 15.5mg,1,
+Steamed Rice ,221,4,Total Fat 0.5g,1,Tot. Carb. 47.9g,,Sat. Fat 0.1g,1%,Dietary Fiber 0.7g,2,Trans Fat 0g,,Sugars 0.1g,0,Cholesterol 0mg,,Protein 4.6g,,Sodium 3.6mg,0,
+Makai Ahi Tuna ,46,4,Total Fat 0.4g,1,Tot. Carb. 0g,,Sat. Fat 0.1g,1%,Dietary Fiber 0g,0,Trans Fat ,,Sugars 0g,0,Cholesterol 19.1mg,,Protein 9.9g,,Sodium 15.7mg,1,Fish
+Salmon Poke ,61,35,Total Fat 3.9g,10,Tot. Carb. 0g,,Sat. Fat 0.9g,4%,Dietary Fiber 0g,0,Trans Fat ,,Sugars 0g,0,Cholesterol 16.1mg,,Protein 6g,,Sodium 17.3mg,1,Fish
+Shrimp ,40,5,Total Fat 0.6g,2,Tot. Carb. 0.5g,,Sat. Fat 0.1g,0%,Dietary Fiber 0g,0,Trans Fat 0g,,Sugars 0g,0,Cholesterol 71.4mg,,Protein 7.7g,,Sodium 198.5mg,9,Crustacean Shellfish
+Spicy Tuna ,44,17,Total Fat 1.9g,5,Tot. Carb. 0.1g,,Sat. Fat 0.4g,2%,Dietary Fiber 0g,0,Trans Fat 0g,,Sugars 0g,0,Cholesterol 10.1mg,,Protein 6.2g,,Sodium 57.3mg,2,"Fish, Sesame"
+Tofu ,33,16,Total Fat 1.8g,5,Tot. Carb. 0.8g,,Sat. Fat 0.4g,2%,Dietary Fiber 0.6g,2,Trans Fat 0g,,Sugars 0.2g,0,Cholesterol 0mg,,Protein 3.5g,,Sodium 1.7mg,0,Soybeans
+Avocado ,47,39,Total Fat 4.4g,11,Tot. Carb. 2.4g,,Sat. Fat 0.6g,3%,Dietary Fiber 1.9g,6,Trans Fat 0g,,Sugars 0.1g,0,Cholesterol 0mg,,Protein 0.6g,,Sodium 2.3mg,0,
+Crispy Onions ,182,128,Total Fat 14.2g,37,Tot. Carb. 12.2g,,Sat. Fat 0g,0%,Dietary Fiber 0g,0,Trans Fat 0g,,Sugars 0g,0,Cholesterol 0mg,,Protein 0g,,Sodium 60.8mg,3,"Wheat, Gluten"
+Edamame ,33,11,Total Fat 1.2g,3,Tot. Carb. 2.3g,,Sat. Fat 0g,0%,Dietary Fiber 1.3g,4,Trans Fat 0g,,Sugars 1g,1,Cholesterol 0mg,,Protein 3.3g,,Sodium 1.7mg,0,Soybeans
+Jalapenos ,4,0,Total Fat 0.1g,0,Tot. Carb. 0.9g,,Sat. Fat 0g,0%,Dietary Fiber 0.4g,1,Trans Fat 0g,,Sugars 0.5g,0,Cholesterol 0mg,,Protein 0.1g,,Sodium 0.4mg,0,
+Krab Mix ,51,27,Total Fat 2.9g,8,Tot. Carb. 5.5g,,Sat. Fat 0.4g,2%,Dietary Fiber 0g,0,Trans Fat 0g,,Sugars 2.3g,2,Cholesterol 4.4mg,,Protein 1.8g,,Sodium 195.6mg,9,"Eggs, Fish, Crustacean Shellfish, Soybeans"
+Mango ,17,1,Total Fat 0.1g,0,Tot. Carb. 4.2g,,Sat. Fat 0g,0%,Dietary Fiber 0.4g,1,Trans Fat 0g,,Sugars 3.8g,3,Cholesterol 0mg,,Protein 0.2g,,Sodium 0.3mg,0,
+Pickled Ginger ,19,0,Total Fat 0g,0,Tot. Carb. 3.8g,,Sat. Fat 0g,0%,Dietary Fiber 0.2g,1,Trans Fat 0g,,Sugars 1.9g,1,Cholesterol 0mg,,Protein 0g,,Sodium 94.5mg,4,
+Pickled Red Onion ,13,0,Total Fat 0g,0,Tot. Carb. 3.1g,,Sat. Fat 0g,0%,Dietary Fiber 0.5g,2,Trans Fat 0g,,Sugars 1.5g,1,Cholesterol 0mg,,Protein 0.3g,,Sodium 23.6mg,1,
+Radish ,,,Total Fat ,,Tot. Carb. ,,Sat. Fat ,%,Dietary Fiber ,,Trans Fat ,,Sugars ,,Cholesterol ,,Protein ,,Sodium ,,
+Seaweed Salad ,29,10,Total Fat 1.1g,3,Tot. Carb. 4.8g,,Sat. Fat 0.1g,1%,Dietary Fiber 0g,0,Trans Fat 0g,,Sugars 2.7g,2,Cholesterol 0mg,,Protein 0.2g,,Sodium 191.4mg,8,Sesame
+Shredded Carrots ,12,1,Total Fat 0.1g,0,Tot. Carb. 2.7g,,Sat. Fat 0g,0%,Dietary Fiber 0.8g,3,Trans Fat 0g,,Sugars 1.3g,1,Cholesterol 0mg,,Protein 0.3g,,Sodium 19.6mg,1,
+Shredded Red Cabbage ,9,0,Total Fat 0g,0,Tot. Carb. 2.1g,,Sat. Fat 0g,0%,Dietary Fiber 0.6g,2,Trans Fat 0g,,Sugars 1.1g,1,Cholesterol 0mg,,Protein 0.4g,,Sodium 7.7mg,0,
+Sliced Cucumbers ,4,0,Total Fat 0g,0,Tot. Carb. 1.1g,,Sat. Fat 0g,0%,Dietary Fiber 0.1g,0,Trans Fat 0g,,Sugars 0.5g,0,Cholesterol 0mg,,Protein 0.2g,,Sodium 0.6mg,0,
+Sliced Green Onion ,9,0,Total Fat 0.1g,0,Tot. Carb. 2.1g,,Sat. Fat 0g,0%,Dietary Fiber 0.7g,2,Trans Fat 0g,,Sugars 0.7g,1,Cholesterol 0mg,,Protein 0.5g,,Sodium 4.5mg,0,
+Spicy Krab Mixture ,42,21,Total Fat 2.4g,6,Tot. Carb. 4.5g,,Sat. Fat 0.4g,2%,Dietary Fiber 0g,0,Trans Fat 0g,,Sugars 1.9g,1,Cholesterol 3.5mg,,Protein 1.4g,,Sodium 315.9mg,14,"Eggs, Fish, Crustacean Shellfish, Soybeans"
+Whipped Cream Cheese ,48,44,Total Fat 4.9g,13,Tot. Carb. 0.6g,,Sat. Fat 2.7g,14%,Dietary Fiber 0g,0,Trans Fat 0.1g,,Sugars 0.5g,0,Cholesterol 15.6mg,,Protein 0.8g,,Sodium 45.5mg,2,Milk
+House Makai Sauce ,52,26,Total Fat 2.9g,8,Tot. Carb. 5g,,Sat. Fat 0.4g,2%,Dietary Fiber 0g,0,Trans Fat 0g,,Sugars 3g,2,Cholesterol 0mg,,Protein 0.8g,,Sodium 822.9mg,36,"Crustacean Shellfish, Soybeans, Sesame"
+Lava Sauce ,45,2,Total Fat 0.2g,0,Tot. Carb. 9.3g,,Sat. Fat 0g,0%,Dietary Fiber 0g,0,Trans Fat 0g,,Sugars 8.4g,6,Cholesterol 0mg,,Protein 1.5g,,Sodium 660.2mg,29,Soybeans
+Ponzu Sauce ,29,0,Total Fat 0g,0,Tot. Carb. 6.5g,,Sat. Fat 0g,0%,Dietary Fiber 1g,3,Trans Fat 0g,,Sugars 3g,2,Cholesterol 0mg,,Protein 1.1g,,Sodium 706.8mg,31,"Soybeans, Sesame"
+Sriracha ,3,1,Total Fat 0.1g,0,Tot. Carb. 0.5g,,Sat. Fat 0g,0%,Dietary Fiber 0.1g,0,Trans Fat ,,Sugars 0.4g,0,Cholesterol 0mg,,Protein 0.2g,,Sodium 797mg,35,
+Chopped Cilantro ,7,1,Total Fat 0.1g,0,Tot. Carb. 1g,,Sat. Fat 0g,0%,Dietary Fiber 0.8g,3,Trans Fat 0g,,Sugars 0.2g,0,Cholesterol 0mg,,Protein 0.6g,,Sodium 13mg,1,
+Nori Strips ,1,0,Total Fat 0g,0,Tot. Carb. 0.1g,,Sat. Fat 0g,0%,Dietary Fiber 0g,0,Trans Fat 0g,,Sugars 0g,0,Cholesterol 0mg,,Protein 0g,,Sodium 0mg,0,
+Sesame Seeds ,11,8,Total Fat 0.9g,2,Tot. Carb. 0.3g,,Sat. Fat ,%,Dietary Fiber 0.2g,1,Trans Fat 0g,,Sugars 0g,0,Cholesterol ,,Protein 0.4g,,Sodium 3.8mg,0,Sesame
+Wonton Strips ,74,37,Total Fat 4.1g,11,Tot. Carb. 8.8g,,Sat. Fat 1g,5%,Dietary Fiber 1.4g,5,Trans Fat 0g,,Sugars 0.7g,1,Cholesterol 0mg,,Protein 1.4g,,Sodium 30.4mg,1,"Wheat, Soybeans, Gluten"
+Crave Bowl ,471,183,Total Fat 20.3g,54,Tot. Carb. 66.8g,,Sat. Fat 1.9g,9%,Dietary Fiber 12.5g,42,Trans Fat 0g,,Sugars 4.3g,3,Cholesterol 0mg,,Protein 8.8g,,Sodium 718.9mg,31,Gluten
+Power Bowl ,787,308,Total Fat 34.2g,90,Tot. Carb. 101.1g,,Sat. Fat 2.9g,15%,Dietary Fiber 19g,63,Trans Fat 0g,,Sugars 4.7g,4,Cholesterol 0mg,,Protein 25.5g,,Sodium 753.8mg,33,"Soybeans, Gluten"
+Torrey Bowl ,446,167,Total Fat 18.5g,49,Tot. Carb. 61.4g,,Sat. Fat 2.3g,11%,Dietary Fiber 6g,20,Trans Fat 0g,,Sugars 16g,12,Cholesterol 0mg,,Protein 10.7g,,Sodium 1265.9mg,55,"Soybeans, Sesame"
+So Cal Salad ,315,146,Total Fat 16.2g,43,Tot. Carb. 37.6g,,Sat. Fat 2.1g,10%,Dietary Fiber 4.6g,15,Trans Fat 0g,,Sugars 16.1g,12,Cholesterol 0mg,,Protein 4.8g,,Sodium 845.8mg,37,"Soybeans, Sesame"
+Tuscan Salad ,406,166,Total Fat 18.4g,48,Tot. Carb. 45.4g,,Sat. Fat 1.4g,7%,Dietary Fiber 13.2g,44,Trans Fat 0g,,Sugars 4.9g,4,Cholesterol 0mg,,Protein 16.7g,,Sodium 756.5mg,33,Tree Nuts
+Lemon Basil Lavash Wrap ,306,169,Total Fat 18.7g,49,Tot. Carb. 28.5g,,Sat. Fat 1.5g,7%,Dietary Fiber 4.7g,16,Trans Fat 0g,,Sugars 2.9g,2,Cholesterol 0mg,,Protein 8.9g,,Sodium 523.1mg,23,"Wheat, Soybeans, Gluten, Sesame"
+Sweet Potato Lavash Wrap ,379,141,Total Fat 15.6g,41,Tot. Carb. 50.6g,,Sat. Fat 2g,10%,Dietary Fiber 9.2g,31,Trans Fat 0g,,Sugars 8.9g,7,Cholesterol 0mg,,Protein 12g,,Sodium 1091.2mg,47,"Wheat, Soybeans, Gluten, Sesame"
+Fried Tofu ,200,105,Total Fat 11.7g,31,Tot. Carb. 9.7g,,Sat. Fat 1.8g,9%,Dietary Fiber 2.4g,8,Trans Fat 0g,,Sugars 0.7g,1,Cholesterol 0mg,,Protein 14.1g,,Sodium 25.7mg,1,Soybeans
+Grilled Chicken Breast ,136,27,Total Fat 2.9g,8,Tot. Carb. 0.1g,,Sat. Fat 2.6g,13%,Dietary Fiber 0g,0,Trans Fat 0.9g,,Sugars 0g,0,Cholesterol 98.7mg,,Protein 27.2g,,Sodium 233.9mg,10,
+Grilled Salmon ,242,136,Total Fat 15g,40,Tot. Carb. 0.3g,,Sat. Fat 2.9g,15%,Dietary Fiber 0.1g,0,Trans Fat 0g,,Sugars 0g,0,Cholesterol 70.8mg,,Protein 24.9g,,Sodium 446.7mg,19,Fish
+Avocado ,47,39,Total Fat 4.4g,11,Tot. Carb. 2.4g,,Sat. Fat 0.6g,3%,Dietary Fiber 1.9g,6,Trans Fat 0g,,Sugars 0.1g,0,Cholesterol 0mg,,Protein 0.6g,,Sodium 2.3mg,0,
+"Hummus, Spread ",47,25,Total Fat 2.7g,7,Tot. Carb. 4.1g,,Sat. Fat 0.4g,2%,Dietary Fiber 1.7g,6,Trans Fat 0g,,Sugars ,,Cholesterol 0mg,,Protein 2.2g,,Sodium 107.4mg,5,"Soybeans, Sesame"
+Chicken Ramen Soup Bowl ,757,106,Total Fat 11.8g,31,Tot. Carb. 122.9g,,Sat. Fat 3.4g,17%,Dietary Fiber 6.1g,20,Trans Fat 0g,,Sugars 5.3g,4,Cholesterol 136.1mg,,Protein 40.2g,,Sodium 3680.8mg,160,"Milk, Eggs, Wheat, Soybeans, Gluten, Sesame"
+Pork Ramen Bowl ,925,306,Total Fat 33.9g,89,Tot. Carb. 123.7g,,Sat. Fat 12.1g,61%,Dietary Fiber 5.2g,17,Trans Fat 0g,,Sugars 8.4g,6,Cholesterol 95.8mg,,Protein 30.8g,,Sodium 4042.4mg,176,"Milk, Eggs, Wheat, Soybeans, Gluten, Sesame"
+Shrimp Ramen Soup Bowl ,788,153,Total Fat 17g,45,Tot. Carb. 126.2g,,Sat. Fat 1.6g,8%,Dietary Fiber 6.1g,20,Trans Fat 0g,,Sugars 6.9g,5,Cholesterol 155.9mg,,Protein 35.1g,,Sodium 3451.2mg,150,"Eggs, Crustacean Shellfish, Wheat, Soybeans, Gluten, Sesame"
+Tofu Ramen Bowl ,800,176,Total Fat 19.5g,51,Tot. Carb. 128g,,Sat. Fat 2.1g,11%,Dietary Fiber 7.2g,24,Trans Fat 0g,,Sugars 6.8g,5,Cholesterol 53.9mg,,Protein 30.9g,,Sodium 3355.7mg,146,"Eggs, Wheat, Soybeans, Gluten, Sesame"
+Citrus Chili Paste ,11,5,Total Fat 0.5g,1,Tot. Carb. 0.6g,,Sat. Fat 0g,0%,Dietary Fiber 0.3g,1,Trans Fat 0g,,Sugars 0.2g,0,Cholesterol 0mg,,Protein 0.1g,,Sodium 6.5mg,0,
+Garlic Chili Oil ,221,223,Total Fat 24.7g,65,Tot. Carb. 1g,,Sat. Fat 1.8g,9%,Dietary Fiber 0.5g,2,Trans Fat 0g,,Sugars 0.2g,0,Cholesterol 0mg,,Protein 0.2g,,Sodium 15.7mg,1,
+Sriracha ,3,1,Total Fat 0.1g,0,Tot. Carb. 0.5g,,Sat. Fat 0g,0%,Dietary Fiber 0.1g,0,Trans Fat ,,Sugars 0.4g,0,Cholesterol 0mg,,Protein 0.2g,,Sodium 797mg,35,
+Blanched Shrimp ,58,7,Total Fat 0.8g,2,Tot. Carb. 0.7g,,Sat. Fat 0.1g,0%,Dietary Fiber 0g,0,Trans Fat 0g,,Sugars 0g,0,Cholesterol 102.1mg,,Protein 11g,,Sodium 283.5mg,12,Crustacean Shellfish
+Char Siu Chicken ,105,43,Total Fat 4.7g,12,Tot. Carb. 0.7g,,Sat. Fat 1.3g,6%,Dietary Fiber 0g,0,Trans Fat 0g,,Sugars 0.4g,0,Cholesterol 76.6mg,,Protein 13.9g,,Sodium 196.9mg,9,"Wheat, Soybeans, Gluten, Sesame"
+Char SiuTofu ,69,32,Total Fat 3.5g,9,Tot. Carb. 2.2g,,Sat. Fat 0.7g,4%,Dietary Fiber 1.1g,4,Trans Fat 0g,,Sugars 0.7g,1,Cholesterol 0mg,,Protein 7.1g,,Sodium 137.4mg,6,"Wheat, Soybeans, Gluten, Sesame"
+Kamaboko ,8,0,Total Fat 0g,0,Tot. Carb. 1.3g,,Sat. Fat 0g,0%,Dietary Fiber 0g,0,Trans Fat 0g,,Sugars 0.4g,0,Cholesterol 1.4mg,,Protein 0.7g,,Sodium 101.2mg,4,"Fish, Wheat, Soybeans, Gluten"
+Ramen Egg ,25,13,Total Fat 1.4g,4,Tot. Carb. 1g,,Sat. Fat 0.4g,2%,Dietary Fiber 0g,0,Trans Fat 0g,,Sugars 0.7g,1,Cholesterol 53.9mg,,Protein 1.9g,,Sodium 229.6mg,10,"Eggs, Soybeans, Sesame"
+Ramen Noodle ,105,3,Total Fat 0.3g,1,Tot. Carb. 22.2g,,Sat. Fat 0g,0%,Dietary Fiber 0.8g,3,Trans Fat 0g,,Sugars 0g,0,Cholesterol 0mg,,Protein 3.3g,,Sodium 221.8mg,10,"Eggs, Wheat, Gluten"
+Roasted Pork Belly ,283,241,Total Fat 26.8g,70,Tot. Carb. 4.6g,,Sat. Fat 10g,50%,Dietary Fiber 0.1g,0,Trans Fat 0g,,Sugars 4.4g,3,Cholesterol 36.2mg,,Protein 4.6g,,Sodium 616.3mg,27,
+Andouille Sausage Sandwich ,650,314,Total Fat 34.9g,92,Tot. Carb. 76.6g,,Sat. Fat 11.3g,57%,Dietary Fiber 1g,3,Trans Fat 0g,,Sugars 9.6g,7,Cholesterol 73.7mg,,Protein 26.4g,,Sodium 2207mg,96,"Wheat, Soybeans, Gluten"
+BBQ Salmon ,255,135,Total Fat 14.9g,39,Tot. Carb. 1.6g,,Sat. Fat 3g,15%,Dietary Fiber 0.1g,0,Trans Fat 0g,,Sugars 1.5g,1,Cholesterol 75.9mg,,Protein 26.7g,,Sodium 89.2mg,4,Fish
+Beyond Italian Sausage ,248,143,Total Fat 15.9g,42,Tot. Carb. 7.9g,,Sat. Fat 6.9g,35%,Dietary Fiber 0g,0,Trans Fat 0g,,Sugars 0g,0,Cholesterol 0mg,,Protein 16.9g,,Sodium 535.9mg,23,
+Beyond Italian Sausage Sandwich ,701,221,Total Fat 24.5g,64,Tot. Carb. 86.9g,,Sat. Fat 9.1g,46%,Dietary Fiber 2g,7,Trans Fat 0g,,Sugars 11.9g,9,Cholesterol 0mg,,Protein 31.6g,,Sodium 1612.8mg,70,"Wheat, Soybeans, Gluten"
+Loaded Mac n Cheese ,423,218,Total Fat 24.2g,64,Tot. Carb. 36.1g,,Sat. Fat 15.9g,79%,Dietary Fiber 1.8g,6,Trans Fat 0g,,Sugars 4.1g,3,Cholesterol 84.8mg,,Protein 14.2g,,Sodium 789mg,34,"Milk, Wheat, Gluten"
+Pulled Pork ,264,65,Total Fat 7.2g,19,Tot. Carb. 0g,,Sat. Fat 2.2g,11%,Dietary Fiber 0g,0,Trans Fat 0g,,Sugars 0g,0,Cholesterol 139.5mg,,Protein 46.7g,,Sodium 1305.2mg,57,
+Pulled Pork Sandwich ,636,209,Total Fat 23.2g,61,Tot. Carb. 64.2g,,Sat. Fat 7.2g,36%,Dietary Fiber 1.5g,5,Trans Fat 0g,,Sugars 20.3g,16,Cholesterol 141mg,,Protein 41.3g,,Sodium 1515.8mg,66,"Milk, Eggs, Wheat, Soybeans, Gluten"
+Smoked Beef Brisket ,379,245,Total Fat 27.2g,71,Tot. Carb. 3.2g,,Sat. Fat 10.4g,52%,Dietary Fiber 0.2g,1,Trans Fat 0g,,Sugars 2.9g,2,Cholesterol 102.8mg,,Protein 28.7g,,Sodium 102.1mg,4,
+Smoked Brisket Sandwich ,754,357,Total Fat 39.6g,104,Tot. Carb. 60.1g,,Sat. Fat 18g,90%,Dietary Fiber 0.6g,2,Trans Fat 0g,,Sugars 16.4g,13,Cholesterol 157.2mg,,Protein 38g,,Sodium 529.3mg,23,"Milk, Eggs, Wheat, Soybeans, Gluten"
+Baked Beans ,234,32,Total Fat 3.5g,9,Tot. Carb. 38.8g,,Sat. Fat 0.3g,2%,Dietary Fiber 9.1g,30,Trans Fat 0g,,Sugars 7.8g,6,Cholesterol 0mg,,Protein 13.7g,,Sodium 211mg,9,Soybeans
+Creamy Mac and Cheese ,316,164,Total Fat 18.1g,48,Tot. Carb. 26.6g,,Sat. Fat 11.9g,59%,Dietary Fiber 0.9g,3,Trans Fat 0g,,Sugars 1.6g,1,Cholesterol 62.8mg,,Protein 11.1g,,Sodium 632.9mg,28,"Milk, Wheat, Gluten"
+Smoked Veggie Plate ,85,12,Total Fat 1.3g,3,Tot. Carb. 17.5g,,Sat. Fat 0.3g,2%,Dietary Fiber 3.3g,11,Trans Fat 0g,,Sugars 11.9g,9,Cholesterol 0.7mg,,Protein 2.8g,,Sodium 196.8mg,9,"Milk, Soybeans"
+Jalapeno Cheddar Cornbread ,238,106,Total Fat 11.8g,31,Tot. Carb. 29.4g,,Sat. Fat 2.1g,10%,Dietary Fiber 1.1g,4,Trans Fat 0g,,Sugars 10.7g,8,Cholesterol 21.9mg,,Protein 4.9g,,Sodium 312.4mg,14,"Milk, Eggs, Wheat, Gluten"
+Potato Salad ,155,75,Total Fat 8.4g,22,Tot. Carb. 17.1g,,Sat. Fat 2.1g,10%,Dietary Fiber 2.3g,8,Trans Fat 0g,,Sugars 1.8g,1,Cholesterol 9.5mg,,Protein 2.6g,,Sodium 202.7mg,9,"Milk, Eggs, Soybeans"
+Standard Cole Slaw ,287,221,Total Fat 24.5g,64,Tot. Carb. 15.1g,,Sat. Fat 3.9g,20%,Dietary Fiber 1.8g,6,Trans Fat 0g,,Sugars 13.2g,10,Cholesterol 21.2mg,,Protein 1.1g,,Sodium 396.5mg,17,"Eggs, Soybeans"
+Kansas City BBQ Sauce ,36,8,Total Fat 0.9g,2,Tot. Carb. 6.9g,,Sat. Fat 0.1g,0%,Dietary Fiber 0.4g,1,Trans Fat 0g,,Sugars 5.4g,4,Cholesterol 0mg,,Protein 0.4g,,Sodium 127.1mg,6,Soybeans
+Mustard Sauce ,35,7,Total Fat 0.8g,2,Tot. Carb. 6.7g,,Sat. Fat 0.2g,1%,Dietary Fiber 0.6g,2,Trans Fat 0g,,Sugars 5.7g,4,Cholesterol 0.7mg,,Protein 0.6g,,Sodium 147.4mg,6,"Milk, Soybeans"
+Southern Sweet Tea ,106,0,Total Fat 0g,0,Tot. Carb. 26.4g,,Sat. Fat 0g,0%,Dietary Fiber 0.3g,1,Trans Fat 0g,,Sugars 25.8g,20,Cholesterol 0mg,,Protein 0.1g,,Sodium 24.5mg,1,
