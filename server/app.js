@@ -1,7 +1,9 @@
+
 const express = require('express');
 const logger = require('morgan');
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');
+dotenv.config();
 
 const usersRouter = require('./routes/users');
 
@@ -13,8 +15,7 @@ app.use(express.urlencoded({ extended: false }));
 
 app.use('/users', usersRouter);
 
-dotenv.config();
-
+console.log(process.env.DB_URL);
 mongoose.connect(process.env.DB_URL, {
     useNewUrlParser: true,
     useUnifiedTopology: true }).then(() => {
