@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 
 const DiningSchema = new mongoose.Schema(
     {
-        name: {
+        food: {
             type: String,
             required: [true, "Food name is required"]
         },
@@ -12,24 +12,109 @@ const DiningSchema = new mongoose.Schema(
             required: [true, "Food description is required"]
         },
 
-        calories: {
+        cal: {
             type: Number,
             required: [true, "Food calories is required"]
         },
 
+        calFromFat: {
+            type: Number,
+            required: [true, "calories from fat is required"]
+        },
+
+        totFat: {
+            type: Number,
+            required: [true, "total fats is required"]
+        },
+
+        totFatDV: {
+            type: Number,
+            required: [true, "total fat daily value is required"]
+        },
+
+        totCarb: {
+            type: Number,
+            required: [true, "total carbs is required"]
+        },
+
+        totCarbDV: {
+            type: Number,
+            required: [true, "total carb daily value is required"]
+        },
+
+        satFat: {
+            type: Number,
+            required: [true, "satured fat is required"]
+        },
+
+        satFatDV: {
+            type: Number,
+            required: [true, "saturated fat daily value is required"]
+        },
+
+        dietaryFiber: {
+            type: Number,
+            required: [true, "dietary fiber is required "]
+        },
+
+        dietaryFiberDV: {
+            type: Number,
+            required: [true, "dietary fiber daily value is required"]
+        },
+
+        transFat: {
+            type: Number,
+            required: [true, "trans fat is required"]
+        },
+
+        transFatDV: {
+            type: Number,
+            required: [true, "trans fat daily value is required"]
+        },
+
+        sugars: {
+            type: Number,
+            required: [true, "sugars is required"]
+        },
+
+        sugarsDV: {
+            type: Number,
+            required: [true, "sugars daily value is required"]
+        },
+
+        cholesterol: {
+            type: Number,
+            required: [true, "cholesterol is required"]
+        },
+
+        cholesterolDV: {
+            type: Number,
+            required: [true, "cholesterol daily value is required"]
+        },
+
         protein: {
             type: Number,
-            required: [true, "Food proteins is required"]
+            required: [true, "protein is required"]
         },
 
-        fat: {
+        proteinDV: {
             type: Number,
-            required: [true, "Food fats is required"]
+            required: [true, "protein daily value is required"]
         },
 
-        carb: {
+        sodium: {
             type: Number,
-            required: [true, "Food carbs is required"]
+            required: [true, "sodium is required"]
+        },
+
+        sodiumDV: {
+            type: Number,
+            required: [true, "sodium daily value is required"]
+        },
+
+        allergens: {
+            type: Array,
+            required: [true, "allergens is required"]
         },
 
         vegetarian: {
