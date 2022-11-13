@@ -1,5 +1,10 @@
 import os
+# Get the database using the method we defined in pymongo_test_insert file
+from pymongo_get_db import get_database
 
+# retrieve the database and collection
+dbname = get_database()
+collection_name = dbname["dining_items"]
 direc = "scraper/halls"
 
 # iterate over all CSV files in directory
@@ -21,6 +26,9 @@ def parse_data(file):
 
         for idx, val in enumerate(fields):
             foodItem[labels[idx].strip()] = val.strip()
+
+        # add food item into collection
+        collection_name.insert_one(foodItem)
 
 
 
