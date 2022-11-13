@@ -2,14 +2,10 @@ const mongoose = require("mongoose");
 
 const DiningSchema = new mongoose.Schema(
     {
+        // Information from webparser
         food: {
             type: String,
             required: [true, "Food name is required"]
-        },
-
-        description: {
-            type: String,
-            required: [true, "Food description is required"]
         },
 
         cal: {
@@ -117,16 +113,21 @@ const DiningSchema = new mongoose.Schema(
             required: [true, "allergens is required"]
         },
 
-        vegetarian: {
-            type: Boolean,
-            required: [true, "Food vegetarian is required"]
-        },
+        /* may re-implement later; thinking of keeping processing for vegetarian
+         or vegan later 
+         */
+        // vegetarian: {
+        //     type: Boolean,
+        //     required: [true, "Food vegetarian is required"]
+        // },
 
-        vegan: {
-            type: Boolean,
-            required: [true, "Food vegan is required"]
-        },
+        // vegan: {
+        //     type: Boolean,
+        //     required: [true, "Food vegan is required"]
+        // },
 
+
+        // Custom information
         location: {
             type: [LocationSchema],
             required: [true, "Food location is required"]
@@ -140,7 +141,12 @@ const DiningSchema = new mongoose.Schema(
         price: {
             type: Number,
             required: [true, "Food price is required"]
-        }
+        },
+
+        description: {
+            type: String,
+            required: [true, "Food description is required"]
+        },
     }
 );
 
