@@ -2,6 +2,7 @@ import React from "react";
 import "./PreferencesComponents.css";
 // import MultiSelect from 'multiselect-dropdown-react';
 import Select from 'react-select'
+import { useState } from "react";
 // const { useEffect, useState, useRef } = React;
  
 
@@ -12,28 +13,47 @@ import Select from 'react-select'
 const DietaryRestrictionsSearchBar = () => {        // NOTE: react-select is almost identical in function 
                                                     // https://react-select.com/home
     
+    // Capture user-specified dietary restrictions, initially none
+    // TODO: load initial elements from user data, if extant
+    const [selectedOptions, setSelectedOptions] = useState([]);
+    let state = {
+        selectedOptions: []
+    }
+
     // Mock list of dietary restrictions
     let dietaryRestrictions = [{value: 'vegan', label: 'Vegan'},
         {value: 'vegetarian', label: 'Vegeterian'},
         {value: 'nut_allergy', label: 'Nut Allergy'},
         {value: 'lactose_intolerant', label: 'Lactose Intolerant'},
         {value: 'gluten_intolerant', label: 'Gluent Intolerant'},
-        {value: 'Keto', label: 'Keto'}];
+        {value: 'keto', label: 'Keto'}];
 
-    /*let updateSelection = (selectedList, removedItem) => {
-        console.log('onSelect() called');
+    // Parameter is an array with elements {value: 'vegetarian', label: 'Vegeterian}
+    let handleChange = (selectedOptionsOnChange) => { 
+        console.log('handleChange() called');
+        console.log(selectedOptionsOnChange);
+        setSelectedOptions(selectedOptionsOnChange);
+        console.log('DRSB state: ');
+        console.log(selectedOptions);   // Contains state before the update at this point
+        console.log('DRSB state printed above');
+
     }
 
-    let updateRemoval = (selectedList, removedItem) => {
-        console.log('onRemove() called');
-    }*/
+    // let updateRemoval = (selectedList, removedItem) => {
+    //     console.log('onRemove() called');
+    // }
 
     return (
         <div className="dietary-restrictions">
+            <script>
+                console.log('In DRSB return');
+            </script>
             <h1>Dietary Restrictions</h1>
             <Select
                 options={dietaryRestrictions}
-                isMulti={true} />
+                placeholder="Add dietary restrictions"
+                isMulti={true}
+                onChange={handleChange} />
         </div>
         
     );
