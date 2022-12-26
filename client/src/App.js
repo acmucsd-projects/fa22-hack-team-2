@@ -1,8 +1,6 @@
 import React from 'react';
 import './App.css';
-import DietaryRestrictionsSearchBar from './PreferencesComponents';
-import { MultiSelect } from 'multiselect-dropdown-react';
-
+import DietaryRestrictionsSearchBar from './components/DietaryRestrictionsSearchBar';
 
 function App() {
   return (
