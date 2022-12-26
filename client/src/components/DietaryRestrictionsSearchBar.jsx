@@ -30,7 +30,7 @@ const DietaryRestrictionsSearchBar = () => {        // NOTE: react-select is alm
 
     // Parameter is an array with elements {value: 'vegetarian', label: 'Vegeterian}
     let handleChange = (selectedOptionsOnChange) => { 
-        console.log('handleChange() called');
+        console.log('DSRB handleChange() called');
         console.log(selectedOptionsOnChange);
         setSelectedOptions(selectedOptionsOnChange);
         console.log('DRSB state: ');

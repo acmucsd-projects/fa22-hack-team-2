@@ -1,9 +1,7 @@
 import React from "react";
-import "./DietaryRestrictionsSearchBar.css";
-// import MultiSelect from 'multiselect-dropdown-react';
+import "./MealSizeSelection.css";
 import Select from 'react-select'
 import { useState } from "react";
-// const { useEffect, useState, useRef } = React;
  
 /* Single selection for Meal Size in Preferences. Options are {Meal, Snack, Drink}.
  * MIRO: https://miro.com/app/board/uXjVPNa6HSs=/?moveToWidget=3458764537012001562&cot=14
@@ -25,12 +23,12 @@ const MealSizeSelection = () => {
 
     // Parameter is an array with elements {value: 'vegetarian', label: 'Vegeterian}
     let handleChange = (selectedOptionOnChange) => { 
-        console.log('handleChange() called');
+        console.log('MSS handleChange() called');
         console.log(selectedOptionOnChange);
         setselectedOption(selectedOptionOnChange);
-        console.log('DRSB state: ');
+        console.log('MSS state: ');
         console.log(selectedOption);   // Contains state before the update at this point
-        console.log('DRSB state printed above');
+        console.log('MSS state printed above');
 
     }
 
