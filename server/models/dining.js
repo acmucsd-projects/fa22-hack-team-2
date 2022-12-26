@@ -134,6 +134,7 @@ const DiningSchema = new mongoose.Schema(
         },
 
         phase: {
+            //refers to breakfast, lunch, etc.
             type: String,
             required: [true, "Food phase is required"]
         },
