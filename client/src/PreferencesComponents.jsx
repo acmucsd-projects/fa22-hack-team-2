@@ -1,6 +1,7 @@
 import React from "react";
 import "./PreferencesComponents.css";
-import MultiSelect from 'multiselect-dropdown-react';
+// import MultiSelect from 'multiselect-dropdown-react';
+import Select from 'react-select'
 // const { useEffect, useState, useRef } = React;
  
 
@@ -8,52 +9,36 @@ import MultiSelect from 'multiselect-dropdown-react';
  * Boxes under search bar indicate selected restrictions, and can be clicked to unselect restrictions. 
  * MIRO: https://miro.com/app/board/uXjVPNa6HSs=/?moveToWidget=3458764537011712903&cot=14
  */
-const DietaryRestrictionsSearchBar = () => {        // NOTE: Multiselect-react-dropdown is similar in function 
-                                                    // https://www.npmjs.com/package/multiselect-react-dropdown
-    // Hander for []                                // But does not have the search function
-    // function handleChange(e) {
-        
-    //     // TODO: implement handler
-    // }
+const DietaryRestrictionsSearchBar = () => {        // NOTE: react-select is almost identical in function 
+                                                    // https://react-select.com/home
     
-    let state = {
-        dietaryRestrictions: 
-        [{name: 'Vegan', id: 'V'},
-        {name: 'Vegeterian', id: 'VGT'},
-        {name: 'Nut Allergy', id: 'NA'},
-        {name: 'Lactose Intolerant', id: 'L'},
-        {name: 'Gluten Intolerant', id: 'G'},
-        {name: 'Keto', id: 'K'}]
-    };
+    // Mock list of dietary restrictions
+    let dietaryRestrictions = [{value: 'vegan', label: 'Vegan'},
+        {value: 'vegetarian', label: 'Vegeterian'},
+        {value: 'nut_allergy', label: 'Nut Allergy'},
+        {value: 'lactose_intolerant', label: 'Lactose Intolerant'},
+        {value: 'gluten_intolerant', label: 'Gluent Intolerant'},
+        {value: 'Keto', label: 'Keto'}];
 
-    let updateSelection = (selectedList, removedItem) => {
+    /*let updateSelection = (selectedList, removedItem) => {
         console.log('onSelect() called');
     }
 
     let updateRemoval = (selectedList, removedItem) => {
         console.log('onRemove() called');
-    }
+    }*/
 
     return (
         <div className="dietary-restrictions">
             <h1>Dietary Restrictions</h1>
-            <MultiSelect
-                options={state.dietaryRestrictions}
-                onSelect={updateSelection}
-                onRemove={updateRemoval}
-                displayValue="name" />
+            <Select
+                options={dietaryRestrictions}
+                isMulti={true} />
         </div>
         
     );
 }
 export default DietaryRestrictionsSearchBar;
-
-/* Mock list of DietaryRestrictions */
-// const dietaryRestrictions = [
-//     {label: 'Vegan', value: 'V'},
-//     {label: 'Vegeterian', value: 'VGT'},
-//     {label: 'Nut Allergy', value: 'NA'}
-// ];
 
 // /* Single selection for Meal Size in Preferences. Options are {Meal, Snack, Drink}.
 //  * MIRO: https://miro.com/app/board/uXjVPNa6HSs=/?moveToWidget=3458764537012001562&cot=14
@@ -65,3 +50,4 @@ export default DietaryRestrictionsSearchBar;
 //         </div>
 //     );
 // }
+// export default MealSizeSelection;
