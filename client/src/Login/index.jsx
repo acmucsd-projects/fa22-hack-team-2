@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+import { Link, BrowserRouter } from 'react-router-dom';
 
 export const Login = () => {
     return (
@@ -14,6 +15,10 @@ export const Login = () => {
                 <input type="text" placeholder="Password" name="password" required></input>
 
                 <button type="submit">Login</button>
+
+                <Link to="/create-account">Register Account</Link>
+                
+                
             </div>
             <div>
                 
