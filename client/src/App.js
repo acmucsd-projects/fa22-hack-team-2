@@ -1,6 +1,10 @@
 import React from 'react';
 import './App.css';
 import DietaryRestrictionsSearchBar from './components/DietaryRestrictionsSearchBar';
+import MealSizeSelection from './components/MealSizeSelection';
+import PriceSelection from './components/PriceSelection';
+
+// TODO: implement page structure
 
 function App() {
   return (
@@ -9,6 +13,12 @@ function App() {
         text above DRSB
         <DietaryRestrictionsSearchBar />
         text below DRSB
+        text above MSS
+        <MealSizeSelection />
+        text below MSS
+        text above PS
+        <PriceSelection />
+        text below PS
       </body>
     </div>
   );

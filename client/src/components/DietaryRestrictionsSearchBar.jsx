@@ -1,5 +1,5 @@
 import React from "react";
-import "./DietaryRestrictionsSearchBar.css";
+import "./Components.css";
 // import MultiSelect from 'multiselect-dropdown-react';
 import Select from 'react-select'
 import { useState } from "react";
@@ -45,12 +45,13 @@ const DietaryRestrictionsSearchBar = () => {        // NOTE: react-select is alm
 
     // TODO: add rounded rectangle outline to component, add width/height scale constraints
     return (
-        <div className="dietary-restrictions">
+        <div className="container">
             <script>
                 console.log('In DRSB return');
             </script>
-            <h1>Dietary Restrictions</h1>
+            <h1 id="preference_title">Dietary Restrictions</h1>
             <Select
+                id="select"
                 options={dietaryRestrictions}
                 placeholder="Add dietary restrictions"
                 isMulti={true}

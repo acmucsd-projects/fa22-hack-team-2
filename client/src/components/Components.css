@@ -1,0 +1,23 @@
+.container {
+    background: #F4F4F4;
+    max-width: 350px;
+    width: 100%;
+    padding: 16px 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.15);
+    font-family: 'Segoe UI';
+}
+
+.container:hover {
+    background: #FAFAFA;
+}
+
+#preference_title {
+    font-family: 'Segoe UI';
+    font-size: large;
+    font-weight: normal;
+}
+
+#select{
+    font-size: small;
+}

@@ -1,12 +1,11 @@
 import React from "react";
 import "./Components.css";
-import Select from 'react-select'
 import { useState } from "react";
  
 /* Single selection for Meal Size in Preferences. Options are {Meal, Snack, Drink}.
  * MIRO: https://miro.com/app/board/uXjVPNa6HSs=/?moveToWidget=3458764537012001562&cot=14
  */
-const MealSizeSelection = () => {
+const PriceSelection = () => {
     
     // Capture user-specified dietary restrictions, initially none
     // TODO: load initial elements from user data, if extant
@@ -34,15 +33,11 @@ const MealSizeSelection = () => {
 
     return (
         <div className="container">
-            <h1 id="preference_title">Meal Size</h1>
-            {/* select one among meal size options */}
-            <Select
-                id="select"
-                options={mealSizeOptions}
-                placeholder="Specify meal size"
-                isMulti={false}
+            <h1 id="preference_title">Budget</h1>
+            <input
+                placeholder="Enter minimum dollar amount"
                 onChange={handleChange} />
         </div>
     );
 }
-export default MealSizeSelection;
+export default PriceSelection;
