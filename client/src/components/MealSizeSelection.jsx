@@ -28,8 +28,6 @@ const MealSizeSelection = () => {
         setselectedOption(selectedOptionOnChange);
         console.log('MSS state: ');
         console.log(selectedOption);   // Contains state before the update at this point
-        console.log('MSS state printed above');
-
     }
 
     return (

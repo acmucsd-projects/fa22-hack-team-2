@@ -35,8 +35,6 @@ const DietaryRestrictionsSearchBar = () => {        // NOTE: react-select is alm
         setSelectedOptions(selectedOptionsOnChange);
         console.log('DRSB state: ');
         console.log(selectedOptions);   // Contains state before the update at this point
-        console.log('DRSB state printed above');
-
     }
 
     // let updateRemoval = (selectedList, removedItem) => {

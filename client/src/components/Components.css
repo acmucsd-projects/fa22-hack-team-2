@@ -21,3 +21,18 @@
 #select{
     font-size: small;
 }
+
+#currency_input {
+    font-family: 'Segoe UI';
+    font-size: small;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #BBBBBB;
+    padding: 5px;
+}
+/* Low-priority TODO: animate outline fade, e.g. react-transition-group */
+#currency_input:focus {
+    outline-width: none;
+    outline-color: rgba(92,134,249,255);
+}
