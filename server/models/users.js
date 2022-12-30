@@ -1,5 +1,31 @@
 const mongoose = require('mongoose');
-import orderHistory from orderHistory;
+
+// Schema to define a previous order
+const historySchema = new mongoose.Schema(
+    {
+        name: {
+            type: String,
+            required: true,
+        },
+        meal: {
+            type: String,
+            required: true,
+        },
+
+        date: {
+            type: Date,
+            default:Date.now,
+            required: true,
+        },
+
+        //TODO: Get location schema here
+        location: {
+            type: String,
+            required: true,
+        }
+    }
+
+)
 
 const userSchema = new mongoose.Schema(
     {
@@ -15,7 +41,7 @@ const userSchema = new mongoose.Schema(
         
         //Array of previous orders
         history: {
-            type: [orderHistory],
+            type: [historySchema],
             required: false,
         },
 
