@@ -1,0 +1,49 @@
+
+/* From W3 schools */
+.container {
+    background: #fff;
+    max-width: 350px;
+    width: 100%;
+    padding: 16px 30px;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.15);
+    justify-content: center;
+    align-items: 'center';
+}
+
+#heading1 {
+    padding: 20px;
+}
+
+
+#heading2 {
+    padding:10px;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+    background-color: greenyellow;
+}
+
+label {
+    text-align: left;
+}
