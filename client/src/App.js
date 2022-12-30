@@ -13,8 +13,10 @@ const App = () => {
         <Router>
           <Routes>
             // Note that must use element instead of component
+
             <Route exact path="/" element={<Login />} />
             <Route exact path="/create-account" element={<CreateAccount />} />
+
           </Routes>
         </Router>
       </main>
