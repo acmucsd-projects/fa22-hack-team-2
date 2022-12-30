@@ -117,11 +117,6 @@ const DiningSchema = new mongoose.Schema(
             type: Number,
             required: false
         },
-
-        description: {
-            type: String,
-            required: false
-        },
     }
 );
 
