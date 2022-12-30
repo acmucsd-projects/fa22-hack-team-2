@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 
 export const CreateAccount = () => {
     return (
+        
         <form>
             <div class="container">
                 <h1 id="heading1"><strong>UCSD Automated Dining</strong></h1>
@@ -20,6 +21,7 @@ export const CreateAccount = () => {
                 <button type="submit">Create Account</button>
 
                 <Link to="/">Login</Link>
+                
             </div>
             <div>
                 
