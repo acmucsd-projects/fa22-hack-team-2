@@ -7,11 +7,14 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 // TODO: implement page structure
 
+//import login component
 import { Login } from './Login';
+
+//import create account component
 import { CreateAccount } from './CreateAccount';
 import { Preferences } from './Preferences';
 
-function App() {
+const App = () => {
   return (
     <Router>
     <div style={{
@@ -23,10 +26,16 @@ function App() {
       <Routes>
         <Route path='/' element={<Login />} exact/>
         <Route path='/preferences' element={<Preferences />} />
+        <Route exact path="/create-account" element={<CreateAccount />} />
       </Routes>
     </div>
     </Router>
   );
 }
 
+/*
+ <div class="welcomebox">
+            <Login />
+      </div>
+*/
 export default App;

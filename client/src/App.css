@@ -10,3 +10,11 @@
 body {
   background-image: url(Images/geisel.jpg);
 }
+
+.welcomebox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
