@@ -1,24 +1,40 @@
 const mongoose = require('mongoose');
+import orderHistory from orderHistory;
 
-const usersSchema = new mongoose.Schema(
+const userSchema = new mongoose.Schema(
     {
         username: {
             type: String,
             required: true,
         },
+
         password: {
             type: String,
             required: true,
         },
-        //how do I link schemas like the order history table?
+        
+        //Array of previous orders
         history: {
-            type: String,
+            type: [orderHistory],
             required: false,
+        },
+
+        //Nuts, seafood, etc.
+        allergens: {
+            type: [String],
+            required: true,
+        },
+
+        //List of dietary restrictions (vegetarian, vegan, etc.)
+        restrictions: {
+            type: [String],
+            required: true,
         }
+
     }
 
 )
 
-const Users = mongoose.model('users',usersSchema);
+const User = mongoose.model('user', userSchema);
 
-module.exports = Users;
+module.exports = User;
