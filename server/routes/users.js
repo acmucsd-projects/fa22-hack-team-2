@@ -15,7 +15,9 @@ router.get("/register", async(req, res) => {
 router.post("/register", async (req, res) => {
   const newUsername = req.body.username;
   const newPassword = req.body.password;
-  const confirmPassword = req.body.confirmPassword;
+  const confirmPassword = req.body.confirmpassword;
+
+  console.log(req.body);
   
   //TODO: handle existing user credentials
   if (!newUsername || !newPassword) {

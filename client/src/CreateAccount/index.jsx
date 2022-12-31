@@ -8,7 +8,7 @@ export const CreateAccount = () => {
     const emptyForm = {
         username: "",
         password: "",
-        confirmPassword: ""
+        confirmpassword: "",
     };
 
     const [formData, updateFormData] = useState(emptyForm);
@@ -27,9 +27,8 @@ export const CreateAccount = () => {
         const req = e.target;
         console.log(req.name);
 
-        const payload = {
-            user: formData
-        }
+        const payload = formData;
+        
 
         console.log(JSON.stringify(payload.user));
         console.log(req);
@@ -50,8 +49,8 @@ export const CreateAccount = () => {
                 <label htmlFor="password">Password</label>
                 <input type="text" placeholder="Password" name="password" onChange={(handleChange)} required></input>
 
-                <label htmlFor="confirmpassword">Confirm Password</label>
-                <input type="text" placeholder="Confirm Password" name="password" onChange={(handleChange)} required></input>
+                <label htmlFor="confirmPassword">Confirm Password</label>
+                <input type="text" placeholder="Confirm Password" name="confirmpassword" onChange={(handleChange)} required></input>
 
                 <button type="submit" onClick={handleCreateAccount}>Create Account</button>
 

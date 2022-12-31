@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const server = 'http://localhost:5000'
+const serverURL = 'http://localhost:4000'
 
 // TODO: update and read preferences, given a logged-in user
 const API = {
@@ -14,7 +14,7 @@ const API = {
 
     // process of adding new user info into database
     createUser: function(payload) {
-        return axios.post("${serverURL}/api/register", payload)
+        return axios.post(serverURL + "/api/register", payload);
     },
 
 }

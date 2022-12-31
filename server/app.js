@@ -21,13 +21,10 @@ app.use('/api', usersRouter);
 mongoose.connect(config.DB_URL, {
   useNewUrlParser: true,
   useUnifiedTopology: true }).then(() => {
-    console.log("hello");
   console.log('Connected to MongoDB database');
 });
 
-app.listen(config.PORT, () => {
-  console.log("server start");
-});
+//Getting rid of .listen fixed port in use issue?
 
 module.exports = app;
 
