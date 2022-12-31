@@ -10,7 +10,12 @@ const API = {
 
     readPreferences: function() {
         return axios.get('${serverURL}/api/preferences') // TODO: determine parameter
-    }
+    },
+
+    // process of adding new user info into database
+    createUser: function(payload) {
+        return axios.post("${serverURL}/api/register", payload)
+    },
 
 }
 
