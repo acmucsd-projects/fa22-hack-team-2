@@ -4,15 +4,6 @@ import { Link, BrowserRouter } from 'react-router-dom';
 import { useState } from "react";
 
 export const Login = () => {
-    const [inUsername, setUsername] = useState("");
-    const [inPassword, setPassword] = useState("");
-
-    /*
-    const handleSubmit = () => {
-        s
-
-    }
-    */
 
     return (
         <form>
