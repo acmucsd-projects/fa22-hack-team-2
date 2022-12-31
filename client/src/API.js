@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const server = 'http://localhost:3000'
+const server = 'http://localhost:5000'
 
 // TODO: update and read preferences, given a logged-in user
 const API = {
