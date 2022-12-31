@@ -7,12 +7,28 @@ const cors = require("cors");
 
 
 //const usersRouter = require('./routes/users');
+const usersRouter = require('./routes/users');
 
 const app = express();
 app.use(cors());
 app.use(express.json());
 
 app.use(express.urlencoded({extended: true}));
+
+dotenv.config();
+
+app.listen(process.env.PORT, () => {
+  console.log('Server started on port ' + process.env.PORT);
+})
+app.use('/users', usersRouter);
+
+mongoose.connect(process.env.DB_URL, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true }).then(() => {
+console.log('Connected to MongoDB database');
+});
+
+/*
 
 app.use(logger('dev'));
 app.use(express.json());
@@ -31,3 +47,5 @@ mongoose.connect(config.DB_URL, {
 });
 
 module.exports = app;
+
+*/
