@@ -1,8 +1,10 @@
 import React from "react";
 import "./style.css";
 import { Link, BrowserRouter } from 'react-router-dom';
+import { useState } from "react";
 
 export const Login = () => {
+
     return (
         <form>
             <div class="container">
@@ -14,12 +16,10 @@ export const Login = () => {
                 <label for="password">Password</label>
                 <input type="text" placeholder="Password" name="password" required></input>
 
-                <button type="submit">Login</button>
+                <button onClick={handleSubmit} type="submit">Login</button>
 
 
                 <Link to="/create-account">Register Account</Link>
-                
-                
             </div>
             <div>
                 

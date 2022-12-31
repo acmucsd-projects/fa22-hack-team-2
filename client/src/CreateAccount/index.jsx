@@ -3,8 +3,20 @@ import "./style.css";
 import { Link } from "react-router-dom";
 
 export const CreateAccount = () => {
+    //Initial state of empty form
+    const emptyForm = {
+        username: "",
+        password: "",
+        confirmPassword: "",
+    };
+
+    const [formData, updateFormData] = useState(emptyForm);
+
+    const handleUsernameChange = (e) => {
+
+    }
+
     return (
-        
         <form>
             <div class="container">
                 <h1 id="heading1"><strong>UCSD Automated Dining</strong></h1>
