@@ -39,7 +39,6 @@ router.post("/register", async (req, res) => {
     const newUser = await User.create({
       username:newUsername,
       password:newPassword,
-
     });
     newUser.save()
     .then(data => {
@@ -50,7 +49,6 @@ router.post("/register", async (req, res) => {
     });
   }
 });
-
 
 
 
