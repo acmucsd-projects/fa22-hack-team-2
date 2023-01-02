@@ -18,7 +18,6 @@ export const CreateAccount = () => {
             ...formData,
 
             [e.target.name]: e.target.value.trim(),
-            
         });
     }
 
@@ -35,7 +34,7 @@ export const CreateAccount = () => {
         console.log(e);
 
         await API.createUser(payload);
-        alert("successful user creation");
+        console.log("successful user creation");
     }
 
     return (
@@ -47,10 +46,11 @@ export const CreateAccount = () => {
                 <input type="text" placeholder="Username" name="username" onChange={(handleChange)} required></input>
 
                 <label htmlFor="password">Password</label>
-                <input type="text" placeholder="Password" name="password" onChange={(handleChange)} required></input>
+                <input type="password" placeholder="Password" name="password" id="password" onChange={(handleChange)} required></input>
 
                 <label htmlFor="confirmPassword">Confirm Password</label>
-                <input type="text" placeholder="Confirm Password" name="confirmpassword" onChange={(handleChange)} required></input>
+                <input type="password" placeholder="Confirm Password" name="confirmpassword" id="confirmPassword" onChange={(handleChange)} required></input>
+                <br></br>
 
                 <button type="submit" onClick={handleCreateAccount}>Create Account</button>
 

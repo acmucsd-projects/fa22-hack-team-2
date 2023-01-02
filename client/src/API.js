@@ -17,6 +17,11 @@ const API = {
         return axios.post(serverURL + "/api/register", payload);
     },
 
+    // Get all users to check for unique usernames
+    getAllUsers: function() {
+        return axios.get(serverURL + "/api/register");
+    }
+
 }
 
 export default API;

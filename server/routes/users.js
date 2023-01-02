@@ -16,16 +16,21 @@ router.post("/register", async (req, res) => {
   const newUsername = req.body.username;
   const newPassword = req.body.password;
   const confirmPassword = req.body.confirmpassword;
-
-  console.log(req.body);
   
-  //TODO: handle existing user credentials
-  if (!newUsername || !newPassword) {
+  // If any field is empty, let user know
+  if (!newUsername || !newPassword || !confirmPassword) {
     res.status(400);
-    console.log("invalid user creation");
+    //Tcreate modal box to warn about empty
+    alert("Cannot have any empty fields!");
+    console.log("Cannot have empty fields");
   } else if (confirmPassword != newPassword) {
-    //TODO: handling if confirm password doesnt match 
+    //handling if confirm password doesnt match 
+    alert("Passwords do not match!");
     console.log("passwords do not match");
+  } else if (await User.find({username: newUsername})){
+    //handle existing user credentials by creating modal box saying username taken
+    alert("Username is already taken; please try another username!");
+    console.log("username already exist!")
   } else {
     const newUser = await User.create({
       username:newUsername,
