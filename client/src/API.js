@@ -17,8 +17,8 @@ const API = {
         return axios.post(serverURL + "/api/register", payload);
     },
 
-    // Get all users to check for unique usernames
-    getAllUsers: function() {
+    // Get user after logging in
+    getUser: function() {
         return axios.get(serverURL + "/api/register");
     }
 
