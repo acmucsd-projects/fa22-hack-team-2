@@ -25,7 +25,6 @@ export const Login = () => {
         });
     }
 
-    //TODO: how to get userData updated without page reloading?
     const handleLogin = async(e) => {
         e.preventDefault();
         //iterate through all users
@@ -41,7 +40,6 @@ export const Login = () => {
         }
     }
 
-    //TODO: Get response data user array into allUsers + Fix infinite get calls
     useEffect(() => {
         API.getUser().then((response) => {
             console.log(response.data.users);
@@ -62,7 +60,7 @@ export const Login = () => {
                 <input type="text" placeholder="Username" name="username" onChange={handleForm} required></input>
 
                 <label for="password">Password</label>
-                <input type="text" placeholder="Password" name="password" onChange={handleForm} required></input>
+                <input type="password" placeholder="Password" name="password" onChange={handleForm} required></input>
 
                 <button type="submit" onClick={handleLogin}>Login</button>
 
