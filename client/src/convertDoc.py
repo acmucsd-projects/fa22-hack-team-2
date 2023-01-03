@@ -21,10 +21,8 @@ def parse_data(file):
         # parse each line and write it into a JSON format
         for foodItem in reader:
             # split allergens and restrictions into a list
-            allergensList = [allergen.strip() for allergen in foodItem["allergens"].split(",")]
             restrictionsList = [restriction.strip() for restriction in foodItem["restrictions"].split(",")]
 
-            foodItem["allergens"] = allergensList
             foodItem["restrictions"] = restrictionsList
 
             # add food to JSON array
