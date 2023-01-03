@@ -4,6 +4,9 @@ import { Link } from "react-router-dom";
 import API from "../API"
 
 export const CreateAccount = () => {
+    //TODO: Add modal popup
+
+
     //Initial state of empty form
     const emptyForm = {
         username: "",
@@ -21,6 +24,7 @@ export const CreateAccount = () => {
         });
     }
 
+    //TODO: Move create account validation to here from user.js route
     const handleCreateAccount = async(e) => {
         e.preventDefault();
         const req = e.target;
@@ -54,8 +58,7 @@ export const CreateAccount = () => {
 
                 <button type="submit" onClick={handleCreateAccount}>Create Account</button>
 
-                <Link to="/">Login</Link>
-                
+                <Link to="/">Login</Link>   
             </div>
             <div>
                 
