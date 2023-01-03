@@ -10,8 +10,6 @@ export const Login = () => {
         password: "",
     };
 
-
-
     const [formData, updateFormData] = useState(emptyForm);
 
     //list state to hold users to search from
@@ -35,7 +33,8 @@ export const Login = () => {
                 formData.password === user.password) {
                     console.log("user match!");
             }else{
-                console.log("User does not exist yet!");
+                //TODO: no matching username/password, notify user through showing modal
+                
             }
         }
     }
@@ -52,26 +51,28 @@ export const Login = () => {
     }, [userData]);
 
     return (
-        <form>
-            <div class="container">
-                <h1 id="heading1"><strong>UCSD Automated Dining</strong></h1>
-                <h2 id="heading2"><b>Login</b></h2>
-                <label for="username">Username</label>
-                <input type="text" placeholder="Username" name="username" onChange={handleForm} required></input>
+        <>
+            <form>
+                <div class="container">
+                    <h1 id="heading1"><strong>UCSD Automated Dining</strong></h1>
+                    <h2 id="heading2"><b>Login</b></h2>
+                    <label for="username">Username</label>
+                    <input type="text" placeholder="Username" name="username" onChange={handleForm} required></input>
 
-                <label for="password">Password</label>
-                <input type="password" placeholder="Password" name="password" onChange={handleForm} required></input>
+                    <label for="password">Password</label>
+                    <input type="password" placeholder="Password" name="password" onChange={handleForm} required></input>
 
-                <button type="submit" onClick={handleLogin}>Login</button>
+                    <button type="submit" onClick={handleLogin}>Login</button>
 
 
-                <Link to="/create-account">Register Account</Link>
-                
-                
-            </div>
-            <div>
-                
-            </div>
-        </form>
+                    <Link to="/create-account">Register Account</Link>
+                    
+                    
+                </div>
+                <div>
+                    
+                </div>
+            </form>
+        </>
     )
 }
