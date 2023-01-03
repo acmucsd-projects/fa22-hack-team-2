@@ -6,14 +6,14 @@ import { useState } from "react";
 /* Single selection for Meal Size in Preferences. Options are {Meal, Snack, Drink}.
  * MIRO: https://miro.com/app/board/uXjVPNa6HSs=/?moveToWidget=3458764537012001562&cot=14
  */
-const MealSizeSelection = () => {
+const MealSizeSelection = (props) => {
     
     // Capture user-specified dietary restrictions, initially none
     // TODO: load initial elements from user data, if extant
     const [selectedOption, setselectedOption] = useState([]);
-    let state = {
-        selectedOption: []
-    }
+    // let state = {
+    //     selectedOption: []
+    // }
 
     // Mock list of meal size options
     let mealSizeOptions = [{value: 'large_meal', label: 'Large Meal'},
@@ -26,8 +26,9 @@ const MealSizeSelection = () => {
         console.log('MSS handleChange() called');
         console.log(selectedOptionOnChange);
         setselectedOption(selectedOptionOnChange);
-        console.log('MSS state: ');
-        console.log(selectedOption);   // Contains state before the update at this point
+        console.log(selectedOption);   // Contains state preceding rerender
+    
+        props.parentCallback(selectedOption);
     }
 
     return (

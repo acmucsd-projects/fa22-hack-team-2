@@ -10,15 +10,15 @@ import { useState } from "react";
  * Boxes under search bar indicate selected restrictions, and can be clicked to unselect restrictions. 
  * MIRO: https://miro.com/app/board/uXjVPNa6HSs=/?moveToWidget=3458764537011712903&cot=14
  */
-const DietaryRestrictionsSearchBar = () => {        // NOTE: react-select is almost identical in function 
+const DietaryRestrictionsSearchBar = (props) => {        // NOTE: react-select is almost identical in function 
                                                     // https://react-select.com/home
     
     // Capture user-specified dietary restrictions, initially none
     // TODO: load initial elements from user data, if extant
     const [selectedOptions, setSelectedOptions] = useState([]);
-    let state = {
-        selectedOptions: []
-    }
+    // let state = {
+    //     selectedOptions: []
+    // }
 
     // Mock list of dietary restrictions
     let dietaryRestrictions = [{value: 'vegan', label: 'Vegan'},
@@ -29,17 +29,15 @@ const DietaryRestrictionsSearchBar = () => {        // NOTE: react-select is alm
         {value: 'keto', label: 'Keto'}];
 
     // Parameter is an array with elements {value: 'vegetarian', label: 'Vegeterian}
-    let handleChange = (selectedOptionsOnChange) => { 
+    let handleChange = async(selectedOptionsOnChange) => { 
+        // Locally store selection
         console.log('DSRB handleChange() called');
         console.log(selectedOptionsOnChange);
         setSelectedOptions(selectedOptionsOnChange);
-        console.log('DRSB state: ');
-        console.log(selectedOptions);   // Contains state before the update at this point
-    }
+        console.log(selectedOptions);           // Contains state preceding rerender
 
-    // let updateRemoval = (selectedList, removedItem) => {
-    //     console.log('onRemove() called');
-    // }
+        props.parentCallback(selectedOptions);
+    }
 
     // TODO: add rounded rectangle outline to component, add width/height scale constraints
     return (
@@ -59,14 +57,3 @@ const DietaryRestrictionsSearchBar = () => {        // NOTE: react-select is alm
     );
 }
 export default DietaryRestrictionsSearchBar;
-
-// /* Single selection for Meal Size in Preferences. Options are {Meal, Snack, Drink}.
-//  * MIRO: https://miro.com/app/board/uXjVPNa6HSs=/?moveToWidget=3458764537012001562&cot=14
-//  */
-// const MealSizeSelection = () => {
-//     return (
-//         <div className="meal-size-selection">
-//             {/* select one among meal size options */}
-//         </div>
-//     );
-// }
