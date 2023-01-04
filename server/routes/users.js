@@ -65,7 +65,8 @@ router.put("/preferences", async (req, res) => {
         restrictions: dietaryRestrictions,
         // TODO: set mealSize, maxBudget, etc.
       }
-    });
+    }).exec();
+    res.status(200).json({updatedUser});
     console.log("successfully updated preferences for " + username + " (in PUT body)");
   } else {
     console.log("username not found");
