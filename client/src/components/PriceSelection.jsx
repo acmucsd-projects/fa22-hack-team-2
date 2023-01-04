@@ -18,7 +18,7 @@ const PriceSelection = (props) => {
     //     maxBudget: DEFAULT_MAX_BUDGET,
     // }
 
-    let handleChange = (value) => { 
+    const handleChange = (value) => { 
         console.log('PS handleChange() called');
         console.log(value);
         setMaxBudget(value);
@@ -39,7 +39,7 @@ const PriceSelection = (props) => {
                 step={1}
                 onValueChange={handleChange}
                 />
-            <Link to="/"><button> to home! </button></Link>
+            {/* <Link to="/"><button> to home! </button></Link> */}
         </div>
     );
 }

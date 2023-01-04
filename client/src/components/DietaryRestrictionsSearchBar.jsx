@@ -21,7 +21,7 @@ const DietaryRestrictionsSearchBar = (props) => {        // NOTE: react-select i
     // }
 
     // Mock list of dietary restrictions
-    let dietaryRestrictions = [{value: 'vegan', label: 'Vegan'},
+    const dietaryRestrictions = [{value: 'vegan', label: 'Vegan'},
         {value: 'vegetarian', label: 'Vegeterian'},
         {value: 'nut_allergy', label: 'Nut Allergy'},
         {value: 'lactose_intolerant', label: 'Lactose Intolerant'},
@@ -29,7 +29,7 @@ const DietaryRestrictionsSearchBar = (props) => {        // NOTE: react-select i
         {value: 'keto', label: 'Keto'}];
 
     // Parameter is an array with elements {value: 'vegetarian', label: 'Vegeterian}
-    let handleChange = async(selectedOptionsOnChange) => { 
+    const handleChange = (selectedOptionsOnChange) => { 
         // Locally store selection
         console.log('DSRB handleChange() called');
         console.log(selectedOptionsOnChange);
@@ -42,9 +42,6 @@ const DietaryRestrictionsSearchBar = (props) => {        // NOTE: react-select i
     // TODO: add rounded rectangle outline to component, add width/height scale constraints
     return (
         <div className="container">
-            <script>
-                console.log('In DRSB return');
-            </script>
             <h1 id="preference_title">Dietary Restrictions</h1>
             <Select
                 id="select"

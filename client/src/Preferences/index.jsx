@@ -3,8 +3,12 @@ import "./style.css";
 import DietaryRestrictionsSearchBar from '../components/DietaryRestrictionsSearchBar';
 import MealSizeSelection from '../components/MealSizeSelection';
 import PriceSelection from '../components/PriceSelection';
+import { Link } from "react-router-dom"
 
 export const Preferences = () => {
+    let loggedIn = false;       // TODO: initialize, link login or guest state
+    let loggedInUsername = "";  // TODO: initialize
+    
     const emptyPreferences = {
         dietaryRestrictions: [String],
         mealSize: "",
@@ -12,14 +16,6 @@ export const Preferences = () => {
     };
 
     const [preferences, updatePreferences] = useState(emptyPreferences);
-    
-    // const handleChange = (e) => {
-    //     updatePreferences({
-    //         ...preferences,
-
-    //         [e.target.name]: e.target.value.trim(),
-    //     });
-    // };
 
     const handleDietaryRestrictionsCallback = (childData) => {
         preferences.dietaryRestrictions = childData;
@@ -36,6 +32,18 @@ export const Preferences = () => {
         console.log(preferences);
     }
 
+    const handleClick = async(e) => {
+        const payload = {
+            username: loggedInUsername,
+            dietaryRestrictions: preferences.dietaryRestrictions,
+            mealSize: preferences.mealSize,
+            maxBudget: preferences.maxBudget
+        }
+        await API.updatePreferences(payload);
+        console.log("successfully updated preferences for " + username + " (in handleClick body)");
+        // DB update if loggedIn
+    }
+
     return (
         <form>
             <script>
@@ -46,6 +54,7 @@ export const Preferences = () => {
             <MealSizeSelection parentCallback = {handleMealSizeCallback} />
             <br></br>
             <PriceSelection parentCallback = {handleMaxBudgetCallback} />
+            <Link to="/choice"><button onClick={handleClick}> Generate choice </button></Link>
         </form>
     )
 }

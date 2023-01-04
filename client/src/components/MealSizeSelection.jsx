@@ -16,13 +16,13 @@ const MealSizeSelection = (props) => {
     // }
 
     // Mock list of meal size options
-    let mealSizeOptions = [{value: 'large_meal', label: 'Large Meal'},
+    const mealSizeOptions = [{value: 'large_meal', label: 'Large Meal'},
         {value: 'small_meal', label: 'Small Meal'},
         {value: 'snack', label: 'Snack'},
         {value: 'beverage', label: 'Beverage'}];
 
     // Parameter is an array with elements {value: 'vegetarian', label: 'Vegeterian}
-    let handleChange = (selectedOptionOnChange) => { 
+    const handleChange = (selectedOptionOnChange) => { 
         console.log('MSS handleChange() called');
         console.log(selectedOptionOnChange);
         setselectedOption(selectedOptionOnChange);

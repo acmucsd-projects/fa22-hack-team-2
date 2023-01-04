@@ -4,12 +4,12 @@ const serverURL = 'http://localhost:4000'
 
 // TODO: update and read preferences, given a logged-in user
 const API = {
-    updatePreferences: function() {
-        return axios.put('${serverURL}/api/preferences') // TODO: determine parameter
+    updatePreferences: function(payload) {
+        return axios.put(serverURL + "/api/preferences", payload)
     },
 
     readPreferences: function() {
-        return axios.get('${serverURL}/api/preferences') // TODO: determine parameter
+        return axios.get(serverURL + "/api/preferences")
     },
 
     // process of adding new user info into database
