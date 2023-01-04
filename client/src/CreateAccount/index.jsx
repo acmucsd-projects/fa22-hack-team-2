@@ -1,10 +1,15 @@
 import {React, useState} from "react";
 import "./style.css";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import API from "../API"
 
 export const CreateAccount = () => {
-    //TODO: Add modal popup
+    // jump between pages
+    let nav = useNavigate();
+
+
+    //Add notification for validation errors 
+    const [errorText, setErrorText] = useState("");
 
 
     //Initial state of empty form
@@ -24,11 +29,10 @@ export const CreateAccount = () => {
         });
     }
 
-    //TODO: Move create account validation to here from user.js route
     const handleCreateAccount = async(e) => {
         e.preventDefault();
         const req = e.target;
-        console.log(req.name);
+
 
         const payload = formData;
         
@@ -37,8 +41,19 @@ export const CreateAccount = () => {
         console.log(req);
         console.log(e);
 
-        await API.createUser(payload);
-        console.log("successful user creation");
+        let response = await API.createUser(payload);
+        if (response.data.message === "empty") {
+            //TODO: Conditionally render components based on the response from attempted user creation
+            setErrorText("Cannot have empty fields!");
+        } else if (response.data.message === "match")
+            setErrorText("Passwords do not match!");
+        else if (response.data.message === "exist") {
+            setErrorText("Username in use; please try another!");
+        } else {
+            setErrorText("");
+            nav("/");
+            console.log("successful user creation");
+        }
     }
 
     return (
@@ -57,6 +72,10 @@ export const CreateAccount = () => {
                 <br></br>
 
                 <button type="submit" onClick={handleCreateAccount}>Create Account</button>
+
+                <br></br>
+                <p id="err">{errorText}</p>
+                <br></br>
 
                 <Link to="/">Login</Link>   
             </div>
