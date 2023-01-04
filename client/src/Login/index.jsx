@@ -41,7 +41,6 @@ export const Login = () => {
 
     useEffect(() => {
         API.getUser().then((response) => {
-            console.log(response.data.users);
             updateUserData(response.data.users);
         })
     }, []);

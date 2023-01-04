@@ -1,9 +1,13 @@
 import {React, useState} from "react";
 import "./style.css";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import API from "../API"
 
 export const CreateAccount = () => {
+    // jump between pages
+    let nav = useNavigate();
+
+
     //TODO: Add modal popup
 
 
@@ -23,12 +27,11 @@ export const CreateAccount = () => {
             [e.target.name]: e.target.value.trim(),
         });
     }
-
-    //TODO: Move create account validation to here from user.js route
+    
     const handleCreateAccount = async(e) => {
         e.preventDefault();
         const req = e.target;
-        console.log(req.name);
+
 
         const payload = formData;
         
@@ -37,8 +40,18 @@ export const CreateAccount = () => {
         console.log(req);
         console.log(e);
 
-        await API.createUser(payload);
-        console.log("successful user creation");
+        let response = await API.createUser(payload);
+        if (response.data.message === "empty") {
+            //TODO: Conditionally render components based on the response from attempted user creation
+            console.log("THIS IS EMPTY MESSAGE");
+        } else if (response.data.message === "match")
+            console.log("PASSWORDS NO MATCH");
+        else if (response.data.message === "exist") {
+            console.log("USERNAME ALREADY EXIST");
+        } else {
+            nav("/");
+            console.log("successful user creation");
+        }
     }
 
     return (
