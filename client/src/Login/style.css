@@ -44,6 +44,10 @@ button:hover {
     background-color: greenyellow;
 }
 
+#err {
+    color: red;
+}
+
 label {
     text-align: left;
 }

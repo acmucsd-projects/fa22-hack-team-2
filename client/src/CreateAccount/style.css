@@ -42,6 +42,10 @@ button:hover {
     background-color: greenyellow;
 }
 
+#err {
+    color: red;
+}
+
 
 link {
     color: blue;

@@ -8,7 +8,8 @@ export const CreateAccount = () => {
     let nav = useNavigate();
 
 
-    //TODO: Add modal popup
+    //Add notification for validation errors 
+    const [errorText, setErrorText] = useState("");
 
 
     //Initial state of empty form
@@ -27,7 +28,7 @@ export const CreateAccount = () => {
             [e.target.name]: e.target.value.trim(),
         });
     }
-    
+
     const handleCreateAccount = async(e) => {
         e.preventDefault();
         const req = e.target;
@@ -43,12 +44,13 @@ export const CreateAccount = () => {
         let response = await API.createUser(payload);
         if (response.data.message === "empty") {
             //TODO: Conditionally render components based on the response from attempted user creation
-            console.log("THIS IS EMPTY MESSAGE");
+            setErrorText("Cannot have empty fields!");
         } else if (response.data.message === "match")
-            console.log("PASSWORDS NO MATCH");
+            setErrorText("Passwords do not match!");
         else if (response.data.message === "exist") {
-            console.log("USERNAME ALREADY EXIST");
+            setErrorText("Username in use; please try another!");
         } else {
+            setErrorText("");
             nav("/");
             console.log("successful user creation");
         }
@@ -70,6 +72,10 @@ export const CreateAccount = () => {
                 <br></br>
 
                 <button type="submit" onClick={handleCreateAccount}>Create Account</button>
+
+                <br></br>
+                <p id="err">{errorText}</p>
+                <br></br>
 
                 <Link to="/">Login</Link>   
             </div>

@@ -4,6 +4,9 @@ import { Link, BrowserRouter } from 'react-router-dom';
 import API from "../API"
 
 export const Login = () => {
+    //Add notification for validation errors 
+    const [errorText, setErrorText] = useState("");
+
     //Initial state of empty form
     const emptyForm = {
         username: "",
@@ -25,16 +28,22 @@ export const Login = () => {
 
     const handleLogin = async(e) => {
         e.preventDefault();
-        //iterate through all users
-        for (let idx in userData) {
-            //if there is matching username, check for matching password
-            let user = userData[idx];
-            if (formData.username === user.username && 
-                formData.password === user.password) {
-                    console.log("user match!");
-            }else{
-                //TODO: no matching username/password, notify user through showing modal
-                
+        if (!formData.username || !formData.password) {
+            //cannot have empty fields
+            setErrorText("Cannot have empty fields!");
+        } else {
+            //iterate through all users
+            for (let idx in userData) {
+                //if there is matching username, check for matching password
+                let user = userData[idx];
+                if (formData.username === user.username && 
+                    formData.password === user.password) {
+                        console.log("user match!");
+                        setErrorText("");
+                }else{
+                    // no user match found
+                    setErrorText("Username and/or password not recognized!");
+                }
             }
         }
     }
@@ -63,6 +72,9 @@ export const Login = () => {
 
                     <button type="submit" onClick={handleLogin}>Login</button>
 
+                    <br></br>
+                    <p id="err">{errorText}</p>
+                    <br></br>
 
                     <Link to="/create-account">Register Account</Link>
                     
