@@ -7,13 +7,9 @@ import { useState } from "react";
  * MIRO: https://miro.com/app/board/uXjVPNa6HSs=/?moveToWidget=3458764537012001562&cot=14
  */
 const MealSizeSelection = (props) => {
-    
-    // Capture user-specified dietary restrictions, initially none
+
     // TODO: load initial elements from user data, if extant
     const [selectedOption, setselectedOption] = useState([]);
-    // let state = {
-    //     selectedOption: []
-    // }
 
     // Mock list of meal size options
     const mealSizeOptions = [{value: 'large_meal', label: 'Large Meal'},

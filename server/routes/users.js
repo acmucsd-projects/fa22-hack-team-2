@@ -10,6 +10,8 @@ router.get("/register", async(req, res) => {
     res.status(200).json({users});
 });
 
+const MOCK_USER = "mockuser";
+
 
 //Create new user when submitting create use request
 router.post("/register", async (req, res) => {
@@ -51,13 +53,17 @@ router.post("/register", async (req, res) => {
 
 // Update user preferences for a logged-in user
 router.put("/preferences", async (req, res) => {
-  const username = req.body.username;
+  console.log("in router PUT");
+  // const username = req.body.username;
+  const username = MOCK_USER;
   const dietaryRestrictions = req.body.dietaryRestrictions;
   const mealSize = req.body.mealSize;
   const maxBudget = req.body.maxBudget;
 
+  
   // Update preferences of valid logged-in user
   if (await User.find({username: username})) {
+    console.log("user found");
     const updatedUser = await User.updateOne({
       username: username
     }, {

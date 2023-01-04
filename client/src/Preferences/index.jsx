@@ -4,6 +4,7 @@ import DietaryRestrictionsSearchBar from '../components/DietaryRestrictionsSearc
 import MealSizeSelection from '../components/MealSizeSelection';
 import PriceSelection from '../components/PriceSelection';
 import { Link } from "react-router-dom"
+import API from "../API"
 
 export const Preferences = () => {
     let loggedIn = false;       // TODO: initialize, link login or guest state
@@ -39,8 +40,9 @@ export const Preferences = () => {
             mealSize: preferences.mealSize,
             maxBudget: preferences.maxBudget
         }
+        console.log("api call");
         await API.updatePreferences(payload);
-        console.log("successfully updated preferences for " + username + " (in handleClick body)");
+        console.log("successfully updated preferences for " + loggedInUsername + " (in handleClick body)");
         // DB update if loggedIn
     }
 

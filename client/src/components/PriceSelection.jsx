@@ -6,17 +6,13 @@ import { Link } from "react-router-dom"
 
 const DEFAULT_MAX_BUDGET = 0;
 
-/* Single selection for Meal Size in Preferences. Options are {Meal, Snack, Drink}.
+/* USD Input for Price Selection in Preferences.
  * MIRO: https://miro.com/app/board/uXjVPNa6HSs=/?moveToWidget=3458764537012001562&cot=14
  */
 const PriceSelection = (props) => {
     
-    // Capture user-specified dietary restrictions, initially none
     // TODO: load initial elements from user data, if extant
     const [maxBudget, setMaxBudget] = useState(DEFAULT_MAX_BUDGET);
-    // let state = {
-    //     maxBudget: DEFAULT_MAX_BUDGET,
-    // }
 
     const handleChange = (value) => { 
         console.log('PS handleChange() called');
@@ -24,7 +20,7 @@ const PriceSelection = (props) => {
         setMaxBudget(value);
         console.log(maxBudget);   // Contains state preceding rerender
   
-        console.log(this.props);
+        console.log(props);
         props.parentCallback(maxBudget);
     }
 
