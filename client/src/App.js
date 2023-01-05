@@ -12,6 +12,10 @@ import { Login } from './Login';
 
 //import create account component
 import { CreateAccount } from './CreateAccount';
+
+//import display choice component
+import { DisplayChoice } from './DisplayChoice';
+
 import { Preferences } from './Preferences';
 
 const App = () => {
@@ -27,6 +31,7 @@ const App = () => {
         <Route path='/' element={<Login />} exact/>
         <Route path='/preferences' element={<Preferences />} />
         <Route exact path="/create-account" element={<CreateAccount />} />
+        <Route exact path="/display-choice" element={<DisplayChoice />} />
       </Routes>
     </div>
     </Router>

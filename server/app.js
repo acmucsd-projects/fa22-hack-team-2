@@ -25,9 +25,6 @@ mongoose.connect(config.DB_URL, {
 });
 
 //Getting rid of .listen fixed port in use issue?
-app.listen(config.PORT, () => {
-  console.log('Server started on Port ' + config.PORT);
-});
 
 module.exports = app;
 
