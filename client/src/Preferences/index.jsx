@@ -21,7 +21,7 @@ export const Preferences = () => {
     const [preferences, updatePreferences] = useState(emptyPreferences);
 
     const handleDietaryRestrictionsCallback = (childData) => {
-        preferences.dietaryRestrictions = childData;
+        preferences.dietaryRestrictions = childData.map(pair => pair.label);
         console.log(preferences);
     }
 
