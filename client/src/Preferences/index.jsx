@@ -6,9 +6,11 @@ import PriceSelection from '../components/PriceSelection';
 import { Link } from "react-router-dom"
 import API from "../API"
 
+const MOCK_USER = "mockuser";
+
 export const Preferences = () => {
-    let loggedIn = false;       // TODO: initialize, link login or guest state
-    let loggedInUsername = "";  // TODO: initialize
+    let loggedIn = true;       // TODO: initialize, link login or guest state
+    let loggedInUsername = MOCK_USER;  // TODO: initialize
     
     const emptyPreferences = {
         dietaryRestrictions: [String],

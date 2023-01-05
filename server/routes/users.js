@@ -10,11 +10,11 @@ router.get("/register", async(req, res) => {
     res.status(200).json({users});
 });
 
-const MOCK_USER = "mockuser";
-
+// const MOCK_USER = "mockuser";
 
 //Create new user when submitting create use request
 router.post("/register", async (req, res) => {
+  console.log("in router POST");
   const newUsername = req.body.username;
   const newPassword = req.body.password;
   const confirmPassword = req.body.confirmpassword;
@@ -55,17 +55,17 @@ router.post("/register", async (req, res) => {
 router.put("/preferences", async (req, res) => {
   console.log("in router PUT");
   // const username = req.body.username;
-  const username = MOCK_USER;
+  // const username = MOCK_USER;
   const dietaryRestrictions = req.body.dietaryRestrictions;
   const mealSize = req.body.mealSize;
   const maxBudget = req.body.maxBudget;
 
   
   // Update preferences of valid logged-in user
-  if (await User.find({username: username})) {
+  if (await User.findOne({username: req.body.username})) {
     console.log("user found");
     const updatedUser = await User.updateOne({
-      username: username
+      username: req.body.username
     }, {
       $set: {
         restrictions: dietaryRestrictions,
@@ -73,7 +73,7 @@ router.put("/preferences", async (req, res) => {
       }
     }).exec();
     res.status(200).json({updatedUser});
-    console.log("successfully updated preferences for " + username + " (in PUT body)");
+    console.log("successfully updated preferences for " + req.body.username + " (in PUT body)");
   } else {
     console.log("username not found");
   }

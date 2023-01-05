@@ -15,6 +15,7 @@ const API = {
 
     // process of adding new user info into database
     createUser: function(payload) {
+        console.log("axios POST request");
         return axios.post(serverURL + "/api/register", payload);
     },
 
