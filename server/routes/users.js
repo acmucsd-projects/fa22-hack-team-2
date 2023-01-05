@@ -55,7 +55,6 @@ router.post("/register", async (req, res) => {
 router.put("/preferences", async (req, res) => {
   res.send("PUT requested called");
 
-  // FIXME: errors in route are causing an AXIOS Network Error
   console.log("in router PUT");
   // const username = req.body.username;
   // const username = MOCK_USER;
@@ -66,8 +65,6 @@ router.put("/preferences", async (req, res) => {
   // Update preferences of valid logged-in user
   if (await User.findOne({username: req.body.username})) {
     console.log("user found");
-    // FIXME: causes client-side CastError: Cast to [string] failed for value "[{"value":"peanut_allergy"},{"value": "gluten_intolerant"},...]" (type string)
-    
     const updatedUser = await User.updateOne({
       username: req.body.username
     }, {
@@ -76,11 +73,8 @@ router.put("/preferences", async (req, res) => {
         // TODO: set mealSize, maxBudget, etc.
       }
     }).exec();
-    // FIXME: causes server/model-side CastError: Cast to [string] failed for value "[{"value":"peanut_allergy"},{"value": "gluten_intolerant"},...]" (type string)
-    // res.status(200).json({updatedUser});
-    // console.log("successfully updated preferences for " + req.body.username + " (in PUT body)");
+    console.log("successfully updated preferences for " + req.body.username + " (in PUT body)");
   } else {
-
     console.log("username not found");
   }
   
