@@ -48,6 +48,10 @@ button:hover {
     color: red;
 }
 
+#reglink {
+    color:blue;
+}
+
 label {
     text-align: left;
 }

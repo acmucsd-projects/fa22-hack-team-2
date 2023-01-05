@@ -1,5 +1,13 @@
+table {
+    width: 100%;    
+    border: 1px solid;
+    overflow: scroll;
+}
 
-/* From W3 schools */
+td {
+    border: 1px solid;
+}
+
 .container {
     background: #fff;
     max-width: 350px;
@@ -28,7 +36,7 @@ input[type=text], input[type=password] {
 }
 
 button {
-    background-color: #04AA6D;
+    background-color: #046daa;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -39,7 +47,7 @@ button {
 
 button:hover {
     opacity: 0.8;
-    background-color: greenyellow;
+    background-color: rgb(47, 248, 255);
 }
 
 #err {

@@ -1,6 +1,6 @@
 import {React, useState} from "react";
 import "./style.css";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import API from "../API"
 
 export const DisplayChoice = () => {
@@ -10,7 +10,7 @@ export const DisplayChoice = () => {
     //initial state of food recommendation
     const foodInit = {
         // Information from webparser
-        food: "",
+        food: "foodName",
         cal: 0,
         calFromFat: 0,
         totFat: 0,
@@ -38,18 +38,76 @@ export const DisplayChoice = () => {
     //set initial state for foodData object
     const [foodData, updateFormData] = useState(foodInit);
 
+    //send user back to preferences page
+    //TODO: Resend user data to preferences component
+    const handleNewOrder = () => {
+        nav("/preferences");
+    }
 
     return (
-        <div class="container">
-            <h3>We Would Recommend...</h3>
+        <>
+            <div class="container" id="prefbox">
+                <h3>We Would Recommend...</h3>
 
-            <h2>{foodData.food}</h2>
+                <br></br>
+                <h2>{foodData.food} (${foodData.price})</h2>
+                <br></br>
 
-            //TODO: Add table with nutritional information
+                <table id="nutritionData">
+                    <tr>
+                        <td><b>Calories: </b></td>
+                        <td> {foodData.cal} </td>
+                    </tr>
+                    <tr>
+                        <td><b>Calories from Fat: </b></td>
+                        <td> {foodData.calFromFat} </td>
+                    </tr>
+                    <tr>
+                        <td><b>Total Fat: </b></td>
+                        <td> {foodData.totFat} (DV: {foodData.totFatDV})</td>
+                    </tr>
+                    <tr>
+                        <td><b>Total Carbs: </b></td>
+                        <td> {foodData.totCarb} (DV: {foodData.totCarbDV})</td>
+                    </tr>
+                    <tr>
+                        <td><b>Saturated Fat: </b></td>
+                        <td> {foodData.satFat} (DV: {foodData.satFatDV})</td>
+                    </tr>
+                    <tr>
+                        <td><b>Dietary Fiber: </b></td>
+                        <td> {foodData.dietaryFiber} (DV: {foodData.dietaryFiberDV})</td>
+                    </tr>
+                    <tr>
+                        <td><b>Trans Fat: </b></td>
+                        <td> {foodData.transFat} (DV: {foodData.transFatDV})</td>
+                    </tr>
+                    <tr>
+                        <td><b>Sugars: </b></td>
+                        <td> {foodData.sugars} (DV: {foodData.sugarsDV})</td>
+                    </tr>
+                    <tr>
+                        <td><b>Cholesterol: </b></td>
+                        <td> {foodData.cholesterol} (DV: {foodData.cholesterolDV})</td>
+                    </tr>
+                    <tr>
+                        <td><b>Protein: </b></td>
+                        <td> {foodData.protein} (DV: {foodData.proteinDV})</td>
+                    </tr>
+                    <tr>
+                        <td><b>Sodium: </b></td>
+                        <td> {foodData.sodium} (DV: {foodData.sodiumDV})</td>
+                    </tr>
+                </table>
 
+                <br></br>
 
-            
+                <div>
+                <button>Re-Generate a New Recommendation</button>
+                <button onClick={handleNewOrder}>Start a New Order</button>
 
-        </div>
+                </div>
+            </div>  
+        </>
     )
 }

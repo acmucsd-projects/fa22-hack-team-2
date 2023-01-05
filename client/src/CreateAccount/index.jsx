@@ -77,7 +77,7 @@ export const CreateAccount = () => {
                 <p id="err">{errorText}</p>
                 <br></br>
 
-                <Link to="/">Login</Link>   
+                <Link id="loglink" to="/">Login</Link>   
             </div>
             <div>
                 

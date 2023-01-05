@@ -1,11 +1,13 @@
 import {React, useState, useEffect} from "react";
 import "./style.css";
-import { Link, BrowserRouter } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import API from "../API"
 
 export const Login = () => {
     //Add notification for validation errors 
     const [errorText, setErrorText] = useState("");
+
+    let nav = useNavigate();
 
     //Initial state of empty form
     const emptyForm = {
@@ -39,6 +41,8 @@ export const Login = () => {
                 if (formData.username === user.username && 
                     formData.password === user.password) {
                         console.log("user match!");
+                        //re-direct to preference page
+                        nav("/preferences");
                         setErrorText("");
                 }else{
                     // no user match found
@@ -76,7 +80,7 @@ export const Login = () => {
                     <p id="err">{errorText}</p>
                     <br></br>
 
-                    <Link to="/create-account">Register Account</Link>
+                    <Link id="reglink" to="/create-account">Register Account</Link>
                     
                     
                 </div>
