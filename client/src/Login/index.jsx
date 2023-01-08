@@ -42,7 +42,7 @@ export const Login = () => {
                     formData.password === user.password) {
                         console.log("user match!");
                         //re-direct to preference page
-                        nav("/preferences");
+                        nav("/preferences", {state:{username: user.username}});
                         setErrorText("");
                 }else{
                     // no user match found

@@ -3,15 +3,16 @@ import "./style.css";
 import DietaryRestrictionsSearchBar from '../components/DietaryRestrictionsSearchBar';
 import MealSizeSelection from '../components/MealSizeSelection';
 import PriceSelection from '../components/PriceSelection';
-import { Link } from "react-router-dom"
+import { Link, useLocation } from "react-router-dom"
 import API from "../API"
 
 const MOCK_USER = "mockuser";
 
 export const Preferences = () => {
-    let loggedIn = true;       // TODO: initialize, link login or guest state
-    let loggedInUsername = MOCK_USER;  // TODO: initialize
+    let loggedInUsername = useLocation().state.username;  // TODO: initialize
+    let loggedIn = (loggedInUsername != "");       // TODO: initialize, link login or guest state
     
+
     const emptyPreferences = {
         dietaryRestrictions: [String],
         mealSize: "",
@@ -35,6 +36,8 @@ export const Preferences = () => {
         console.log(preferences);
     }
 
+    // FIXME: preferences is updated only the value of the last change rather than
+    // the current state caused by changing a component
     const handleClick = async(e) => {
         const payload = {
             username: loggedInUsername,
@@ -42,7 +45,8 @@ export const Preferences = () => {
             mealSize: preferences.mealSize,
             maxBudget: preferences.maxBudget
         }
-        console.log("api call");
+        console.log("logged in: " + loggedIn);
+        console.log("api call with username: " + loggedInUsername);
         await API.updatePreferences(payload);
         console.log("successfully updated preferences for " + loggedInUsername + " (in handleClick body)");
         // DB update if loggedIn
