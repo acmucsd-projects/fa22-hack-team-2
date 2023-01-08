@@ -53,13 +53,14 @@ router.post("/register", async (req, res) => {
 
 // Update user preferences for a logged-in user
 router.put("/preferences", async (req, res) => {
+  res.send("PUT requested called");
+
   console.log("in router PUT");
   // const username = req.body.username;
   // const username = MOCK_USER;
   const dietaryRestrictions = req.body.dietaryRestrictions;
   const mealSize = req.body.mealSize;
   const maxBudget = req.body.maxBudget;
-
   
   // Update preferences of valid logged-in user
   if (await User.findOne({username: req.body.username})) {
@@ -72,18 +73,11 @@ router.put("/preferences", async (req, res) => {
         // TODO: set mealSize, maxBudget, etc.
       }
     }).exec();
-    res.status(200).json({updatedUser});
     console.log("successfully updated preferences for " + req.body.username + " (in PUT body)");
   } else {
     console.log("username not found");
   }
   
-
-  // Update the preferences for the currently logged-in user
-
-  // const currentUser = 
-  // User.deleteOne({username: ???})
-
   
 });
 

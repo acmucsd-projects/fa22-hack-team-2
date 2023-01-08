@@ -3,14 +3,14 @@ import "./style.css";
 import DietaryRestrictionsSearchBar from '../components/DietaryRestrictionsSearchBar';
 import MealSizeSelection from '../components/MealSizeSelection';
 import PriceSelection from '../components/PriceSelection';
-import { Link } from "react-router-dom"
+import { Link, useLocation } from "react-router-dom"
 import API from "../API"
 
 const MOCK_USER = "mockuser";
 
 export const Preferences = () => {
-    let loggedIn = true;       // TODO: initialize, link login or guest state
-    let loggedInUsername = MOCK_USER;  // TODO: initialize
+    let loggedInUsername = useLocation().state.username;
+    let loggedIn = (loggedInUsername != "");
     
     const emptyPreferences = {
         dietaryRestrictions: [String],
@@ -18,10 +18,12 @@ export const Preferences = () => {
         maxBudget: 0,
     };
 
+    // FIXME: preferences is updated only the value of the last change rather than
+    // the current state caused by changing a component
     const [preferences, updatePreferences] = useState(emptyPreferences);
 
     const handleDietaryRestrictionsCallback = (childData) => {
-        preferences.dietaryRestrictions = childData;
+        preferences.dietaryRestrictions = childData.map(pair => pair.label);
         console.log(preferences);
     }
 
@@ -42,22 +44,31 @@ export const Preferences = () => {
             mealSize: preferences.mealSize,
             maxBudget: preferences.maxBudget
         }
-        console.log("api call");
-        await API.updatePreferences(payload);
-        console.log("successfully updated preferences for " + loggedInUsername + " (in handleClick body)");
-        // DB update if loggedIn
+        console.log("loggedIn: " + loggedIn);
+        console.log("loggedInUsername: " + loggedInUsername);
+        if (loggedIn) {
+            await API.updatePreferences(payload);
+            console.log("successfully updated preferences");
+        }
     }
 
+    // TODO: load preferences if user is logged in
     return (
         <form>
             <script>
                 console.log(preferences);
             </script>
-            <DietaryRestrictionsSearchBar parentCallback = {handleDietaryRestrictionsCallback} />
+            <DietaryRestrictionsSearchBar 
+                parentCallback={handleDietaryRestrictionsCallback} 
+                data={[{loggedInUsername: loggedInUsername}, {loggedIn: loggedIn}]}/>
             <br></br>
-            <MealSizeSelection parentCallback = {handleMealSizeCallback} />
+            <MealSizeSelection 
+                parentCallback={handleMealSizeCallback} 
+                data={[{loggedInUsername: loggedInUsername}, {loggedIn: loggedIn}]} />
             <br></br>
-            <PriceSelection parentCallback = {handleMaxBudgetCallback} />
+            <PriceSelection 
+                parentCallback={handleMaxBudgetCallback} 
+                data={[{loggedInUsername: loggedInUsername}, {loggedIn: loggedIn}]} />
             <Link to="/choice"><button onClick={handleClick}> Generate choice </button></Link>
         </form>
     )

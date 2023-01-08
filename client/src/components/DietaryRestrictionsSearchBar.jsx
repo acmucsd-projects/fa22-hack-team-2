@@ -13,7 +13,7 @@ import { useState } from "react";
 const DietaryRestrictionsSearchBar = (props) => {        // NOTE: react-select is almost identical in function 
                                                     // https://react-select.com/home
     
-    // TODO: load initial elements from user data, if extant
+    // TODO: GET dietary restrictions to load into the multiselect, if logged in
     const [selectedOptions, setSelectedOptions] = useState([]);
 
     // TODO: Replace mock list of dietary restrictions
@@ -31,7 +31,9 @@ const DietaryRestrictionsSearchBar = (props) => {        // NOTE: react-select i
         console.log('DSRB handleChange() called');
         console.log(selectedOptionsOnChange);
         setSelectedOptions(selectedOptionsOnChange);
-        console.log(selectedOptions);           // Contains state preceding rerender
+        console.log(selectedOptions);           // FIXME: Contains state preceding rerender
+
+
 
         props.parentCallback(selectedOptions);
     }
