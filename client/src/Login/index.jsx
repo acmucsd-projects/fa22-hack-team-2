@@ -44,7 +44,7 @@ export const Login = () => {
                         //re-direct to preference page
                         nav("/preferences", {state:{username: user.username}});
                         setErrorText("");
-                }else{
+                } else {
                     // no user match found
                     setErrorText("Username and/or password not recognized!");
                 }
