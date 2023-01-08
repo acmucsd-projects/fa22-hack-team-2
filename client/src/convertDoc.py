@@ -3,8 +3,8 @@ import csv
 import json
 
 # retrieve the database and collection
-csv_direc =  os.path.dirname(__file__) + "\scraper\halls"
-json_direc = os.path.dirname(__file__) + "\scraper\jsons"
+csv_direc =  os.path.dirname(__file__) + "\scraper"
+json_direc = os.path.dirname(__file__) + "\jsons"
 
 jsonArray = []
 
@@ -21,9 +21,12 @@ def parse_data(file):
         # parse each line and write it into a JSON format
         for foodItem in reader:
             # split allergens and restrictions into a list
-            restrictionsList = [restriction.strip() for restriction in foodItem["restrictions"].split(",")]
+            #TODO: Change "allergens" back to "restrictions" once CSV files fixed
+            #TODO: Remove dollar sign from price
+            restrictionsList = [restriction.strip() for restriction in foodItem["allergens"].split(",")]
 
             foodItem["restrictions"] = restrictionsList
+            foodItem["price"] = foodItem["price"][1:]
 
             # add food to JSON array
             jsonArray.append(foodItem)
@@ -40,7 +43,9 @@ def parse_data(file):
 
 # iterate over all CSV files in directory
 for file in os.listdir(csv_direc):
+    print(file)
     parse_data(file)
+
 
 
 
