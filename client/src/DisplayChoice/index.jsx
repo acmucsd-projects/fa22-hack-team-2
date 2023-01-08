@@ -37,7 +37,7 @@ export const DisplayChoice = () => {
 
     //set initial state for foodData object
     const [foodData, updateFormData] = useState(foodInit);
-
+    
     //send user back to preferences page
     //TODO: Resend user data to preferences component
     const handleNewOrder = () => {

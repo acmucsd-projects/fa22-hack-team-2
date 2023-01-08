@@ -22,17 +22,17 @@ router.post("/register", async (req, res) => {
   // If any field is empty, let user know
   if (!newUsername || !newPassword || !confirmPassword) {
     res.json({message: "empty"});
-    //TODO: create modal box to warn about empty
+    //create modal box to warn about empty
    
     console.log("Cannot have empty fields");
   } else if (confirmPassword != newPassword) {
-    //TODO: handling if confirm password doesnt match 
+    //handling if confirm password doesnt match 
     res.json({message: "match"});
     
     console.log("passwords do not match");
   } else if (await User.findOne({username: newUsername})){
     res.json({message: "exist"});
-    //TODO: handle existing user credentials by creating modal box saying username taken
+    //handle existing user credentials by creating modal box saying username taken
     
     console.log("username already exist!")
   } else {
