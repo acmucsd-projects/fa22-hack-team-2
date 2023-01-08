@@ -16,6 +16,7 @@ def parse_data(file):
 
     # get data field labels as keys
     with open(csv_direc + "\\" + file, "r") as f:
+        #TODO: CHange to csv.QUOTE_NONNUMERIC???
         reader = csv.DictReader(f, quoting=csv.QUOTE_ALL, skipinitialspace=True)
     
         # parse each line and write it into a JSON format

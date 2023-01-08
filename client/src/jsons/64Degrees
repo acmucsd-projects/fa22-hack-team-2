@@ -23,11 +23,9 @@
             "proteinDV": "",
             "sodium": "810.1",
             "sodiumDV": "35",
-            "allergens": "Vegetarian, Wellness, Contains Dairy, Contains Soy, Contains Wheat, Contains Gluten, Sustainability, Vegetarian, Wellness, Contains Dairy, Contains Soy, Contains Wheat, Sustainability, ",
-            "price": "4.00",
-            "restrictions": [
-                "Vegetarian",
-                "Wellness",
+            "allergens": "\"Vegetarian",
+            "price": "ellness",
+            "null": [
                 "Contains Dairy",
                 "Contains Soy",
                 "Contains Wheat",
@@ -39,7 +37,11 @@
                 "Contains Soy",
                 "Contains Wheat",
                 "Sustainability",
-                ""
+                "\"",
+                "$4.00"
+            ],
+            "restrictions": [
+                "\"Vegetarian"
             ]
         },
         {
@@ -64,11 +66,9 @@
             "proteinDV": "",
             "sodium": "1288.6",
             "sodiumDV": "56",
-            "allergens": "Contains Dairy, Contains Soy, Contains Wheat, Contains Eggs, Contains Gluten, Contains Dairy, Contains Soy, Contains Wheat, Contains Eggs, ",
-            "price": "5.25",
-            "restrictions": [
-                "Contains Dairy",
-                "Contains Soy",
+            "allergens": "\"Contains Dairy",
+            "price": "ontains Soy",
+            "null": [
                 "Contains Wheat",
                 "Contains Eggs",
                 "Contains Gluten",
@@ -76,7 +76,11 @@
                 "Contains Soy",
                 "Contains Wheat",
                 "Contains Eggs",
-                ""
+                "\"",
+                "$5.25"
+            ],
+            "restrictions": [
+                "\"Contains Dairy"
             ]
         },
         {
@@ -129,11 +133,9 @@
             "proteinDV": "",
             "sodium": "380",
             "sodiumDV": "17",
-            "allergens": "Vegan, Wellness, Contains Soy, Contains Wheat, Contains Gluten, Sustainability, Vegan, Wellness, Contains Soy, Contains Wheat, Sustainability, ",
-            "price": "",
-            "restrictions": [
-                "Vegan",
-                "Wellness",
+            "allergens": "\"Vegan",
+            "price": "ellness",
+            "null": [
                 "Contains Soy",
                 "Contains Wheat",
                 "Contains Gluten",
@@ -143,7 +145,11 @@
                 "Contains Soy",
                 "Contains Wheat",
                 "Sustainability",
+                "\"",
                 ""
+            ],
+            "restrictions": [
+                "\"Vegan"
             ]
         },
         {
@@ -168,12 +174,14 @@
             "proteinDV": "",
             "sodium": "190.4",
             "sodiumDV": "8",
-            "allergens": "Wellness, Wellness, ",
-            "price": "1.00",
+            "allergens": "\"Wellness",
+            "price": "ellness",
+            "null": [
+                "\"",
+                "$1.00"
+            ],
             "restrictions": [
-                "Wellness",
-                "Wellness",
-                ""
+                "\"Wellness"
             ]
         },
         {
@@ -226,18 +234,20 @@
             "proteinDV": "",
             "sodium": "228.4",
             "sodiumDV": "10",
-            "allergens": "Vegetarian, Contains Dairy, Contains Soy, Sustainability, Vegetarian, Contains Dairy, Contains Soy, Sustainability, ",
-            "price": "1.00",
+            "allergens": "\"Vegetarian",
+            "price": "ontains Dairy",
+            "null": [
+                "Contains Soy",
+                "Sustainability",
+                "Vegetarian",
+                "Contains Dairy",
+                "Contains Soy",
+                "Sustainability",
+                "\"",
+                "$1.00"
+            ],
             "restrictions": [
-                "Vegetarian",
-                "Contains Dairy",
-                "Contains Soy",
-                "Sustainability",
-                "Vegetarian",
-                "Contains Dairy",
-                "Contains Soy",
-                "Sustainability",
-                ""
+                "\"Vegetarian"
             ]
         },
         {
@@ -262,16 +272,18 @@
             "proteinDV": "",
             "sodium": "2.3",
             "sodiumDV": "0",
-            "allergens": "Vegan, Wellness, Sustainability, Vegan, Wellness, Sustainability, ",
-            "price": "1.25",
+            "allergens": "\"Vegan",
+            "price": "ellness",
+            "null": [
+                "Sustainability",
+                "Vegan",
+                "Wellness",
+                "Sustainability",
+                "\"",
+                "$1.25"
+            ],
             "restrictions": [
-                "Vegan",
-                "Wellness",
-                "Sustainability",
-                "Vegan",
-                "Wellness",
-                "Sustainability",
-                ""
+                "\"Vegan"
             ]
         },
         {
@@ -324,16 +336,18 @@
             "proteinDV": "",
             "sodium": "135",
             "sodiumDV": "6",
-            "allergens": "Vegetarian, Contains Dairy, Sustainability, Vegetarian, Contains Dairy, Sustainability, ",
-            "price": "1.00",
+            "allergens": "\"Vegetarian",
+            "price": "ontains Dairy",
+            "null": [
+                "Sustainability",
+                "Vegetarian",
+                "Contains Dairy",
+                "Sustainability",
+                "\"",
+                "$1.00"
+            ],
             "restrictions": [
-                "Vegetarian",
-                "Contains Dairy",
-                "Sustainability",
-                "Vegetarian",
-                "Contains Dairy",
-                "Sustainability",
-                ""
+                "\"Vegetarian"
             ]
         },
         {
@@ -358,18 +372,20 @@
             "proteinDV": "",
             "sodium": "135.2",
             "sodiumDV": "6",
-            "allergens": "Vegetarian, Wellness, Contains Eggs, Sustainability, Vegetarian, Wellness, Contains Eggs, Sustainability, ",
-            "price": "1.25",
+            "allergens": "\"Vegetarian",
+            "price": "ellness",
+            "null": [
+                "Contains Eggs",
+                "Sustainability",
+                "Vegetarian",
+                "Wellness",
+                "Contains Eggs",
+                "Sustainability",
+                "\"",
+                "$1.25"
+            ],
             "restrictions": [
-                "Vegetarian",
-                "Wellness",
-                "Contains Eggs",
-                "Sustainability",
-                "Vegetarian",
-                "Wellness",
-                "Contains Eggs",
-                "Sustainability",
-                ""
+                "\"Vegetarian"
             ]
         },
         {
@@ -394,12 +410,14 @@
             "proteinDV": "",
             "sodium": "190.4",
             "sodiumDV": "8",
-            "allergens": "Wellness, Wellness, ",
-            "price": "5.50",
+            "allergens": "\"Wellness",
+            "price": "ellness",
+            "null": [
+                "\"",
+                "$5.50"
+            ],
             "restrictions": [
-                "Wellness",
-                "Wellness",
-                ""
+                "\"Wellness"
             ]
         },
         {
@@ -424,18 +442,20 @@
             "proteinDV": "",
             "sodium": "129.2",
             "sodiumDV": "6",
-            "allergens": "Vegetarian, Contains Dairy, Contains Soy, Sustainability, Vegetarian, Contains Dairy, Contains Soy, Sustainability, ",
-            "price": "1.00",
+            "allergens": "\"Vegetarian",
+            "price": "ontains Dairy",
+            "null": [
+                "Contains Soy",
+                "Sustainability",
+                "Vegetarian",
+                "Contains Dairy",
+                "Contains Soy",
+                "Sustainability",
+                "\"",
+                "$1.00"
+            ],
             "restrictions": [
-                "Vegetarian",
-                "Contains Dairy",
-                "Contains Soy",
-                "Sustainability",
-                "Vegetarian",
-                "Contains Dairy",
-                "Contains Soy",
-                "Sustainability",
-                ""
+                "\"Vegetarian"
             ]
         },
         {
@@ -460,11 +480,9 @@
             "proteinDV": "",
             "sodium": "859.5",
             "sodiumDV": "37",
-            "allergens": "Contains Dairy, Contains Soy, Contains Wheat, Contains Eggs, Contains Gluten, Contains Dairy, Contains Soy, Contains Wheat, Contains Eggs, ",
-            "price": "7.50",
-            "restrictions": [
-                "Contains Dairy",
-                "Contains Soy",
+            "allergens": "\"Contains Dairy",
+            "price": "ontains Soy",
+            "null": [
                 "Contains Wheat",
                 "Contains Eggs",
                 "Contains Gluten",
@@ -472,7 +490,11 @@
                 "Contains Soy",
                 "Contains Wheat",
                 "Contains Eggs",
-                ""
+                "\"",
+                "$7.50"
+            ],
+            "restrictions": [
+                "\"Contains Dairy"
             ]
         },
         {
@@ -497,11 +519,9 @@
             "proteinDV": "",
             "sodium": "1265.6",
             "sodiumDV": "55",
-            "allergens": "Contains Soy, Contains Wheat, Contains Fish, Contains Gluten, Sustainability, Contains Soy, Contains Wheat, Contains Fish, Sustainability, ",
-            "price": "7.00",
-            "restrictions": [
-                "Contains Soy",
-                "Contains Wheat",
+            "allergens": "\"Contains Soy",
+            "price": "ontains Wheat",
+            "null": [
                 "Contains Fish",
                 "Contains Gluten",
                 "Sustainability",
@@ -509,7 +529,11 @@
                 "Contains Wheat",
                 "Contains Fish",
                 "Sustainability",
-                ""
+                "\"",
+                "$7.00"
+            ],
+            "restrictions": [
+                "\"Contains Soy"
             ]
         },
         {
@@ -534,11 +558,9 @@
             "proteinDV": "",
             "sodium": "405",
             "sodiumDV": "18",
-            "allergens": "Contains Dairy, Contains Soy, Contains Wheat, Contains Fish, Contains Gluten, Sustainability, Contains Dairy, Contains Soy, Contains Wheat, Contains Fish, Sustainability, ",
-            "price": "8.50",
-            "restrictions": [
-                "Contains Dairy",
-                "Contains Soy",
+            "allergens": "\"Contains Dairy",
+            "price": "ontains Soy",
+            "null": [
                 "Contains Wheat",
                 "Contains Fish",
                 "Contains Gluten",
@@ -548,7 +570,11 @@
                 "Contains Wheat",
                 "Contains Fish",
                 "Sustainability",
-                ""
+                "\"",
+                "$8.50"
+            ],
+            "restrictions": [
+                "\"Contains Dairy"
             ]
         },
         {
@@ -573,17 +599,19 @@
             "proteinDV": "",
             "sodium": "955.6",
             "sodiumDV": "42",
-            "allergens": "Contains Dairy, Contains Wheat, Contains Eggs, Contains Gluten, Contains Dairy, Contains Wheat, Contains Eggs, ",
-            "price": "9.00",
-            "restrictions": [
-                "Contains Dairy",
-                "Contains Wheat",
+            "allergens": "\"Contains Dairy",
+            "price": "ontains Wheat",
+            "null": [
                 "Contains Eggs",
                 "Contains Gluten",
                 "Contains Dairy",
                 "Contains Wheat",
                 "Contains Eggs",
-                ""
+                "\"",
+                "$9.00"
+            ],
+            "restrictions": [
+                "\"Contains Dairy"
             ]
         },
         {
@@ -608,11 +636,9 @@
             "proteinDV": "",
             "sodium": "1437",
             "sodiumDV": "62",
-            "allergens": "Vegetarian, Contains Dairy, Contains Soy, Contains Wheat, Contains Eggs, Contains Gluten, Vegetarian, Contains Dairy, Contains Soy, Contains Wheat, Contains Eggs, ",
-            "price": "6.00",
-            "restrictions": [
-                "Vegetarian",
-                "Contains Dairy",
+            "allergens": "\"Vegetarian",
+            "price": "ontains Dairy",
+            "null": [
                 "Contains Soy",
                 "Contains Wheat",
                 "Contains Eggs",
@@ -622,7 +648,11 @@
                 "Contains Soy",
                 "Contains Wheat",
                 "Contains Eggs",
-                ""
+                "\"",
+                "$6.00"
+            ],
+            "restrictions": [
+                "\"Vegetarian"
             ]
         },
         {
@@ -647,13 +677,15 @@
             "proteinDV": "",
             "sodium": "1057.2",
             "sodiumDV": "46",
-            "allergens": "Contains Wheat, Contains Gluten, Contains Wheat, ",
-            "price": "6.00",
+            "allergens": "\"Contains Wheat",
+            "price": "ontains Gluten",
+            "null": [
+                "Contains Wheat",
+                "\"",
+                "$6.00"
+            ],
             "restrictions": [
-                "Contains Wheat",
-                "Contains Gluten",
-                "Contains Wheat",
-                ""
+                "\"Contains Wheat"
             ]
         },
         {
@@ -678,11 +710,9 @@
             "proteinDV": "",
             "sodium": "595.4",
             "sodiumDV": "26",
-            "allergens": "Vegan, Contains Soy, Contains Wheat, Contains Gluten, Sustainability, Vegan, Contains Soy, Contains Wheat, Sustainability, ",
-            "price": "3.00",
-            "restrictions": [
-                "Vegan",
-                "Contains Soy",
+            "allergens": "\"Vegan",
+            "price": "ontains Soy",
+            "null": [
                 "Contains Wheat",
                 "Contains Gluten",
                 "Sustainability",
@@ -690,7 +720,11 @@
                 "Contains Soy",
                 "Contains Wheat",
                 "Sustainability",
-                ""
+                "\"",
+                "$3.00"
+            ],
+            "restrictions": [
+                "\"Vegan"
             ]
         },
         {
@@ -715,16 +749,18 @@
             "proteinDV": "",
             "sodium": "663.4",
             "sodiumDV": "29",
-            "allergens": "Vegan, Contains Soy, Sustainability, Vegan, Contains Soy, Sustainability, ",
-            "price": "3.00",
+            "allergens": "\"Vegan",
+            "price": "ontains Soy",
+            "null": [
+                "Sustainability",
+                "Vegan",
+                "Contains Soy",
+                "Sustainability",
+                "\"",
+                "$3.00"
+            ],
             "restrictions": [
-                "Vegan",
-                "Contains Soy",
-                "Sustainability",
-                "Vegan",
-                "Contains Soy",
-                "Sustainability",
-                ""
+                "\"Vegan"
             ]
         },
         {
@@ -749,16 +785,18 @@
             "proteinDV": "",
             "sodium": "544.3",
             "sodiumDV": "24",
-            "allergens": "Vegetarian, Contains Dairy, Sustainability, Vegetarian, Contains Dairy, Sustainability, ",
-            "price": "3.00",
+            "allergens": "\"Vegetarian",
+            "price": "ontains Dairy",
+            "null": [
+                "Sustainability",
+                "Vegetarian",
+                "Contains Dairy",
+                "Sustainability",
+                "\"",
+                "$3.00"
+            ],
             "restrictions": [
-                "Vegetarian",
-                "Contains Dairy",
-                "Sustainability",
-                "Vegetarian",
-                "Contains Dairy",
-                "Sustainability",
-                ""
+                "\"Vegetarian"
             ]
         },
         {
@@ -783,12 +821,14 @@
             "proteinDV": "",
             "sodium": "541.7",
             "sodiumDV": "24",
-            "allergens": "Vegan, Vegan, ",
-            "price": "3.00",
+            "allergens": "\"Vegan",
+            "price": "egan",
+            "null": [
+                "\"",
+                "$3.00"
+            ],
             "restrictions": [
-                "Vegan",
-                "Vegan",
-                ""
+                "\"Vegan"
             ]
         },
         {
@@ -813,17 +853,19 @@
             "proteinDV": "",
             "sodium": "40.6",
             "sodiumDV": "2",
-            "allergens": "Vegan, Wellness, Contains Gluten, Sustainability, Vegan, Wellness, Sustainability, ",
-            "price": "7.00",
-            "restrictions": [
-                "Vegan",
-                "Wellness",
+            "allergens": "\"Vegan",
+            "price": "ellness",
+            "null": [
                 "Contains Gluten",
                 "Sustainability",
                 "Vegan",
                 "Wellness",
                 "Sustainability",
-                ""
+                "\"",
+                "$7.00"
+            ],
+            "restrictions": [
+                "\"Vegan"
             ]
         },
         {
@@ -848,14 +890,16 @@
             "proteinDV": "",
             "sodium": "734.3",
             "sodiumDV": "32",
-            "allergens": "Wellness, Contains TreeNuts, Wellness, Contains TreeNuts, ",
-            "price": "9.50",
+            "allergens": "\"Wellness",
+            "price": "ontains TreeNuts",
+            "null": [
+                "Wellness",
+                "Contains TreeNuts",
+                "\"",
+                "$9.50"
+            ],
             "restrictions": [
-                "Wellness",
-                "Contains TreeNuts",
-                "Wellness",
-                "Contains TreeNuts",
-                ""
+                "\"Wellness"
             ]
         },
         {
@@ -880,16 +924,18 @@
             "proteinDV": "",
             "sodium": "270",
             "sodiumDV": "12",
-            "allergens": "Vegetarian, Contains Soy, Sustainability, Vegetarian, Contains Soy, Sustainability, ",
-            "price": "7.00",
+            "allergens": "\"Vegetarian",
+            "price": "ontains Soy",
+            "null": [
+                "Sustainability",
+                "Vegetarian",
+                "Contains Soy",
+                "Sustainability",
+                "\"",
+                "$7.00"
+            ],
             "restrictions": [
-                "Vegetarian",
-                "Contains Soy",
-                "Sustainability",
-                "Vegetarian",
-                "Contains Soy",
-                "Sustainability",
-                ""
+                "\"Vegetarian"
             ]
         },
         {
@@ -914,16 +960,18 @@
             "proteinDV": "",
             "sodium": "384.8",
             "sodiumDV": "17",
-            "allergens": "Vegetarian, Contains Dairy, Sustainability, Vegetarian, Contains Dairy, Sustainability, ",
-            "price": "",
-            "restrictions": [
-                "Vegetarian",
-                "Contains Dairy",
+            "allergens": "\"Vegetarian",
+            "price": "ontains Dairy",
+            "null": [
                 "Sustainability",
                 "Vegetarian",
                 "Contains Dairy",
                 "Sustainability",
+                "\"",
                 ""
+            ],
+            "restrictions": [
+                "\"Vegetarian"
             ]
         },
         {
@@ -948,16 +996,18 @@
             "proteinDV": "",
             "sodium": "91.1",
             "sodiumDV": "4",
-            "allergens": "Vegetarian, Contains Dairy, Sustainability, Vegetarian, Contains Dairy, Sustainability, ",
-            "price": "",
-            "restrictions": [
-                "Vegetarian",
-                "Contains Dairy",
+            "allergens": "\"Vegetarian",
+            "price": "ontains Dairy",
+            "null": [
                 "Sustainability",
                 "Vegetarian",
                 "Contains Dairy",
                 "Sustainability",
+                "\"",
                 ""
+            ],
+            "restrictions": [
+                "\"Vegetarian"
             ]
         },
         {
@@ -982,16 +1032,18 @@
             "proteinDV": "",
             "sodium": "1.6",
             "sodiumDV": "0",
-            "allergens": "Vegan, Wellness, Sustainability, Vegan, Wellness, Sustainability, ",
-            "price": "",
-            "restrictions": [
-                "Vegan",
-                "Wellness",
+            "allergens": "\"Vegan",
+            "price": "ellness",
+            "null": [
                 "Sustainability",
                 "Vegan",
                 "Wellness",
                 "Sustainability",
+                "\"",
                 ""
+            ],
+            "restrictions": [
+                "\"Vegan"
             ]
         },
         {
@@ -1016,17 +1068,19 @@
             "proteinDV": "",
             "sodium": "114.4",
             "sodiumDV": "5",
-            "allergens": "Vegan, Wellness, Contains Gluten, Sustainability, Vegan, Wellness, Sustainability, ",
-            "price": "",
-            "restrictions": [
-                "Vegan",
-                "Wellness",
+            "allergens": "\"Vegan",
+            "price": "ellness",
+            "null": [
                 "Contains Gluten",
                 "Sustainability",
                 "Vegan",
                 "Wellness",
                 "Sustainability",
+                "\"",
                 ""
+            ],
+            "restrictions": [
+                "\"Vegan"
             ]
         },
         {
@@ -1051,16 +1105,18 @@
             "proteinDV": "",
             "sodium": "43.9",
             "sodiumDV": "2",
-            "allergens": "Vegan, Wellness, Sustainability, Vegan, Wellness, Sustainability, ",
-            "price": "",
-            "restrictions": [
-                "Vegan",
-                "Wellness",
+            "allergens": "\"Vegan",
+            "price": "ellness",
+            "null": [
                 "Sustainability",
                 "Vegan",
                 "Wellness",
                 "Sustainability",
+                "\"",
                 ""
+            ],
+            "restrictions": [
+                "\"Vegan"
             ]
         },
         {
@@ -1085,18 +1141,20 @@
             "proteinDV": "",
             "sodium": "1.7",
             "sodiumDV": "0",
-            "allergens": "Vegan, Wellness, Contains Soy, Sustainability, Vegan, Wellness, Contains Soy, Sustainability, ",
-            "price": "",
-            "restrictions": [
-                "Vegan",
-                "Wellness",
+            "allergens": "\"Vegan",
+            "price": "ellness",
+            "null": [
                 "Contains Soy",
                 "Sustainability",
                 "Vegan",
                 "Wellness",
                 "Contains Soy",
                 "Sustainability",
+                "\"",
                 ""
+            ],
+            "restrictions": [
+                "\"Vegan"
             ]
         },
         {
@@ -1121,16 +1179,18 @@
             "proteinDV": "",
             "sodium": "316.4",
             "sodiumDV": "14",
-            "allergens": "Vegetarian, Contains Dairy, Sustainability, Vegetarian, Contains Dairy, Sustainability, ",
-            "price": "",
-            "restrictions": [
-                "Vegetarian",
-                "Contains Dairy",
+            "allergens": "\"Vegetarian",
+            "price": "ontains Dairy",
+            "null": [
                 "Sustainability",
                 "Vegetarian",
                 "Contains Dairy",
                 "Sustainability",
+                "\"",
                 ""
+            ],
+            "restrictions": [
+                "\"Vegetarian"
             ]
         },
         {
@@ -1155,14 +1215,16 @@
             "proteinDV": "",
             "sodium": "84.8",
             "sodiumDV": "4",
-            "allergens": "Vegan, Sustainability, Vegan, Sustainability, ",
-            "price": "",
-            "restrictions": [
+            "allergens": "\"Vegan",
+            "price": "ustainability",
+            "null": [
                 "Vegan",
                 "Sustainability",
-                "Vegan",
-                "Sustainability",
+                "\"",
                 ""
+            ],
+            "restrictions": [
+                "\"Vegan"
             ]
         },
         {
@@ -1187,16 +1249,18 @@
             "proteinDV": "",
             "sodium": "10.8",
             "sodiumDV": "0",
-            "allergens": "Vegan, Wellness, Sustainability, Vegan, Wellness, Sustainability, ",
-            "price": "",
-            "restrictions": [
-                "Vegan",
-                "Wellness",
+            "allergens": "\"Vegan",
+            "price": "ellness",
+            "null": [
                 "Sustainability",
                 "Vegan",
                 "Wellness",
                 "Sustainability",
+                "\"",
                 ""
+            ],
+            "restrictions": [
+                "\"Vegan"
             ]
         },
         {
@@ -1221,14 +1285,16 @@
             "proteinDV": "",
             "sodium": "1.1",
             "sodiumDV": "0",
-            "allergens": "Vegan, Sustainability, Vegan, Sustainability, ",
-            "price": "",
-            "restrictions": [
+            "allergens": "\"Vegan",
+            "price": "ustainability",
+            "null": [
                 "Vegan",
                 "Sustainability",
-                "Vegan",
-                "Sustainability",
+                "\"",
                 ""
+            ],
+            "restrictions": [
+                "\"Vegan"
             ]
         },
         {
@@ -1253,14 +1319,16 @@
             "proteinDV": "",
             "sodium": "1",
             "sodiumDV": "0",
-            "allergens": "Vegan, Sustainability, Vegan, Sustainability, ",
-            "price": "",
-            "restrictions": [
+            "allergens": "\"Vegan",
+            "price": "ustainability",
+            "null": [
                 "Vegan",
                 "Sustainability",
-                "Vegan",
-                "Sustainability",
+                "\"",
                 ""
+            ],
+            "restrictions": [
+                "\"Vegan"
             ]
         },
         {
@@ -1285,16 +1353,18 @@
             "proteinDV": "",
             "sodium": "78.6",
             "sodiumDV": "3",
-            "allergens": "Vegan, Wellness, Sustainability, Vegan, Wellness, Sustainability, ",
-            "price": "",
-            "restrictions": [
-                "Vegan",
-                "Wellness",
+            "allergens": "\"Vegan",
+            "price": "ellness",
+            "null": [
                 "Sustainability",
                 "Vegan",
                 "Wellness",
                 "Sustainability",
+                "\"",
                 ""
+            ],
+            "restrictions": [
+                "\"Vegan"
             ]
         },
         {
@@ -1319,16 +1389,18 @@
             "proteinDV": "",
             "sodium": "5.8",
             "sodiumDV": "0",
-            "allergens": "Vegan, Wellness, Sustainability, Vegan, Wellness, Sustainability, ",
-            "price": "",
-            "restrictions": [
-                "Vegan",
-                "Wellness",
+            "allergens": "\"Vegan",
+            "price": "ellness",
+            "null": [
                 "Sustainability",
                 "Vegan",
                 "Wellness",
                 "Sustainability",
+                "\"",
                 ""
+            ],
+            "restrictions": [
+                "\"Vegan"
             ]
         },
         {
@@ -1353,16 +1425,18 @@
             "proteinDV": "",
             "sodium": "1.7",
             "sodiumDV": "0",
-            "allergens": "Vegan, Wellness, Sustainability, Vegan, Wellness, Sustainability, ",
-            "price": "",
-            "restrictions": [
-                "Vegan",
-                "Wellness",
+            "allergens": "\"Vegan",
+            "price": "ellness",
+            "null": [
                 "Sustainability",
                 "Vegan",
                 "Wellness",
                 "Sustainability",
+                "\"",
                 ""
+            ],
+            "restrictions": [
+                "\"Vegan"
             ]
         },
         {
@@ -1387,14 +1461,16 @@
             "proteinDV": "",
             "sodium": "19.6",
             "sodiumDV": "1",
-            "allergens": "Vegan, Sustainability, Vegan, Sustainability, ",
-            "price": "",
-            "restrictions": [
+            "allergens": "\"Vegan",
+            "price": "ustainability",
+            "null": [
                 "Vegan",
                 "Sustainability",
-                "Vegan",
-                "Sustainability",
+                "\"",
                 ""
+            ],
+            "restrictions": [
+                "\"Vegan"
             ]
         },
         {
@@ -1419,16 +1495,18 @@
             "proteinDV": "",
             "sodium": "0.6",
             "sodiumDV": "0",
-            "allergens": "Vegan, Wellness, Sustainability, Vegan, Wellness, Sustainability, ",
-            "price": "",
-            "restrictions": [
-                "Vegan",
-                "Wellness",
+            "allergens": "\"Vegan",
+            "price": "ellness",
+            "null": [
                 "Sustainability",
                 "Vegan",
                 "Wellness",
                 "Sustainability",
+                "\"",
                 ""
+            ],
+            "restrictions": [
+                "\"Vegan"
             ]
         },
         {
@@ -1453,14 +1531,16 @@
             "proteinDV": "",
             "sodium": "1.4",
             "sodiumDV": "0",
-            "allergens": "Vegan, Sustainability, Vegan, Sustainability, ",
-            "price": "",
-            "restrictions": [
+            "allergens": "\"Vegan",
+            "price": "ustainability",
+            "null": [
                 "Vegan",
                 "Sustainability",
-                "Vegan",
-                "Sustainability",
+                "\"",
                 ""
+            ],
+            "restrictions": [
+                "\"Vegan"
             ]
         },
         {
@@ -1485,16 +1565,18 @@
             "proteinDV": "",
             "sodium": "1.1",
             "sodiumDV": "0",
-            "allergens": "Vegan, Wellness, Sustainability, Vegan, Wellness, Sustainability, ",
-            "price": "",
-            "restrictions": [
-                "Vegan",
-                "Wellness",
+            "allergens": "\"Vegan",
+            "price": "ellness",
+            "null": [
                 "Sustainability",
                 "Vegan",
                 "Wellness",
                 "Sustainability",
+                "\"",
                 ""
+            ],
+            "restrictions": [
+                "\"Vegan"
             ]
         },
         {
@@ -1519,16 +1601,18 @@
             "proteinDV": "",
             "sodium": "22.4",
             "sodiumDV": "1",
-            "allergens": "Vegan, Wellness, Sustainability, Vegan, Wellness, Sustainability, ",
-            "price": "",
-            "restrictions": [
-                "Vegan",
-                "Wellness",
+            "allergens": "\"Vegan",
+            "price": "ellness",
+            "null": [
                 "Sustainability",
                 "Vegan",
                 "Wellness",
                 "Sustainability",
+                "\"",
                 ""
+            ],
+            "restrictions": [
+                "\"Vegan"
             ]
         },
         {
@@ -1553,16 +1637,18 @@
             "proteinDV": "",
             "sodium": "16.7",
             "sodiumDV": "1",
-            "allergens": "Vegan, Wellness, Sustainability, Vegan, Wellness, Sustainability, ",
-            "price": "",
-            "restrictions": [
-                "Vegan",
-                "Wellness",
+            "allergens": "\"Vegan",
+            "price": "ellness",
+            "null": [
                 "Sustainability",
                 "Vegan",
                 "Wellness",
                 "Sustainability",
+                "\"",
                 ""
+            ],
+            "restrictions": [
+                "\"Vegan"
             ]
         },
         {
@@ -1587,18 +1673,20 @@
             "proteinDV": "",
             "sodium": "53.2",
             "sodiumDV": "2",
-            "allergens": "Vegetarian, Wellness, Contains Eggs, Sustainability, Vegetarian, Wellness, Contains Eggs, Sustainability, ",
-            "price": "1.00",
+            "allergens": "\"Vegetarian",
+            "price": "ellness",
+            "null": [
+                "Contains Eggs",
+                "Sustainability",
+                "Vegetarian",
+                "Wellness",
+                "Contains Eggs",
+                "Sustainability",
+                "\"",
+                "$1.00"
+            ],
             "restrictions": [
-                "Vegetarian",
-                "Wellness",
-                "Contains Eggs",
-                "Sustainability",
-                "Vegetarian",
-                "Wellness",
-                "Contains Eggs",
-                "Sustainability",
-                ""
+                "\"Vegetarian"
             ]
         },
         {
@@ -1623,12 +1711,14 @@
             "proteinDV": "",
             "sodium": "205.9",
             "sodiumDV": "9",
-            "allergens": "Wellness, Wellness, ",
-            "price": "3.00",
+            "allergens": "\"Wellness",
+            "price": "ellness",
+            "null": [
+                "\"",
+                "$3.00"
+            ],
             "restrictions": [
-                "Wellness",
-                "Wellness",
-                ""
+                "\"Wellness"
             ]
         },
         {
@@ -1653,18 +1743,20 @@
             "proteinDV": "",
             "sodium": "5.1",
             "sodiumDV": "0",
-            "allergens": "Vegan, Wellness, Contains Soy, Sustainability, Vegan, Wellness, Contains Soy, Sustainability, ",
-            "price": "2.00",
+            "allergens": "\"Vegan",
+            "price": "ellness",
+            "null": [
+                "Contains Soy",
+                "Sustainability",
+                "Vegan",
+                "Wellness",
+                "Contains Soy",
+                "Sustainability",
+                "\"",
+                "$2.00"
+            ],
             "restrictions": [
-                "Vegan",
-                "Wellness",
-                "Contains Soy",
-                "Sustainability",
-                "Vegan",
-                "Wellness",
-                "Contains Soy",
-                "Sustainability",
-                ""
+                "\"Vegan"
             ]
         },
         {
@@ -1689,20 +1781,22 @@
             "proteinDV": "",
             "sodium": "298.1",
             "sodiumDV": "13",
-            "allergens": "Wellness, Contains Soy, Contains Fish, Contains Eggs, Sustainability, Wellness, Contains Soy, Contains Fish, Contains Eggs, Sustainability, ",
-            "price": "3.50",
+            "allergens": "\"Wellness",
+            "price": "ontains Soy",
+            "null": [
+                "Contains Fish",
+                "Contains Eggs",
+                "Sustainability",
+                "Wellness",
+                "Contains Soy",
+                "Contains Fish",
+                "Contains Eggs",
+                "Sustainability",
+                "\"",
+                "$3.50"
+            ],
             "restrictions": [
-                "Wellness",
-                "Contains Soy",
-                "Contains Fish",
-                "Contains Eggs",
-                "Sustainability",
-                "Wellness",
-                "Contains Soy",
-                "Contains Fish",
-                "Contains Eggs",
-                "Sustainability",
-                ""
+                "\"Wellness"
             ]
         },
         {
@@ -1727,14 +1821,16 @@
             "proteinDV": "",
             "sodium": "0",
             "sodiumDV": "0",
-            "allergens": "Vegetarian, Sustainability, Vegetarian, Sustainability, ",
-            "price": "",
-            "restrictions": [
+            "allergens": "\"Vegetarian",
+            "price": "ustainability",
+            "null": [
                 "Vegetarian",
                 "Sustainability",
-                "Vegetarian",
-                "Sustainability",
+                "\"",
                 ""
+            ],
+            "restrictions": [
+                "\"Vegetarian"
             ]
         },
         {
@@ -1759,11 +1855,9 @@
             "proteinDV": "",
             "sodium": "351",
             "sodiumDV": "15",
-            "allergens": "Vegetarian, Contains Dairy, Contains Wheat, Contains Gluten, Sustainability, Vegetarian, Contains Dairy, Contains Wheat, Sustainability, ",
-            "price": "",
-            "restrictions": [
-                "Vegetarian",
-                "Contains Dairy",
+            "allergens": "\"Vegetarian",
+            "price": "ontains Dairy",
+            "null": [
                 "Contains Wheat",
                 "Contains Gluten",
                 "Sustainability",
@@ -1771,7 +1865,11 @@
                 "Contains Dairy",
                 "Contains Wheat",
                 "Sustainability",
+                "\"",
                 ""
+            ],
+            "restrictions": [
+                "\"Vegetarian"
             ]
         },
         {
@@ -1796,16 +1894,18 @@
             "proteinDV": "",
             "sodium": "36.3",
             "sodiumDV": "2",
-            "allergens": "Vegan, Wellness, Sustainability, Vegan, Wellness, Sustainability, ",
-            "price": "",
-            "restrictions": [
-                "Vegan",
-                "Wellness",
+            "allergens": "\"Vegan",
+            "price": "ellness",
+            "null": [
                 "Sustainability",
                 "Vegan",
                 "Wellness",
                 "Sustainability",
+                "\"",
                 ""
+            ],
+            "restrictions": [
+                "\"Vegan"
             ]
         },
         {
@@ -1830,16 +1930,18 @@
             "proteinDV": "",
             "sodium": "0.4",
             "sodiumDV": "0",
-            "allergens": "Vegan, Wellness, Sustainability, Vegan, Wellness, Sustainability, ",
-            "price": "",
-            "restrictions": [
-                "Vegan",
-                "Wellness",
+            "allergens": "\"Vegan",
+            "price": "ellness",
+            "null": [
                 "Sustainability",
                 "Vegan",
                 "Wellness",
                 "Sustainability",
+                "\"",
                 ""
+            ],
+            "restrictions": [
+                "\"Vegan"
             ]
         },
         {
@@ -1864,18 +1966,20 @@
             "proteinDV": "",
             "sodium": "103.7",
             "sodiumDV": "5",
-            "allergens": "Vegetarian, Wellness, Contains Soy, Sustainability, Vegetarian, Wellness, Contains Soy, Sustainability, ",
-            "price": "",
-            "restrictions": [
-                "Vegetarian",
-                "Wellness",
+            "allergens": "\"Vegetarian",
+            "price": "ellness",
+            "null": [
                 "Contains Soy",
                 "Sustainability",
                 "Vegetarian",
                 "Wellness",
                 "Contains Soy",
                 "Sustainability",
+                "\"",
                 ""
+            ],
+            "restrictions": [
+                "\"Vegetarian"
             ]
         },
         {
@@ -1900,11 +2004,9 @@
             "proteinDV": "",
             "sodium": "295.1",
             "sodiumDV": "13",
-            "allergens": "Vegetarian, Contains Dairy, Contains Soy, Contains Eggs, Sustainability, Vegetarian, Contains Dairy, Contains Soy, Contains Eggs, Sustainability, ",
-            "price": "",
-            "restrictions": [
-                "Vegetarian",
-                "Contains Dairy",
+            "allergens": "\"Vegetarian",
+            "price": "ontains Dairy",
+            "null": [
                 "Contains Soy",
                 "Contains Eggs",
                 "Sustainability",
@@ -1913,7 +2015,11 @@
                 "Contains Soy",
                 "Contains Eggs",
                 "Sustainability",
+                "\"",
                 ""
+            ],
+            "restrictions": [
+                "\"Vegetarian"
             ]
         },
         {
@@ -1938,11 +2044,9 @@
             "proteinDV": "",
             "sodium": "175.6",
             "sodiumDV": "8",
-            "allergens": "Vegetarian, Contains Dairy, Contains Soy, Contains Eggs, Sustainability, Vegetarian, Contains Dairy, Contains Soy, Contains Eggs, Sustainability, ",
-            "price": "",
-            "restrictions": [
-                "Vegetarian",
-                "Contains Dairy",
+            "allergens": "\"Vegetarian",
+            "price": "ontains Dairy",
+            "null": [
                 "Contains Soy",
                 "Contains Eggs",
                 "Sustainability",
@@ -1951,7 +2055,11 @@
                 "Contains Soy",
                 "Contains Eggs",
                 "Sustainability",
+                "\"",
                 ""
+            ],
+            "restrictions": [
+                "\"Vegetarian"
             ]
         },
         {
@@ -1976,11 +2084,9 @@
             "proteinDV": "",
             "sodium": "183.3",
             "sodiumDV": "8",
-            "allergens": "Contains Dairy, Contains Soy, Contains Fish, Contains Eggs, Sustainability, Contains Dairy, Contains Soy, Contains Fish, Contains Eggs, Sustainability, ",
-            "price": "",
-            "restrictions": [
-                "Contains Dairy",
-                "Contains Soy",
+            "allergens": "\"Contains Dairy",
+            "price": "ontains Soy",
+            "null": [
                 "Contains Fish",
                 "Contains Eggs",
                 "Sustainability",
@@ -1989,7 +2095,11 @@
                 "Contains Fish",
                 "Contains Eggs",
                 "Sustainability",
+                "\"",
                 ""
+            ],
+            "restrictions": [
+                "\"Contains Dairy"
             ]
         },
         {
@@ -2014,16 +2124,18 @@
             "proteinDV": "",
             "sodium": "193",
             "sodiumDV": "8",
-            "allergens": "Vegetarian, Contains Soy, Sustainability, Vegetarian, Contains Soy, Sustainability, ",
-            "price": "",
-            "restrictions": [
-                "Vegetarian",
-                "Contains Soy",
+            "allergens": "\"Vegetarian",
+            "price": "ontains Soy",
+            "null": [
                 "Sustainability",
                 "Vegetarian",
                 "Contains Soy",
                 "Sustainability",
+                "\"",
                 ""
+            ],
+            "restrictions": [
+                "\"Vegetarian"
             ]
         },
         {
@@ -2048,14 +2160,16 @@
             "proteinDV": "",
             "sodium": "223.7",
             "sodiumDV": "10",
-            "allergens": "Vegan, Sustainability, Vegan, Sustainability, ",
-            "price": "",
-            "restrictions": [
+            "allergens": "\"Vegan",
+            "price": "ustainability",
+            "null": [
                 "Vegan",
                 "Sustainability",
-                "Vegan",
-                "Sustainability",
+                "\"",
                 ""
+            ],
+            "restrictions": [
+                "\"Vegan"
             ]
         },
         {
@@ -2080,14 +2194,16 @@
             "proteinDV": "",
             "sodium": "16.3",
             "sodiumDV": "1",
-            "allergens": "Vegan, Sustainability, Vegan, Sustainability, ",
-            "price": "",
-            "restrictions": [
+            "allergens": "\"Vegan",
+            "price": "ustainability",
+            "null": [
                 "Vegan",
                 "Sustainability",
-                "Vegan",
-                "Sustainability",
+                "\"",
                 ""
+            ],
+            "restrictions": [
+                "\"Vegan"
             ]
         },
         {
@@ -2112,12 +2228,14 @@
             "proteinDV": "",
             "sodium": "356.4",
             "sodiumDV": "15",
-            "allergens": "Wellness, Wellness, ",
-            "price": "8.00",
+            "allergens": "\"Wellness",
+            "price": "ellness",
+            "null": [
+                "\"",
+                "$8.00"
+            ],
             "restrictions": [
-                "Wellness",
-                "Wellness",
-                ""
+                "\"Wellness"
             ]
         },
         {
@@ -2142,14 +2260,16 @@
             "proteinDV": "",
             "sodium": "1178",
             "sodiumDV": "51",
-            "allergens": "Contains Shellfish, Sustainability, Contains Shellfish, Sustainability, ",
-            "price": "9.00",
+            "allergens": "\"Contains Shellfish",
+            "price": "ustainability",
+            "null": [
+                "Contains Shellfish",
+                "Sustainability",
+                "\"",
+                "$9.00"
+            ],
             "restrictions": [
-                "Contains Shellfish",
-                "Sustainability",
-                "Contains Shellfish",
-                "Sustainability",
-                ""
+                "\"Contains Shellfish"
             ]
         },
         {
@@ -2174,14 +2294,16 @@
             "proteinDV": "",
             "sodium": "173.6",
             "sodiumDV": "8",
-            "allergens": "Contains Fish, Sustainability, Contains Fish, Sustainability, ",
-            "price": "10.00",
+            "allergens": "\"Contains Fish",
+            "price": "ustainability",
+            "null": [
+                "Contains Fish",
+                "Sustainability",
+                "\"",
+                "$10.00"
+            ],
             "restrictions": [
-                "Contains Fish",
-                "Sustainability",
-                "Contains Fish",
-                "Sustainability",
-                ""
+                "\"Contains Fish"
             ]
         },
         {
@@ -2206,18 +2328,20 @@
             "proteinDV": "",
             "sodium": "32.9",
             "sodiumDV": "1",
-            "allergens": "Wellness, Contains Fish, Contains Sesame, Sustainability, Wellness, Contains Fish, Contains Gluten, Sustainability, ",
-            "price": "10.00",
-            "restrictions": [
-                "Wellness",
-                "Contains Fish",
+            "allergens": "\"Wellness",
+            "price": "ontains Fish",
+            "null": [
                 "Contains Sesame",
                 "Sustainability",
                 "Wellness",
                 "Contains Fish",
                 "Contains Gluten",
                 "Sustainability",
-                ""
+                "\"",
+                "$10.00"
+            ],
+            "restrictions": [
+                "\"Wellness"
             ]
         },
         {
@@ -2242,18 +2366,20 @@
             "proteinDV": "",
             "sodium": "11.5",
             "sodiumDV": "0",
-            "allergens": "Vegan, Wellness, Contains Soy, Sustainability, Vegan, Wellness, Contains Soy, Sustainability, ",
-            "price": "8.00",
+            "allergens": "\"Vegan",
+            "price": "ellness",
+            "null": [
+                "Contains Soy",
+                "Sustainability",
+                "Vegan",
+                "Wellness",
+                "Contains Soy",
+                "Sustainability",
+                "\"",
+                "$8.00"
+            ],
             "restrictions": [
-                "Vegan",
-                "Wellness",
-                "Contains Soy",
-                "Sustainability",
-                "Vegan",
-                "Wellness",
-                "Contains Soy",
-                "Sustainability",
-                ""
+                "\"Vegan"
             ]
         },
         {
@@ -2278,15 +2404,17 @@
             "proteinDV": "",
             "sodium": "771",
             "sodiumDV": "34",
-            "allergens": "Contains Wheat, Contains Gluten, Sustainability, Contains Wheat, Sustainability, ",
-            "price": "",
-            "restrictions": [
-                "Contains Wheat",
-                "Contains Gluten",
+            "allergens": "\"Contains Wheat",
+            "price": "ontains Gluten",
+            "null": [
                 "Sustainability",
                 "Contains Wheat",
                 "Sustainability",
+                "\"",
                 ""
+            ],
+            "restrictions": [
+                "\"Contains Wheat"
             ]
         },
         {
@@ -2311,17 +2439,19 @@
             "proteinDV": "",
             "sodium": "445.7",
             "sodiumDV": "19",
-            "allergens": "Contains Soy, Contains Wheat, Contains Gluten, Sustainability, Contains Soy, Contains Wheat, Sustainability, ",
-            "price": "",
-            "restrictions": [
-                "Contains Soy",
-                "Contains Wheat",
+            "allergens": "\"Contains Soy",
+            "price": "ontains Wheat",
+            "null": [
                 "Contains Gluten",
                 "Sustainability",
                 "Contains Soy",
                 "Contains Wheat",
                 "Sustainability",
+                "\"",
                 ""
+            ],
+            "restrictions": [
+                "\"Contains Soy"
             ]
         },
         {
@@ -2346,16 +2476,18 @@
             "proteinDV": "",
             "sodium": "2396.8",
             "sodiumDV": "104",
-            "allergens": "Contains Dairy, Contains Soy, Sustainability, Contains Dairy, Contains Soy, Sustainability, ",
-            "price": "",
-            "restrictions": [
-                "Contains Dairy",
-                "Contains Soy",
+            "allergens": "\"Contains Dairy",
+            "price": "ontains Soy",
+            "null": [
                 "Sustainability",
                 "Contains Dairy",
                 "Contains Soy",
                 "Sustainability",
+                "\"",
                 ""
+            ],
+            "restrictions": [
+                "\"Contains Dairy"
             ]
         },
         {
@@ -2380,16 +2512,18 @@
             "proteinDV": "",
             "sodium": "2.3",
             "sodiumDV": "0",
-            "allergens": "Vegan, Wellness, Sustainability, Vegan, Wellness, Sustainability, ",
-            "price": "1.50",
+            "allergens": "\"Vegan",
+            "price": "ellness",
+            "null": [
+                "Sustainability",
+                "Vegan",
+                "Wellness",
+                "Sustainability",
+                "\"",
+                "$1.50"
+            ],
             "restrictions": [
-                "Vegan",
-                "Wellness",
-                "Sustainability",
-                "Vegan",
-                "Wellness",
-                "Sustainability",
-                ""
+                "\"Vegan"
             ]
         },
         {
@@ -2414,11 +2548,9 @@
             "proteinDV": "",
             "sodium": "175.6",
             "sodiumDV": "8",
-            "allergens": "Vegetarian, Contains Dairy, Contains Soy, Contains Eggs, Sustainability, Vegetarian, Contains Dairy, Contains Soy, Contains Eggs, Sustainability, ",
-            "price": "",
-            "restrictions": [
-                "Vegetarian",
-                "Contains Dairy",
+            "allergens": "\"Vegetarian",
+            "price": "ontains Dairy",
+            "null": [
                 "Contains Soy",
                 "Contains Eggs",
                 "Sustainability",
@@ -2427,7 +2559,11 @@
                 "Contains Soy",
                 "Contains Eggs",
                 "Sustainability",
+                "\"",
                 ""
+            ],
+            "restrictions": [
+                "\"Vegetarian"
             ]
         },
         {
@@ -2452,16 +2588,18 @@
             "proteinDV": "",
             "sodium": "58.2",
             "sodiumDV": "3",
-            "allergens": "Vegetarian, Contains Dairy, Sustainability, Vegetarian, Contains Dairy, Sustainability, ",
-            "price": "",
-            "restrictions": [
-                "Vegetarian",
-                "Contains Dairy",
+            "allergens": "\"Vegetarian",
+            "price": "ontains Dairy",
+            "null": [
                 "Sustainability",
                 "Vegetarian",
                 "Contains Dairy",
                 "Sustainability",
+                "\"",
                 ""
+            ],
+            "restrictions": [
+                "\"Vegetarian"
             ]
         },
         {
@@ -2486,11 +2624,9 @@
             "proteinDV": "",
             "sodium": "216.9",
             "sodiumDV": "9",
-            "allergens": "Vegetarian, Contains Soy, Contains Wheat, Contains Gluten, Contains Sesame, Sustainability, Vegetarian, Contains Soy, Contains Wheat, Contains Gluten, Sustainability, ",
-            "price": "",
-            "restrictions": [
-                "Vegetarian",
-                "Contains Soy",
+            "allergens": "\"Vegetarian",
+            "price": "ontains Soy",
+            "null": [
                 "Contains Wheat",
                 "Contains Gluten",
                 "Contains Sesame",
@@ -2500,7 +2636,11 @@
                 "Contains Wheat",
                 "Contains Gluten",
                 "Sustainability",
+                "\"",
                 ""
+            ],
+            "restrictions": [
+                "\"Vegetarian"
             ]
         },
         {
@@ -2525,14 +2665,16 @@
             "proteinDV": "",
             "sodium": "223.7",
             "sodiumDV": "10",
-            "allergens": "Vegan, Sustainability, Vegan, Sustainability, ",
-            "price": "",
-            "restrictions": [
+            "allergens": "\"Vegan",
+            "price": "ustainability",
+            "null": [
                 "Vegan",
                 "Sustainability",
-                "Vegan",
-                "Sustainability",
+                "\"",
                 ""
+            ],
+            "restrictions": [
+                "\"Vegan"
             ]
         },
         {
@@ -2557,16 +2699,18 @@
             "proteinDV": "",
             "sodium": "88.5",
             "sodiumDV": "4",
-            "allergens": "Vegetarian, Contains Dairy, Sustainability, Vegetarian, Contains Dairy, Sustainability, ",
-            "price": "",
-            "restrictions": [
-                "Vegetarian",
-                "Contains Dairy",
+            "allergens": "\"Vegetarian",
+            "price": "ontains Dairy",
+            "null": [
                 "Sustainability",
                 "Vegetarian",
                 "Contains Dairy",
                 "Sustainability",
+                "\"",
                 ""
+            ],
+            "restrictions": [
+                "\"Vegetarian"
             ]
         },
         {
@@ -2591,11 +2735,9 @@
             "proteinDV": "",
             "sodium": "936.6",
             "sodiumDV": "41",
-            "allergens": "Contains Dairy, Contains Wheat, Contains Fish, Contains Shellfish, Contains Gluten, Sustainability, Contains Dairy, Contains Wheat, Contains Fish, Contains Shellfish, Sustainability, ",
-            "price": "4.00",
-            "restrictions": [
-                "Contains Dairy",
-                "Contains Wheat",
+            "allergens": "\"Contains Dairy",
+            "price": "ontains Wheat",
+            "null": [
                 "Contains Fish",
                 "Contains Shellfish",
                 "Contains Gluten",
@@ -2605,7 +2747,11 @@
                 "Contains Fish",
                 "Contains Shellfish",
                 "Sustainability",
-                ""
+                "\"",
+                "$4.00"
+            ],
+            "restrictions": [
+                "\"Contains Dairy"
             ]
         },
         {
@@ -2630,17 +2776,19 @@
             "proteinDV": "",
             "sodium": "255.1",
             "sodiumDV": "11",
-            "allergens": "Contains Soy, Contains Wheat, Contains Gluten, Contains Sesame, Contains Soy, Contains Wheat, Contains Gluten, ",
-            "price": "3.00",
-            "restrictions": [
-                "Contains Soy",
-                "Contains Wheat",
+            "allergens": "\"Contains Soy",
+            "price": "ontains Wheat",
+            "null": [
                 "Contains Gluten",
                 "Contains Sesame",
                 "Contains Soy",
                 "Contains Wheat",
                 "Contains Gluten",
-                ""
+                "\"",
+                "$3.00"
+            ],
+            "restrictions": [
+                "\"Contains Soy"
             ]
         },
         {
@@ -2665,11 +2813,9 @@
             "proteinDV": "",
             "sodium": "233.3",
             "sodiumDV": "10",
-            "allergens": "Vegan, Wellness, Contains Soy, Contains Wheat, Contains Gluten, Sustainability, Vegan, Wellness, Contains Soy, Contains Wheat, Sustainability, ",
-            "price": "2.00",
-            "restrictions": [
-                "Vegan",
-                "Wellness",
+            "allergens": "\"Vegan",
+            "price": "ellness",
+            "null": [
                 "Contains Soy",
                 "Contains Wheat",
                 "Contains Gluten",
@@ -2679,7 +2825,11 @@
                 "Contains Soy",
                 "Contains Wheat",
                 "Sustainability",
-                ""
+                "\"",
+                "$2.00"
+            ],
+            "restrictions": [
+                "\"Vegan"
             ]
         },
         {
@@ -2704,16 +2854,18 @@
             "proteinDV": "",
             "sodium": "5.7",
             "sodiumDV": "0",
-            "allergens": "Vegan, Wellness, Sustainability, Vegan, Wellness, Sustainability, ",
-            "price": "",
-            "restrictions": [
-                "Vegan",
-                "Wellness",
+            "allergens": "\"Vegan",
+            "price": "ellness",
+            "null": [
                 "Sustainability",
                 "Vegan",
                 "Wellness",
                 "Sustainability",
+                "\"",
                 ""
+            ],
+            "restrictions": [
+                "\"Vegan"
             ]
         },
         {
@@ -2738,16 +2890,18 @@
             "proteinDV": "",
             "sodium": "1.1",
             "sodiumDV": "0",
-            "allergens": "Vegan, Wellness, Sustainability, Vegan, Wellness, Sustainability, ",
-            "price": "",
-            "restrictions": [
-                "Vegan",
-                "Wellness",
+            "allergens": "\"Vegan",
+            "price": "ellness",
+            "null": [
                 "Sustainability",
                 "Vegan",
                 "Wellness",
                 "Sustainability",
+                "\"",
                 ""
+            ],
+            "restrictions": [
+                "\"Vegan"
             ]
         },
         {
@@ -2772,18 +2926,20 @@
             "proteinDV": "",
             "sodium": "2086.9",
             "sodiumDV": "91",
-            "allergens": "Contains Dairy, Contains Soy, Contains Shellfish, Sustainability, Contains Dairy, Contains Soy, Contains Shellfish, Sustainability, ",
-            "price": "9.00",
+            "allergens": "\"Contains Dairy",
+            "price": "ontains Soy",
+            "null": [
+                "Contains Shellfish",
+                "Sustainability",
+                "Contains Dairy",
+                "Contains Soy",
+                "Contains Shellfish",
+                "Sustainability",
+                "\"",
+                "$9.00"
+            ],
             "restrictions": [
-                "Contains Dairy",
-                "Contains Soy",
-                "Contains Shellfish",
-                "Sustainability",
-                "Contains Dairy",
-                "Contains Soy",
-                "Contains Shellfish",
-                "Sustainability",
-                ""
+                "\"Contains Dairy"
             ]
         },
         {
@@ -2808,11 +2964,9 @@
             "proteinDV": "",
             "sodium": "2162.8",
             "sodiumDV": "94",
-            "allergens": "Contains Dairy, Contains Soy, Contains Wheat, Contains Shellfish, Contains Gluten, Sustainability, Contains Dairy, Contains Soy, Contains Wheat, Contains Shellfish, Sustainability, ",
-            "price": "9.00",
-            "restrictions": [
-                "Contains Dairy",
-                "Contains Soy",
+            "allergens": "\"Contains Dairy",
+            "price": "ontains Soy",
+            "null": [
                 "Contains Wheat",
                 "Contains Shellfish",
                 "Contains Gluten",
@@ -2822,7 +2976,11 @@
                 "Contains Wheat",
                 "Contains Shellfish",
                 "Sustainability",
-                ""
+                "\"",
+                "$9.00"
+            ],
+            "restrictions": [
+                "\"Contains Dairy"
             ]
         },
         {
@@ -2847,17 +3005,19 @@
             "proteinDV": "",
             "sodium": "1709.8",
             "sodiumDV": "74",
-            "allergens": "Contains Dairy, Contains Soy, Contains Wheat, Contains Gluten, Contains Dairy, Contains Soy, Contains Wheat, ",
-            "price": "9.00",
-            "restrictions": [
-                "Contains Dairy",
-                "Contains Soy",
+            "allergens": "\"Contains Dairy",
+            "price": "ontains Soy",
+            "null": [
                 "Contains Wheat",
                 "Contains Gluten",
                 "Contains Dairy",
                 "Contains Soy",
                 "Contains Wheat",
-                ""
+                "\"",
+                "$9.00"
+            ],
+            "restrictions": [
+                "\"Contains Dairy"
             ]
         },
         {
@@ -2882,17 +3042,19 @@
             "proteinDV": "",
             "sodium": "1990.7",
             "sodiumDV": "87",
-            "allergens": "Contains Dairy, Contains Soy, Contains Wheat, Contains Gluten, Contains Dairy, Contains Soy, Contains Wheat, ",
-            "price": "9.00",
-            "restrictions": [
-                "Contains Dairy",
-                "Contains Soy",
+            "allergens": "\"Contains Dairy",
+            "price": "ontains Soy",
+            "null": [
                 "Contains Wheat",
                 "Contains Gluten",
                 "Contains Dairy",
                 "Contains Soy",
                 "Contains Wheat",
-                ""
+                "\"",
+                "$9.00"
+            ],
+            "restrictions": [
+                "\"Contains Dairy"
             ]
         },
         {
@@ -2917,14 +3079,16 @@
             "proteinDV": "",
             "sodium": "1702",
             "sodiumDV": "74",
-            "allergens": "Contains Dairy, Contains Soy, Contains Dairy, Contains Soy, ",
-            "price": "8.50",
+            "allergens": "\"Contains Dairy",
+            "price": "ontains Soy",
+            "null": [
+                "Contains Dairy",
+                "Contains Soy",
+                "\"",
+                "$8.50"
+            ],
             "restrictions": [
-                "Contains Dairy",
-                "Contains Soy",
-                "Contains Dairy",
-                "Contains Soy",
-                ""
+                "\"Contains Dairy"
             ]
         },
         {
@@ -2949,17 +3113,19 @@
             "proteinDV": "",
             "sodium": "1982.9",
             "sodiumDV": "86",
-            "allergens": "Contains Dairy, Contains Soy, Contains Wheat, Contains Gluten, Contains Dairy, Contains Soy, Contains Wheat, ",
-            "price": "8.50",
-            "restrictions": [
-                "Contains Dairy",
-                "Contains Soy",
+            "allergens": "\"Contains Dairy",
+            "price": "ontains Soy",
+            "null": [
                 "Contains Wheat",
                 "Contains Gluten",
                 "Contains Dairy",
                 "Contains Soy",
                 "Contains Wheat",
-                ""
+                "\"",
+                "$8.50"
+            ],
+            "restrictions": [
+                "\"Contains Dairy"
             ]
         },
         {
@@ -2984,14 +3150,16 @@
             "proteinDV": "",
             "sodium": "2041.1",
             "sodiumDV": "89",
-            "allergens": "Contains Dairy, Contains Soy, Contains Dairy, Contains Soy, ",
-            "price": "8.50",
+            "allergens": "\"Contains Dairy",
+            "price": "ontains Soy",
+            "null": [
+                "Contains Dairy",
+                "Contains Soy",
+                "\"",
+                "$8.50"
+            ],
             "restrictions": [
-                "Contains Dairy",
-                "Contains Soy",
-                "Contains Dairy",
-                "Contains Soy",
-                ""
+                "\"Contains Dairy"
             ]
         },
         {
@@ -3016,17 +3184,19 @@
             "proteinDV": "",
             "sodium": "2322",
             "sodiumDV": "101",
-            "allergens": "Contains Dairy, Contains Soy, Contains Wheat, Contains Gluten, Contains Dairy, Contains Soy, Contains Wheat, ",
-            "price": "8.50",
-            "restrictions": [
-                "Contains Dairy",
-                "Contains Soy",
+            "allergens": "\"Contains Dairy",
+            "price": "ontains Soy",
+            "null": [
                 "Contains Wheat",
                 "Contains Gluten",
                 "Contains Dairy",
                 "Contains Soy",
                 "Contains Wheat",
-                ""
+                "\"",
+                "$8.50"
+            ],
+            "restrictions": [
+                "\"Contains Dairy"
             ]
         },
         {
@@ -3051,18 +3221,20 @@
             "proteinDV": "",
             "sodium": "1984.9",
             "sodiumDV": "86",
-            "allergens": "Vegetarian, Contains Dairy, Contains Soy, Sustainability, Vegetarian, Contains Dairy, Contains Soy, Sustainability, ",
-            "price": "7.50",
+            "allergens": "\"Vegetarian",
+            "price": "ontains Dairy",
+            "null": [
+                "Contains Soy",
+                "Sustainability",
+                "Vegetarian",
+                "Contains Dairy",
+                "Contains Soy",
+                "Sustainability",
+                "\"",
+                "$7.50"
+            ],
             "restrictions": [
-                "Vegetarian",
-                "Contains Dairy",
-                "Contains Soy",
-                "Sustainability",
-                "Vegetarian",
-                "Contains Dairy",
-                "Contains Soy",
-                "Sustainability",
-                ""
+                "\"Vegetarian"
             ]
         },
         {
@@ -3087,14 +3259,16 @@
             "proteinDV": "",
             "sodium": "3.9",
             "sodiumDV": "0",
-            "allergens": "Vegan, Sustainability, Vegan, Sustainability, ",
-            "price": "",
-            "restrictions": [
+            "allergens": "\"Vegan",
+            "price": "ustainability",
+            "null": [
                 "Vegan",
                 "Sustainability",
-                "Vegan",
-                "Sustainability",
+                "\"",
                 ""
+            ],
+            "restrictions": [
+                "\"Vegan"
             ]
         },
         {
@@ -3119,16 +3293,18 @@
             "proteinDV": "",
             "sodium": "435.4",
             "sodiumDV": "19",
-            "allergens": "Vegetarian, Contains Dairy, Sustainability, Vegetarian, Contains Dairy, Sustainability, ",
-            "price": "",
-            "restrictions": [
-                "Vegetarian",
-                "Contains Dairy",
+            "allergens": "\"Vegetarian",
+            "price": "ontains Dairy",
+            "null": [
                 "Sustainability",
                 "Vegetarian",
                 "Contains Dairy",
                 "Sustainability",
+                "\"",
                 ""
+            ],
+            "restrictions": [
+                "\"Vegetarian"
             ]
         },
         {
@@ -3153,14 +3329,16 @@
             "proteinDV": "",
             "sodium": "24.8",
             "sodiumDV": "1",
-            "allergens": "Vegan, Sustainability, Vegan, Sustainability, ",
-            "price": "",
-            "restrictions": [
+            "allergens": "\"Vegan",
+            "price": "ustainability",
+            "null": [
                 "Vegan",
                 "Sustainability",
-                "Vegan",
-                "Sustainability",
+                "\"",
                 ""
+            ],
+            "restrictions": [
+                "\"Vegan"
             ]
         },
         {
@@ -3185,18 +3363,20 @@
             "proteinDV": "",
             "sodium": "135.8",
             "sodiumDV": "6",
-            "allergens": "Vegetarian, Contains Dairy, Contains Soy, Contains Eggs, Vegetarian, Contains Dairy, Contains Soy, Contains Eggs, ",
-            "price": "",
-            "restrictions": [
-                "Vegetarian",
-                "Contains Dairy",
+            "allergens": "\"Vegetarian",
+            "price": "ontains Dairy",
+            "null": [
                 "Contains Soy",
                 "Contains Eggs",
                 "Vegetarian",
                 "Contains Dairy",
                 "Contains Soy",
                 "Contains Eggs",
+                "\"",
                 ""
+            ],
+            "restrictions": [
+                "\"Vegetarian"
             ]
         },
         {
@@ -3221,16 +3401,18 @@
             "proteinDV": "",
             "sodium": "50.2",
             "sodiumDV": "2",
-            "allergens": "Vegetarian, Contains Dairy, Sustainability, Vegetarian, Contains Dairy, Sustainability, ",
-            "price": "3.00",
+            "allergens": "\"Vegetarian",
+            "price": "ontains Dairy",
+            "null": [
+                "Sustainability",
+                "Vegetarian",
+                "Contains Dairy",
+                "Sustainability",
+                "\"",
+                "$3.00"
+            ],
             "restrictions": [
-                "Vegetarian",
-                "Contains Dairy",
-                "Sustainability",
-                "Vegetarian",
-                "Contains Dairy",
-                "Sustainability",
-                ""
+                "\"Vegetarian"
             ]
         },
         {
@@ -3255,18 +3437,20 @@
             "proteinDV": "",
             "sodium": "89.9",
             "sodiumDV": "4",
-            "allergens": "Vegetarian, Contains Dairy, Contains Eggs, Sustainability, Vegetarian, Contains Dairy, Contains Eggs, Sustainability, ",
-            "price": "3.00",
+            "allergens": "\"Vegetarian",
+            "price": "ontains Dairy",
+            "null": [
+                "Contains Eggs",
+                "Sustainability",
+                "Vegetarian",
+                "Contains Dairy",
+                "Contains Eggs",
+                "Sustainability",
+                "\"",
+                "$3.00"
+            ],
             "restrictions": [
-                "Vegetarian",
-                "Contains Dairy",
-                "Contains Eggs",
-                "Sustainability",
-                "Vegetarian",
-                "Contains Dairy",
-                "Contains Eggs",
-                "Sustainability",
-                ""
+                "\"Vegetarian"
             ]
         },
         {
@@ -3291,16 +3475,18 @@
             "proteinDV": "",
             "sodium": "1773",
             "sodiumDV": "77",
-            "allergens": "Contains Soy, Contains Shellfish, Sustainability, Contains Soy, Contains Shellfish, Sustainability, ",
-            "price": "6.00",
+            "allergens": "\"Contains Soy",
+            "price": "ontains Shellfish",
+            "null": [
+                "Sustainability",
+                "Contains Soy",
+                "Contains Shellfish",
+                "Sustainability",
+                "\"",
+                "$6.00"
+            ],
             "restrictions": [
-                "Contains Soy",
-                "Contains Shellfish",
-                "Sustainability",
-                "Contains Soy",
-                "Contains Shellfish",
-                "Sustainability",
-                ""
+                "\"Contains Soy"
             ]
         },
         {
@@ -3325,16 +3511,18 @@
             "proteinDV": "",
             "sodium": "619.5",
             "sodiumDV": "27",
-            "allergens": "Vegan, Contains Soy, Sustainability, Vegan, Contains Soy, Sustainability, ",
-            "price": "1.50",
+            "allergens": "\"Vegan",
+            "price": "ontains Soy",
+            "null": [
+                "Sustainability",
+                "Vegan",
+                "Contains Soy",
+                "Sustainability",
+                "\"",
+                "$1.50"
+            ],
             "restrictions": [
-                "Vegan",
-                "Contains Soy",
-                "Sustainability",
-                "Vegan",
-                "Contains Soy",
-                "Sustainability",
-                ""
+                "\"Vegan"
             ]
         },
         {
@@ -3359,14 +3547,16 @@
             "proteinDV": "",
             "sodium": "743.7",
             "sodiumDV": "32",
-            "allergens": "Vegan, Sustainability, Vegan, Sustainability, ",
-            "price": "4.00",
+            "allergens": "\"Vegan",
+            "price": "ustainability",
+            "null": [
+                "Vegan",
+                "Sustainability",
+                "\"",
+                "$4.00"
+            ],
             "restrictions": [
-                "Vegan",
-                "Sustainability",
-                "Vegan",
-                "Sustainability",
-                ""
+                "\"Vegan"
             ]
         },
         {
@@ -3391,14 +3581,16 @@
             "proteinDV": "",
             "sodium": "36.4",
             "sodiumDV": "2",
-            "allergens": "Vegan, Wellness, Vegan, Wellness, ",
-            "price": "1.50",
+            "allergens": "\"Vegan",
+            "price": "ellness",
+            "null": [
+                "Vegan",
+                "Wellness",
+                "\"",
+                "$1.50"
+            ],
             "restrictions": [
-                "Vegan",
-                "Wellness",
-                "Vegan",
-                "Wellness",
-                ""
+                "\"Vegan"
             ]
         },
         {
