@@ -12,22 +12,28 @@ jsonArray = []
 # parse the file and write its attributes to a document
 def parse_data(file):
     # dict to represent JSON of hall
-    hall = {"name":file, "food":[]}
+    hall = {"name":file[:-4], "food":[]}
 
     # get data field labels as keys
     with open(csv_direc + "\\" + file, "r") as f:
-        #TODO: CHange to csv.QUOTE_NONNUMERIC???
+        
         reader = csv.DictReader(f, quoting=csv.QUOTE_ALL, skipinitialspace=True)
     
+        #TODO: Maybe find way to get number fields as numbers and non number fields as numbers
         # parse each line and write it into a JSON format
         for foodItem in reader:
             # split allergens and restrictions into a list
-            #TODO: Change "allergens" back to "restrictions" once CSV files fixed
-            #TODO: Remove dollar sign from price
-            restrictionsList = [restriction.strip() for restriction in foodItem["allergens"].split(",")]
+            restrictionsList = [restriction.strip() for restriction in foodItem["restrictions"].split(",")]
 
-            foodItem["restrictions"] = restrictionsList
+            foodItem["restrictions"] = restrictionsList[:-1]
+
+            # remove dollar sign from price
             foodItem["price"] = foodItem["price"][1:]
+
+            # remove extra whitespace from food name
+            foodItem["food"] = foodItem["food"].strip()
+
+
 
             # add food to JSON array
             jsonArray.append(foodItem)
