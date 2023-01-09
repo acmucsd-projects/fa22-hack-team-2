@@ -1,11 +1,13 @@
 import {React, useState} from "react";
 import "./style.css";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
 import API from "../API"
 
 export const DisplayChoice = () => {
     // jump between pages
     let nav = useNavigate();
+
+    //TODO: use useLocation to process list of foods that fit criteria
 
     //initial state of food recommendation
     const foodInit = {
