@@ -111,7 +111,7 @@ const DiningSchema = new mongoose.Schema(
         restrictions: {
             type: [String],
             required: [false, "restrictions are required"]
-        },
+        },,
         // implement price if possible
         price: {
             type: Number,
