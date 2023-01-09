@@ -120,13 +120,15 @@ def scrapeRestauraunts(url):
                 "totFat", "totFatDV", "totCarb", "totCarbDV", "satFat", 
                 "satFatDV","dietaryFiber", "dietaryFiberDV", "transFat", "transFatDV",
                 "sugars", "sugarsDV", "cholesterol", "cholesterolDV", "protein", 
-                "proteinDV", "sodium", "sodiumDV", "allergens", "price"])
+                "proteinDV", "sodium", "sodiumDV", "restrictions", "price"])
 
     # figure out each food's URL, Price, Allergens
     for section in soup.find_all('li'):
+
         for link in section.find_all('a', href=True):
-            f.write("OPAIWUJD:KLDSF    " + str(section) + "\n")
+            # f.write("OPAIWUJD:KLDSF    " + str(section) + "\n")
             direct = link.get("href")
+            # print(direct)
             # find URL
             price = ""
             if "nutritionfacts" in direct:
@@ -137,6 +139,8 @@ def scrapeRestauraunts(url):
                 price = link.text.strip()
                 if price.find("$") > 1:
                     price = price[price.find("$"):]
+            else: 
+                continue
             allergens = ""
             for image in section.find_all('img', alt=True):
                 txt = image.get("alt")

@@ -1,62 +1,18 @@
-food,cal,calFromFat,totFat,totFatDV,totCarb,totCarbDV,satFat,satFatDV,dietaryFiber,dietaryFiberDV,transFat,transFatDV,sugars,sugarsDV,cholesterol,cholesterolDV,protein,proteinDV,sodium,sodiumDV,allergens,price
-Avocado Toast ,494,244,27.1,71,51.5,,6.1,31,6.1,20,0,,7.3,6,6.6,,17.9,,810.1,35,"Vegetarian, Wellness, Contains Dairy, Contains Soy, Contains Wheat, Contains Gluten, Sustainability, Vegetarian, Wellness, Contains Dairy, Contains Soy, Contains Wheat, Sustainability, ",$4.00
-Ham Bobcat Sandwich ,465,205,22.7,60,32.9,,11.1,55,2.7,9,0,,5.2,4,238.9,,28.1,,1288.6,56,"Contains Dairy, Contains Soy, Contains Wheat, Contains Eggs, Contains Gluten, Contains Dairy, Contains Soy, Contains Wheat, Contains Eggs, ",$5.25
-AGUA FRESCA LEMONADE ,158,0,0,0,36.8,,0,0,0,0,0,,36.8,28,0,,0,,541.7,24,"Vegan, Vegan, ",$2.50
-AGUA FRESCA SWEET TEA ,158,0,0,0,40.8,,0,0,0,0,0,,39.5,30,0,,0,,541.7,24,"Vegan, Vegan, ",$2.50
+food,cal,calFromFat,totFat,totFatDV,totCarb,totCarbDV,satFat,satFatDV,dietaryFiber,dietaryFiberDV,transFat,transFatDV,sugars,sugarsDV,cholesterol,cholesterolDV,protein,proteinDV,sodium,sodiumDV,restrictions,price
 Aloha Volcano Burger ,362,202,22.4,59,26.1,,9.8,49,2.5,8,0,,19.4,15,62.6,,13.2,,1041.4,45,"Contains Dairy, Contains Dairy, ",$9.00
 California Style ,220,187,20.8,55,7.5,,1.5,8,3.3,11,0,,2.6,2,0,,1.6,,137.3,6,"Vegan, Contains Soy, Sustainability, Vegan, Contains Soy, Sustainability, ",$8.00
 Humpty Dumpty Style ,419,300,33.3,88,11.8,,8.9,45,0,0,0,,0.5,0,235,,18.7,,1109.3,48,"Contains Dairy, Contains Soy, Contains Eggs, Contains Dairy, Contains Soy, Contains Eggs, ",$9.00
 Texas BBQ Style ,197,104,11.5,30,19,,2.6,13,0,0,0,,10.8,8,14.7,,2.9,,539,23,"Vegetarian, Contains Dairy, Contains Soy, Contains Wheat, Contains Gluten, Sustainability, Vegetarian, Contains Dairy, Contains Soy, Contains Wheat, Sustainability, ",$8.00
 Triton Style ,23,1,0.1,0,5.1,,0,0,1.2,4,0,,2.4,2,0,,0.9,,92.8,4,"Vegan, Sustainability, Vegan, Sustainability, ",$7.00
-Chicken Tenders ,640,403,44.7,118,32.2,,6.2,31,2,7,2.1,,2,2,55.4,,28.2,,1057.2,46,"Contains Wheat, Contains Gluten, Contains Wheat, ",$6.00
-Curly Fries ,292,123,13.6,36,36.5,,2.4,12,4.1,14,0,,2,2,0,,4.1,,595.4,26,"Vegan, Contains Soy, Contains Wheat, Contains Gluten, Sustainability, Vegan, Contains Soy, Contains Wheat, Sustainability, ",$3.00
-French Fries ,322,150,16.7,44,36.9,,2.5,13,0,0,0,,1.8,1,0,,3.7,,663.4,29,"Vegan, Contains Soy, Sustainability, Vegan, Contains Soy, Sustainability, ",$3.00
-Serrano Pesto Grilled Vegetables ,101,76,8.4,22,6.3,,0.9,5,2.4,8,0,,2.1,2,1.7,,2.8,,544.3,24,"Vegetarian, Contains Dairy, Sustainability, Vegetarian, Contains Dairy, Sustainability, ",$3.00
+Avocado Toast ,494,244,27.1,71,51.5,,6.1,31,6.1,20,0,,7.3,6,6.6,,17.9,,810.1,35,"Vegetarian, Wellness, Contains Dairy, Contains Soy, Contains Wheat, Contains Gluten, Sustainability, Vegetarian, Wellness, Contains Dairy, Contains Soy, Contains Wheat, Sustainability, ",$4.00
+Ham Bobcat Sandwich ,465,205,22.7,60,32.9,,11.1,55,2.7,9,0,,5.2,4,238.9,,28.1,,1288.6,56,"Contains Dairy, Contains Soy, Contains Wheat, Contains Eggs, Contains Gluten, Contains Dairy, Contains Soy, Contains Wheat, Contains Eggs, ",$5.25
 Buffalo Chicken Melt ,532,329,36.4,96,3.8,,20,100,1,3,0.8,,2,2,184,,42.8,,1291.3,56,"Contains Dairy, Contains Soy, Contains Wheat, Contains Eggs, Contains Gluten, Contains Dairy, Contains Soy, Contains Wheat, Contains Eggs, ",$8.50
 Memphis Melt ,937,365,40.4,106,82.2,,12.6,63,2.7,9,0,,27.4,21,100.8,,42.4,,2907.9,126,"Contains Dairy, Contains Soy, Contains Wheat, Contains Eggs, Contains Gluten, Contains Dairy, Contains Soy, Contains Wheat, Contains Eggs, ",$9.00
 Spicy Ham and Cheese Melt ,806,414,45.9,121,48.6,,18.1,91,2.3,8,0,,4.1,3,124,,39.1,,2253.8,98,"Contains Dairy, Contains Soy, Contains Wheat, Contains Eggs, Contains Gluten, Contains Dairy, Contains Soy, Contains Wheat, Contains Eggs, ",$9.00
-Arroz con Leche ,196,31,3.4,9,35.8,,2.1,11,1.5,5,0,,19.3,15,11.7,,5,,50.2,2,"Vegetarian, Contains Dairy, Sustainability, Vegetarian, Contains Dairy, Sustainability, ",$3.00
-Chocoflan Cake ,384,139,15.4,40,52.7,,4.9,25,0.2,1,0.1,,42.7,33,85.5,,8.3,,301.1,13,"Vegetarian, Contains Dairy, Contains Soy, Contains Wheat, Contains Eggs, Contains Gluten, Sustainability, Vegetarian, Contains Dairy, Contains Soy, Contains Wheat, Contains Eggs, Sustainability, ",$3.50
-Sesame Balls ,366,152,16.8,44,50,,0.1,1,5,17,0,,35,27,0,,10,,25,1,"Vegan, Contains Sesame, Vegan, Contains Gluten, ",$4.00
-Thai Mango Sticky Rice ,325,89,9.9,26,54.2,,8,40,1.8,6,0,,28.2,22,7.4,,5.7,,39.8,2,"Vegetarian, Contains Dairy, Sustainability, Vegetarian, Contains Dairy, Sustainability, ",$3.00
-Crispy Chicken Sandwich ,718,497,55.1,145,46.9,,14.5,73,0.6,2,0.1,,8.5,7,77.2,,9,,859.5,37,"Contains Dairy, Contains Soy, Contains Wheat, Contains Eggs, Contains Gluten, Contains Dairy, Contains Soy, Contains Wheat, Contains Eggs, ",$7.50
-Fish and Chips ,620,475,52.7,139,43.1,,5.5,27,0.5,2,0.1,,1.9,1,43.1,,17,,1265.6,55,"Contains Soy, Contains Wheat, Contains Fish, Contains Gluten, Sustainability, Contains Soy, Contains Wheat, Contains Fish, Sustainability, ",$7.00
-Grilled Fish Sandwich ,306,185,20.5,54,5.6,,1.4,7,1.7,6,0,,3.1,2,91.9,,24.5,,405,18,"Contains Dairy, Contains Soy, Contains Wheat, Contains Fish, Contains Gluten, Sustainability, Contains Dairy, Contains Soy, Contains Wheat, Contains Fish, Sustainability, ",$8.75
-Mediterranean Burger ,518,160,17.7,47,52.6,,8,40,1.3,4,0,,11.1,9,136.7,,38.5,,955.6,42,"Contains Dairy, Contains Wheat, Contains Eggs, Contains Gluten, Contains Dairy, Contains Wheat, Contains Eggs, ",$9.00
-Spicy Korean Chicken Sandwich ,554,161,17.8,47,78.4,,4.9,24,1,3,0,,32.9,25,239.1,,20.2,,1199.6,52,"Contains Dairy, Contains Soy, Contains Wheat, Contains Eggs, Contains Gluten, Contains Dairy, Contains Soy, Contains Wheat, Contains Eggs, ",$8.00
-Three Cheese Grilled Cheese ,761,415,46,121,40.1,,17.3,87,0.1,0,0,,5,4,85.8,,25.7,,1437,62,"Vegetarian, Contains Dairy, Contains Soy, Contains Wheat, Contains Eggs, Contains Gluten, Vegetarian, Contains Dairy, Contains Soy, Contains Wheat, Contains Eggs, ",$6.00
 Homestyle Potato Chips ,357,213,23.6,62,34,,2.5,13,0.5,2,0,,0.1,0,0,,3.6,,561.1,24,"Vegan, Contains Soy, Sustainability, Vegan, Contains Soy, Sustainability, ",$2.50
 Red Pepper & Gouda Bisque ,400,264,29.3,77,24,,12,60,0,0,0.7,,17.3,13,53.3,,9.3,,1198.9,52,"Vegetarian, Contains Dairy, Contains Soy, Contains Wheat, Contains Gluten, Vegetarian, Contains Dairy, Contains Soy, Contains Wheat, ",$4.00
 Sweet Vinegar Slaw ,48,7,0.8,2,9.4,,0.1,0,2.5,8,0,,5.9,5,0,,1.3,,315.9,14,"Vegan, Sustainability, Vegan, Sustainability, ",$2.50
 Tuscan Pasta Salad ,273,166,18.4,48,23.6,,2.2,11,3.9,13,0,,7.9,6,4,,7,,568.3,25,"Vegetarian, Contains Dairy, Contains Wheat, Contains Gluten, Vegetarian, Contains Dairy, Contains Wheat, ",$2.50
-Sliced Cucumbers ,4,0,0,0,1.1,,0,0,0.1,0,0,,0.5,0,0,,0.2,,0.6,0,"Vegan, Wellness, Sustainability, Vegan, Wellness, Sustainability, ",
-Sliced Mushrooms ,6,1,0.1,0,0.9,,0,0,0.3,1,0,,0.6,0,0,,0.9,,1.4,0,"Vegan, Sustainability, Vegan, Sustainability, ",
-Sliced Red Bell Pepper ,9,1,0.1,0,1.7,,0,0,0.6,2,0,,1.1,1,0,,0.3,,1.1,0,"Vegan, Wellness, Sustainability, Vegan, Wellness, Sustainability, ",
-Spinach ,7,1,0.1,0,1,,0,0,0.6,2,0,,0.1,0,0,,0.8,,22.4,1,"Vegan, Wellness, Sustainability, Vegan, Wellness, Sustainability, ",
-Spring Mix ,7,0,0,0,1,,0,0,0.3,1,0,,0,0,0,,0,,16.7,1,"Vegan, Wellness, Sustainability, Vegan, Wellness, Sustainability, ",
-Sunflower Seeds ,88,73,8.1,21,2.9,,0.8,4,1.6,5,0,,,,0,,2.4,,0.4,0,"Vegan, Wellness, Sustainability, Vegan, Wellness, Sustainability, ",
-Pumpkin Seeds- Pepitas ,81,63,7,18,2.1,,1.2,6,0.9,3,0,,0.2,0,0,,4.2,,36.3,2,"Vegan, Wellness, Sustainability, Vegan, Wellness, Sustainability, ",
-Red Onions ,10,0,0,0,2.4,,0,0,0.4,1,0,,1.1,1,0,,0.3,,1,0,"Vegan, Sustainability, Vegan, Sustainability, ",
-Roasted Broccoli ,15,7,0.8,2,1.6,,0.1,0,0.9,3,0,,0,0,0,,0.9,,78.6,3,"Vegan, Wellness, Sustainability, Vegan, Wellness, Sustainability, ",
-Roasted Moroccan Cauliflower ,16,4,0.5,1,2.8,,0.1,1,1.5,5,0,,0.7,1,0,,0.8,,5.8,0,"Vegan, Wellness, Sustainability, Vegan, Wellness, Sustainability, ",
-Romaine Lettuce ,5,0,0,0,1,,0,0,0.3,1,0,,0.7,1,0,,0.3,,1.7,0,"Vegan, Wellness, Sustainability, Vegan, Wellness, Sustainability, ",
-Shredded Carrots ,12,1,0.1,0,2.7,,0,0,0.8,3,0,,1.3,1,0,,0.3,,19.6,1,"Vegan, Sustainability, Vegan, Sustainability, ",
-Edamame ,33,11,1.2,3,2.3,,0,0,1.3,4,0,,1,1,0,,3.3,,1.7,0,"Vegan, Wellness, Contains Soy, Sustainability, Vegan, Wellness, Contains Soy, Sustainability, ",
-Feta Cheese ,75,54,6,16,1.2,,4.2,21,0,0,,,1.2,1,25.2,,4,,316.4,14,"Vegetarian, Contains Dairy, Sustainability, Vegetarian, Contains Dairy, Sustainability, ",
-Garbanzo Beans ,34,3,0.3,1,6.4,,0,0,1.2,4,,,,,0,,1.4,,84.8,4,"Vegan, Sustainability, Vegan, Sustainability, ",
-Homestyle Croutons ,132,47,5.2,14,18,,1.5,7,1.4,5,,,1.3,1,2,,3.1,,351,15,"Vegetarian, Contains Dairy, Contains Wheat, Contains Gluten, Sustainability, Vegetarian, Contains Dairy, Contains Wheat, Sustainability, ",
-Kale ,14,2,0.3,1,2.5,,0,0,0.6,2,0,,,,0,,1.2,,10.8,0,"Vegan, Wellness, Sustainability, Vegan, Wellness, Sustainability, ",
-Mandarin Oranges ,11,0,0,0,2.8,,0,0,0.1,0,0,,2.7,2,0,,0.1,,1.1,0,"Vegan, Sustainability, Vegan, Sustainability, ",
-Bleu Cheese ,101,73,8.1,21,1,,5.1,25,0,0,,,0,0,25.3,,6.1,,384.8,17,"Vegetarian, Contains Dairy, Sustainability, Vegetarian, Contains Dairy, Sustainability, ",
-Cheddar Jack Cheese ,56,41,4.6,12,0.5,,3,15,0,0,0,,0,0,12.7,,3.5,,91.1,4,"Vegetarian, Contains Dairy, Sustainability, Vegetarian, Contains Dairy, Sustainability, ",
-Cherry Tomato ,6,1,0.1,0,1.2,,0,0,0.4,1,0,,0.8,1,0,,0.3,,1.6,0,"Vegan, Wellness, Sustainability, Vegan, Wellness, Sustainability, ",
-Cooked Barley ,42,1,0.2,0,9.6,,0,0,1.3,4,0,,0.1,0,0,,0.8,,114.4,5,"Vegan, Wellness, Contains Gluten, Sustainability, Vegan, Wellness, Sustainability, ",
-Cooked Red Quinoa ,33,5,0.5,1,6,,0.1,0,0.6,2,0,,0,0,0,,1.1,,43.9,2,"Vegan, Wellness, Sustainability, Vegan, Wellness, Sustainability, ",
-Dried Cranberries ,92,0,0,0,23.4,,0,0,0,0,0,,18.4,14,0,,0,,0,0,"Vegetarian, Sustainability, Vegetarian, Sustainability, ",
-Cage Free Hard Boiled Egg ,58,37,4.1,11,1,,1,5,0,0,0,,0,0,184.2,,6.1,,53.2,2,"Vegetarian, Wellness, Contains Eggs, Sustainability, Vegetarian, Wellness, Contains Eggs, Sustainability, ",$1.00
-Roasted Chicken ,82,44,4.9,13,0.4,,1.4,7,0.1,0,0,,0,0,27.4,,8.7,,154.4,7,"Wellness, Wellness, ",$3.00
-Tofu Cubes ,100,48,5.4,14,2.4,,1.1,5,1.7,6,0,,0.5,0,0,,10.5,,5.1,0,"Vegan, Wellness, Contains Soy, Sustainability, Vegan, Wellness, Contains Soy, Sustainability, ",$2.00
-Tuna Salad ,138,51,5.7,15,1.7,,0.6,3,0.2,1,0,,1.1,1,33.2,,20.3,,298.1,13,"Wellness, Contains Soy, Contains Fish, Contains Eggs, Sustainability, Wellness, Contains Soy, Contains Fish, Contains Eggs, Sustainability, ",$3.50
 American Cheese ,52,40,4.4,12,0,,2.6,13,0,0,,,0,0,14.7,,2.9,,228.4,10,"Vegetarian, Contains Dairy, Contains Soy, Sustainability, Vegetarian, Contains Dairy, Contains Soy, Sustainability, ",$1.00
 Avocado ,47,39,4.4,11,2.4,,0.6,3,1.9,6,0,,0.1,0,0,,0.6,,2.3,0,"Vegan, Wellness, Sustainability, Vegan, Wellness, Sustainability, ",$1.50
 Bacon (1) ,134,95,10.6,28,0.3,,3.5,17,0,0,0,,0,0,26.1,,8.7,,535.6,23,,$1.75
@@ -64,6 +20,47 @@ Cheddar Cheese ,90,68,7.5,20,0,,4.5,23,0,0,0,,0,0,22.5,,4.5,,135,6,"Vegetarian, 
 Fried Egg ,70,47,5.2,14,0.5,,1.4,7,0,0,0,,0.5,0,194.1,,6,,135.2,6,"Vegetarian, Wellness, Contains Eggs, Sustainability, Vegetarian, Wellness, Contains Eggs, Sustainability, ",$1.25
 Marinated Chicken Breast ,221,68,7.5,20,0.3,,1.4,7,0.1,0,0,,0,0,96.6,,35.3,,190.4,8,"Wellness, Wellness, ",$5.50
 Pepper Jack Cheese ,84,62,6.8,18,0.8,,3.8,19,0,0,,,0,0,22.8,,4.6,,129.2,6,"Vegetarian, Contains Dairy, Contains Soy, Sustainability, Vegetarian, Contains Dairy, Contains Soy, Sustainability, ",$1.00
+Chipotle Black Bean ,150,54,6,16,18,,0,0,0,0,0,,2,2,0,,5,,380,17,"Vegan, Wellness, Contains Soy, Contains Wheat, Contains Gluten, Sustainability, Vegan, Wellness, Contains Soy, Contains Wheat, Sustainability, ",
+Marinated Chicken Breast ,221,68,7.5,20,0.3,,1.4,7,0.1,0,0,,0,0,96.6,,35.3,,190.4,8,"Wellness, Wellness, ",$1.00
+Turkey Burger ,175,79,8.8,23,1.5,,2.2,11,0,0,0,,0,0,95,,21.9,,467.8,20,,
+Crispy Chicken Sandwich ,718,497,55.1,145,46.9,,14.5,73,0.6,2,0.1,,8.5,7,77.2,,9,,859.5,37,"Contains Dairy, Contains Soy, Contains Wheat, Contains Eggs, Contains Gluten, Contains Dairy, Contains Soy, Contains Wheat, Contains Eggs, ",$7.50
+Fish and Chips ,620,475,52.7,139,43.1,,5.5,27,0.5,2,0.1,,1.9,1,43.1,,17,,1265.6,55,"Contains Soy, Contains Wheat, Contains Fish, Contains Gluten, Sustainability, Contains Soy, Contains Wheat, Contains Fish, Sustainability, ",$7.00
+Grilled Fish Sandwich ,306,185,20.5,54,5.6,,1.4,7,1.7,6,0,,3.1,2,91.9,,24.5,,405,18,"Contains Dairy, Contains Soy, Contains Wheat, Contains Fish, Contains Gluten, Sustainability, Contains Dairy, Contains Soy, Contains Wheat, Contains Fish, Sustainability, ",$8.75
+Mediterranean Burger ,518,160,17.7,47,52.6,,8,40,1.3,4,0,,11.1,9,136.7,,38.5,,955.6,42,"Contains Dairy, Contains Wheat, Contains Eggs, Contains Gluten, Contains Dairy, Contains Wheat, Contains Eggs, ",$9.00
+Spicy Korean Chicken Sandwich ,554,161,17.8,47,78.4,,4.9,24,1,3,0,,32.9,25,239.1,,20.2,,1199.6,52,"Contains Dairy, Contains Soy, Contains Wheat, Contains Eggs, Contains Gluten, Contains Dairy, Contains Soy, Contains Wheat, Contains Eggs, ",$8.00
+Three Cheese Grilled Cheese ,761,415,46,121,40.1,,17.3,87,0.1,0,0,,5,4,85.8,,25.7,,1437,62,"Vegetarian, Contains Dairy, Contains Soy, Contains Wheat, Contains Eggs, Contains Gluten, Vegetarian, Contains Dairy, Contains Soy, Contains Wheat, Contains Eggs, ",$6.00
+Chicken Tenders ,640,403,44.7,118,32.2,,6.2,31,2,7,2.1,,2,2,55.4,,28.2,,1057.2,46,"Contains Wheat, Contains Gluten, Contains Wheat, ",$6.00
+Curly Fries ,292,123,13.6,36,36.5,,2.4,12,4.1,14,0,,2,2,0,,4.1,,595.4,26,"Vegan, Contains Soy, Contains Wheat, Contains Gluten, Sustainability, Vegan, Contains Soy, Contains Wheat, Sustainability, ",$3.00
+French Fries ,322,150,16.7,44,36.9,,2.5,13,0,0,0,,1.8,1,0,,3.7,,663.4,29,"Vegan, Contains Soy, Sustainability, Vegan, Contains Soy, Sustainability, ",$3.00
+Serrano Pesto Grilled Vegetables ,101,76,8.4,22,6.3,,0.9,5,2.4,8,0,,2.1,2,1.7,,2.8,,544.3,24,"Vegetarian, Contains Dairy, Sustainability, Vegetarian, Contains Dairy, Sustainability, ",$3.00
+Bleu Cheese ,101,73,8.1,21,1,,5.1,25,0,0,,,0,0,25.3,,6.1,,384.8,17,"Vegetarian, Contains Dairy, Sustainability, Vegetarian, Contains Dairy, Sustainability, ",
+Cheddar Jack Cheese ,56,41,4.6,12,0.5,,3,15,0,0,0,,0,0,12.7,,3.5,,91.1,4,"Vegetarian, Contains Dairy, Sustainability, Vegetarian, Contains Dairy, Sustainability, ",
+Cherry Tomato ,6,1,0.1,0,1.2,,0,0,0.4,1,0,,0.8,1,0,,0.3,,1.6,0,"Vegan, Wellness, Sustainability, Vegan, Wellness, Sustainability, ",
+Cooked Barley ,42,1,0.2,0,9.6,,0,0,1.3,4,0,,0.1,0,0,,0.8,,114.4,5,"Vegan, Wellness, Contains Gluten, Sustainability, Vegan, Wellness, Sustainability, ",
+Cooked Red Quinoa ,33,5,0.5,1,6,,0.1,0,0.6,2,0,,0,0,0,,1.1,,43.9,2,"Vegan, Wellness, Sustainability, Vegan, Wellness, Sustainability, ",
+Dried Cranberries ,92,0,0,0,23.4,,0,0,0,0,0,,18.4,14,0,,0,,0,0,"Vegetarian, Sustainability, Vegetarian, Sustainability, ",
+Edamame ,33,11,1.2,3,2.3,,0,0,1.3,4,0,,1,1,0,,3.3,,1.7,0,"Vegan, Wellness, Contains Soy, Sustainability, Vegan, Wellness, Contains Soy, Sustainability, ",
+Feta Cheese ,75,54,6,16,1.2,,4.2,21,0,0,,,1.2,1,25.2,,4,,316.4,14,"Vegetarian, Contains Dairy, Sustainability, Vegetarian, Contains Dairy, Sustainability, ",
+Garbanzo Beans ,34,3,0.3,1,6.4,,0,0,1.2,4,,,,,0,,1.4,,84.8,4,"Vegan, Sustainability, Vegan, Sustainability, ",
+Homestyle Croutons ,132,47,5.2,14,18,,1.5,7,1.4,5,,,1.3,1,2,,3.1,,351,15,"Vegetarian, Contains Dairy, Contains Wheat, Contains Gluten, Sustainability, Vegetarian, Contains Dairy, Contains Wheat, Sustainability, ",
+Kale ,14,2,0.3,1,2.5,,0,0,0.6,2,0,,,,0,,1.2,,10.8,0,"Vegan, Wellness, Sustainability, Vegan, Wellness, Sustainability, ",
+Mandarin Oranges ,11,0,0,0,2.8,,0,0,0.1,0,0,,2.7,2,0,,0.1,,1.1,0,"Vegan, Sustainability, Vegan, Sustainability, ",
+Pumpkin Seeds- Pepitas ,81,63,7,18,2.1,,1.2,6,0.9,3,0,,0.2,0,0,,4.2,,36.3,2,"Vegan, Wellness, Sustainability, Vegan, Wellness, Sustainability, ",
+Red Onions ,10,0,0,0,2.4,,0,0,0.4,1,0,,1.1,1,0,,0.3,,1,0,"Vegan, Sustainability, Vegan, Sustainability, ",
+Roasted Broccoli ,15,7,0.8,2,1.6,,0.1,0,0.9,3,0,,0,0,0,,0.9,,78.6,3,"Vegan, Wellness, Sustainability, Vegan, Wellness, Sustainability, ",
+Roasted Moroccan Cauliflower ,16,4,0.5,1,2.8,,0.1,1,1.5,5,0,,0.7,1,0,,0.8,,5.8,0,"Vegan, Wellness, Sustainability, Vegan, Wellness, Sustainability, ",
+Romaine Lettuce ,5,0,0,0,1,,0,0,0.3,1,0,,0.7,1,0,,0.3,,1.7,0,"Vegan, Wellness, Sustainability, Vegan, Wellness, Sustainability, ",
+Shredded Carrots ,12,1,0.1,0,2.7,,0,0,0.8,3,0,,1.3,1,0,,0.3,,19.6,1,"Vegan, Sustainability, Vegan, Sustainability, ",
+Sliced Cucumbers ,4,0,0,0,1.1,,0,0,0.1,0,0,,0.5,0,0,,0.2,,0.6,0,"Vegan, Wellness, Sustainability, Vegan, Wellness, Sustainability, ",
+Sliced Mushrooms ,6,1,0.1,0,0.9,,0,0,0.3,1,0,,0.6,0,0,,0.9,,1.4,0,"Vegan, Sustainability, Vegan, Sustainability, ",
+Sliced Red Bell Pepper ,9,1,0.1,0,1.7,,0,0,0.6,2,0,,1.1,1,0,,0.3,,1.1,0,"Vegan, Wellness, Sustainability, Vegan, Wellness, Sustainability, ",
+Spinach ,7,1,0.1,0,1,,0,0,0.6,2,0,,0.1,0,0,,0.8,,22.4,1,"Vegan, Wellness, Sustainability, Vegan, Wellness, Sustainability, ",
+Spring Mix ,7,0,0,0,1,,0,0,0.3,1,0,,0,0,0,,0,,16.7,1,"Vegan, Wellness, Sustainability, Vegan, Wellness, Sustainability, ",
+Sunflower Seeds ,88,73,8.1,21,2.9,,0.8,4,1.6,5,0,,,,0,,2.4,,0.4,0,"Vegan, Wellness, Sustainability, Vegan, Wellness, Sustainability, ",
+Cage Free Hard Boiled Egg ,58,37,4.1,11,1,,1,5,0,0,0,,0,0,184.2,,6.1,,53.2,2,"Vegetarian, Wellness, Contains Eggs, Sustainability, Vegetarian, Wellness, Contains Eggs, Sustainability, ",$1.00
+Roasted Chicken ,82,44,4.9,13,0.4,,1.4,7,0.1,0,0,,0,0,27.4,,8.7,,154.4,7,"Wellness, Wellness, ",$3.00
+Tofu Cubes ,100,48,5.4,14,2.4,,1.1,5,1.7,6,0,,0.5,0,0,,10.5,,5.1,0,"Vegan, Wellness, Contains Soy, Sustainability, Vegan, Wellness, Contains Soy, Sustainability, ",$2.00
+Tuna Salad ,138,51,5.7,15,1.7,,0.6,3,0.2,1,0,,1.1,1,33.2,,20.3,,298.1,13,"Wellness, Contains Soy, Contains Fish, Contains Eggs, Sustainability, Wellness, Contains Soy, Contains Fish, Contains Eggs, Sustainability, ",$3.50
 Balsamic Vinaigrette ,59,36,4,10,5.9,,0,0,0,0,0,,3,2,0,,0,,103.7,5,"Vegetarian, Wellness, Contains Soy, Sustainability, Vegetarian, Wellness, Contains Soy, Sustainability, ",
 Blue Cheese Dressing ,135,131,14.5,38,1.3,,2.3,12,0.1,0,0.4,,1,1,8.8,,0.4,,295.1,13,"Vegetarian, Contains Dairy, Contains Soy, Contains Eggs, Sustainability, Vegetarian, Contains Dairy, Contains Soy, Contains Eggs, Sustainability, ",
 Buttermilk Ranch Dressing ,113,105,11.7,31,0.7,,1.7,9,0,0,0,,0.7,1,11.5,,0.6,,175.6,8,"Vegetarian, Contains Dairy, Contains Soy, Contains Eggs, Sustainability, Vegetarian, Contains Dairy, Contains Soy, Contains Eggs, Sustainability, ",
@@ -72,10 +69,30 @@ Citrus Basil vinaigrette ,59,41,4.6,12,5.1,,0.3,2,0.3,1,0,,3.9,3,0,,0.3,,189.8,8
 La Scala Vinaigrette ,102,92,10.2,27,91.4,,1.5,8,0,0,0,,0,0,0,,0,,193,8,"Vegetarian, Contains Soy, Sustainability, Vegetarian, Contains Soy, Sustainability, ",
 Tarragon Vinaigrette ,175,165,18.2,48,4.4,,1.3,7,0.7,2,0,,1.4,1,0,,0.9,,19.9,1,"Vegan, Sustainability, Vegan, Sustainability, ",
 Vegan Edamame Ranch Dressing ,50,11,1.2,3,6.2,,0,0,1.9,6,0,,2,2,0,,3.8,,76.1,3,"Vegan, Contains Soy, Sustainability, Vegan, Contains Soy, Sustainability, ",
-Beef Mushroom Blended ,108,69,7.6,20,1.3,,3.2,16,0,0,0.3,,0.6,0,28.5,,7.6,,28.5,1,,
-Chipotle Black Bean ,150,54,6,16,18,,0,0,0,0,0,,2,2,0,,5,,380,17,"Vegan, Wellness, Contains Soy, Contains Wheat, Contains Gluten, Sustainability, Vegan, Wellness, Contains Soy, Contains Wheat, Sustainability, ",
-Marinated Chicken Breast ,221,68,7.5,20,0.3,,1.4,7,0.1,0,0,,0,0,96.6,,35.3,,190.4,8,"Wellness, Wellness, ",$1.00
-Turkey Burger ,175,79,8.8,23,1.5,,2.2,11,0,0,0,,0,0,95,,21.9,,467.8,20,,
+Roasted Chicken and Rice Soup ,323,129,14.3,38,14,,3.3,17,1.6,5,0,,2.9,2,105.5,,32.8,,1023,44,"Contains Soy, Contains Soy, ",$4.00
+Arroz con Leche ,196,31,3.4,9,35.8,,2.1,11,1.5,5,0,,19.3,15,11.7,,5,,50.2,2,"Vegetarian, Contains Dairy, Sustainability, Vegetarian, Contains Dairy, Sustainability, ",$3.00
+Chocoflan Cake ,384,139,15.4,40,52.7,,4.9,25,0.2,1,0.1,,42.7,33,85.5,,8.3,,301.1,13,"Vegetarian, Contains Dairy, Contains Soy, Contains Wheat, Contains Eggs, Contains Gluten, Sustainability, Vegetarian, Contains Dairy, Contains Soy, Contains Wheat, Contains Eggs, Sustainability, ",$3.50
+Sesame Balls ,366,152,16.8,44,50,,0.1,1,5,17,0,,35,27,0,,10,,25,1,"Vegan, Contains Sesame, Vegan, Contains Gluten, ",$4.00
+Thai Mango Sticky Rice ,325,89,9.9,26,54.2,,8,40,1.8,6,0,,28.2,22,7.4,,5.7,,39.8,2,"Vegetarian, Contains Dairy, Sustainability, Vegetarian, Contains Dairy, Sustainability, ",$3.00
+AGUA FRESCA LEMONADE ,158,0,0,0,36.8,,0,0,0,0,0,,36.8,28,0,,0,,541.7,24,"Vegan, Vegan, ",$2.50
+AGUA FRESCA SWEET TEA ,158,0,0,0,40.8,,0,0,0,0,0,,39.5,30,0,,0,,541.7,24,"Vegan, Vegan, ",$2.50
+Basic Mac Bowl ,673,305,33.8,89,64.5,,14.5,73,4.1,14,0,,2.9,2,79,,26.8,,1023,44,"Contains Dairy, Contains Wheat, Contains Gluten, Contains Dairy, Contains Wheat, ",$6.50
+Buffalo Chicken Mac Bowl ,925,510,56.5,149,69.9,,13.4,67,5.6,19,0.3,,4.5,3,67.1,,34.8,,1611.6,70,"Contains Dairy, Contains Wheat, Contains Gluten, Contains Dairy, Contains Wheat, ",$9.00
+Pork Mac Daddy Bowl ,854,485,53.7,141,67.7,,22.6,113,5.1,17,0,,4.3,3,94.8,,24.2,,777.3,34,"Contains Dairy, Contains Wheat, Contains Gluten, Contains Dairy, Contains Wheat, ",$9.50
+Seared Tofu Mac Daddy with Cavatappi ,742,340,37.7,99,71.4,,17.8,89,6.9,23,0,,3.8,3,82.2,,29.7,,830.8,36,"Vegetarian, Contains Dairy, Contains Soy, Contains Wheat, Contains Gluten, Vegetarian, Contains Dairy, Contains Soy, Contains Wheat, ",$8.00
+Alfredo Pesto Sauce ,99,82,9.1,24,2.4,,5.2,26,0.1,0,0,,0,0,28,,1.8,,112.1,5,"Vegetarian, Contains Dairy, Contains Wheat, Contains Gluten, Vegetarian, Contains Dairy, Contains Wheat, ",
+Alfredo Sauce ,99,81,8.9,23,2.8,,6.1,30,0,0,0,,0,0,34.1,,1.7,,87.6,4,"Vegetarian, Contains Dairy, Contains Wheat, Contains Gluten, Vegetarian, Contains Dairy, Contains Wheat, ",
+Smoked Cheese Alfredo Sauce ,125,93,10.3,27,4.3,,6.9,35,0.1,0,0,,1.1,1,39.7,,3.4,,137.8,6,"Vegetarian, Contains Dairy, Contains Wheat, Contains Gluten, Vegetarian, Contains Dairy, Contains Wheat, ",
+Vegan Cheese Sauce ,74,59,6.6,17,3.4,,3.2,16,0.5,2,0,,0.5,0,0,,1.6,,72.7,3,"Vegan, Contains TreeNuts, Sustainability, Vegan, Contains TreeNuts, Sustainability, ",
+Buffalo Cauliflower ,20,6,0.6,2,3.1,,0.2,1,1.7,6,0,,1.5,1,0.7,,1.4,,253.6,11,"Vegetarian, Contains Dairy, Sustainability, Vegetarian, Contains Dairy, Sustainability, ",
+Cooked Cavatappi Pasta ,54,9,1.1,3,9.2,,0.2,1,0.5,2,0,,0.2,0,0,,1.7,,19.8,1,"Vegan, Contains Wheat, Contains Gluten, Sustainability, Vegan, Contains Wheat, Sustainability, ",
+Caramelized Onions ,25,14,1.6,4,2.7,,0.1,1,0.5,2,0,,1.2,1,0,,0.3,,1.2,0,"Vegan, Wellness, Sustainability, Vegan, Wellness, Sustainability, ",
+Chopped Bacon ,158,113,12.5,33,0.4,,4.1,20,0,0,0,,0,0,30.9,,10.3,,633,28,,
+Roasted Broccoli ,15,7,0.8,2,1.6,,0.1,0,0.9,3,0,,0,0,0,,0.9,,78.6,3,"Vegan, Wellness, Sustainability, Vegan, Wellness, Sustainability, ",
+Sauteed Mushrooms ,10,3,0.3,1,1.7,,0,0,0.7,2,0,,0.7,1,0,,0.6,,225.9,10,"Vegan, Sustainability, Vegan, Sustainability, ",
+Cheddar Jack Cheese ,56,41,4.6,12,0.5,,3,15,0,0,0,,0,0,12.7,,3.5,,91.1,4,"Vegetarian, Contains Dairy, Sustainability, Vegetarian, Contains Dairy, Sustainability, ",
+Parmesan Bread Crumbs ,106,12,1.3,3,20.2,,0.7,4,0.1,0,0,,0.5,0,2.8,,3.2,,112.3,5,"Vegetarian, Contains Dairy, Contains Wheat, Contains Gluten, Sustainability, Vegetarian, Contains Dairy, Contains Wheat, Sustainability, ",
+Sliced Green Onion ,2,0,0,0,0.5,,0,0,0.2,1,0,,0.2,0,0,,0.1,,1.1,0,"Vegan, Sustainability, Vegan, Sustainability, ",
 Ethiopian Stewed Chicken ,417,199,22.1,58,13.4,,6.4,32,2.6,9,0,,4.8,4,120.3,,39.3,,2213,96,"Contains Dairy, Contains Dairy, ",$7.00
 Harissa Barramundi ,261,143,15.8,42,4,,1.6,8,1.2,4,0,,0.8,1,55.5,,25.7,,285.6,12,"Contains Fish, Sustainability, Contains Fish, Sustainability, ",$8.75
 Jerk Seasoned Pork Loin ,254,65,7.2,19,14.9,,1.9,9,2.6,9,0,,5.7,4,85.7,,32.2,,1509,66,"Contains Soy, Contains Soy, ",$7.00
@@ -85,7 +102,3 @@ Basmati Rice ,119,2,0.3,1,25.8,,0.1,0,0.4,1,0,,0,0,0,,2.5,,0.9,0,"Vegan, Wellnes
 Herbed Goat Cheese Grits ,61,47,5.2,14,2.5,,3.6,18,0,0,0,,0.1,0,18.8,,1,,114.7,5,"Vegetarian, Contains Dairy, Sustainability, Vegetarian, Contains Dairy, Sustainability, ",$2.50
 Jollof Rice ,373,1,0.1,0,83.9,,0,0,2.6,9,0,,0.7,1,0,,7.3,,848.5,37,"Vegan, Sustainability, Vegan, Sustainability, ",$1.50
 Mashed Yams ,208,135,15,39,17,,2.7,14,2.4,8,3.4,,5.4,4,0,,1.3,,737.4,32,"Vegan, Contains Soy, Sustainability, Vegan, Contains Soy, Sustainability, ",$2.50
-Seafood Chowder ,204,71,7.9,21,19.6,,3.6,18,1.3,4,0,,5.3,4,58.8,,13.7,,936.6,41,"Contains Dairy, Contains Wheat, Contains Fish, Contains Shellfish, Contains Gluten, Sustainability, Contains Dairy, Contains Wheat, Contains Fish, Contains Shellfish, Sustainability, ",$4.00
-Seafood Chowder ,204,71,7.9,21,19.6,,3.6,18,1.3,4,0,,5.3,4,58.8,,13.7,,936.6,41,,
-Seafood Chowder ,204,71,7.9,21,19.6,,3.6,18,1.3,4,0,,5.3,4,58.8,,13.7,,936.6,41,,
-Seafood Chowder ,204,71,7.9,21,19.6,,3.6,18,1.3,4,0,,5.3,4,58.8,,13.7,,936.6,41,,
