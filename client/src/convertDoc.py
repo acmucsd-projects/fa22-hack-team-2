@@ -6,11 +6,11 @@ import json
 csv_direc =  os.path.dirname(__file__) + "\scraper"
 json_direc = os.path.dirname(__file__) + "\jsons"
 
-jsonArray = []
-
 
 # parse the file and write its attributes to a document
 def parse_data(file):
+    jsonArray = []
+    
     # dict to represent JSON of hall
     hall = {"name":file[:-4], "food":[]}
 
@@ -23,7 +23,7 @@ def parse_data(file):
         # parse each line and write it into a JSON format
         for foodItem in reader:
             # split allergens and restrictions into a list
-            restrictionsList = [restriction.strip() for restriction in foodItem["restrictions"].split(",")]
+            restrictionsList = [restriction.strip() for restriction in foodItem["allergens"].split(",")]
 
             foodItem["restrictions"] = restrictionsList[:-1]
 
