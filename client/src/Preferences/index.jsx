@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import "./style.css";
 import DietaryRestrictionsSearchBar from '../components/DietaryRestrictionsSearchBar';
 import MealSizeSelection from '../components/MealSizeSelection';
@@ -12,6 +12,37 @@ export const Preferences = () => {
     let loggedInUsername = useLocation().state.username;
     let loggedIn = (loggedInUsername != "");
     
+    const firstRender = useDetectFirstRender();
+
+    
+    const [loggedInPreferenes, setLoggedInPreferences] = useState({
+        dietaryRestrictions: [String],
+        mealSize: "",
+        maxBudget: 0,
+        // TODO: 
+    });
+
+    // FIXME: causes the undefined string element to be rendered in the DRSB
+    useEffect(() => {
+        // if (firstRender) {
+            if (loggedIn) {
+                console.log("in first render clause");
+                const payload = {
+                    username: loggedInUsername
+                }
+                API.readPreferences(payload).then((response) => {
+                    console.log(response);
+                    updatePreferences({
+                        dietaryRestrictions: response.restrictions,
+                        mealSize: "",
+                        maxBudget: 0,
+                    });
+                    // TODO: update mealSize, maxBudget
+                });
+            }
+        // };
+    });
+
     const emptyPreferences = {
         dietaryRestrictions: [String],
         mealSize: "",
@@ -60,16 +91,29 @@ export const Preferences = () => {
             </script>
             <DietaryRestrictionsSearchBar 
                 parentCallback={handleDietaryRestrictionsCallback} 
+                initVal={preferences.dietaryRestrictions}
                 data={[{loggedInUsername: loggedInUsername}, {loggedIn: loggedIn}]}/>
             <br></br>
             <MealSizeSelection 
                 parentCallback={handleMealSizeCallback} 
+                initVal={{ /* TODO: intiailize */ }}
                 data={[{loggedInUsername: loggedInUsername}, {loggedIn: loggedIn}]} />
             <br></br>
             <PriceSelection 
                 parentCallback={handleMaxBudgetCallback} 
+                initVal={{ /* TODO: intiailize */ }}
                 data={[{loggedInUsername: loggedInUsername}, {loggedIn: loggedIn}]} />
             <Link to="/choice"><button onClick={handleClick}> Generate choice </button></Link>
         </form>
     )
+}
+
+export function useDetectFirstRender() {
+    const [firstRender, setFirstRender] = useState(true);
+
+    useEffect(() => {
+        setFirstRender(false);
+    }, []);
+
+    return firstRender;
 }

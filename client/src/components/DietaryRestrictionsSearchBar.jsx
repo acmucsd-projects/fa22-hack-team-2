@@ -16,6 +16,9 @@ const DietaryRestrictionsSearchBar = (props) => {        // NOTE: react-select i
     // TODO: GET dietary restrictions to load into the multiselect, if logged in
     const [selectedOptions, setSelectedOptions] = useState([]);
 
+    // TODO: Substitute value with dietaryRestrictions query by label
+    const initValPairs = props.initVal.map(value => [{value: value, label: value}].at(0));
+
     // TODO: Replace mock list of dietary restrictions
     const dietaryRestrictions = [{value: 'vegan', label: 'Vegan'},
         {value: 'vegetarian', label: 'Vegeterian'},
@@ -33,7 +36,9 @@ const DietaryRestrictionsSearchBar = (props) => {        // NOTE: react-select i
         setSelectedOptions(selectedOptionsOnChange);
         console.log(selectedOptions);           // FIXME: Contains state preceding rerender
 
-
+        console.log("initValPairs: ");
+        console.log(props.initVal);
+        console.log(initValPairs);
 
         props.parentCallback(selectedOptions);
     }
@@ -47,6 +52,7 @@ const DietaryRestrictionsSearchBar = (props) => {        // NOTE: react-select i
                 options={dietaryRestrictions}
                 placeholder="Add dietary restrictions"
                 isMulti={true}
+                defaultValue={initValPairs}
                 onChange={handleChange} />
         </div>
         

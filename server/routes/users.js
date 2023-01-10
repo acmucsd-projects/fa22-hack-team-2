@@ -81,5 +81,17 @@ router.put("/preferences", async (req, res) => {
   
 });
 
+// Get user preferences for a logged-in user
+router.get("/preferences", async (req, res) => {
+  const loggedInUsername = req.body.username;
+
+  if (await User.findOne({username: req.body.username})) {
+    console.log("user found (in preferences)");
+    const user = await User.findOne({username: req.body.username});
+    res.status(200).json({user});
+  }
+
+});
+
 
 module.exports = router;

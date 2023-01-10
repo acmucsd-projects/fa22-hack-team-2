@@ -9,8 +9,9 @@ const API = {
         return axios.put(serverURL + "/api/preferences", payload)
     },
 
-    readPreferences: function() {
-        return axios.get(serverURL + "/api/preferences")
+    readPreferences: function(payload) {
+        console.log("axios GET request");
+        return axios.get(serverURL + "/api/preferences", payload)
     },
 
     // process of adding new user info into database
