@@ -7,6 +7,7 @@ from lxml import html
 from requests_html import HTML, HTMLSession
 import csv
 from pathlib import Path
+import os
 
 
 
@@ -14,7 +15,7 @@ from pathlib import Path
 urlBegin = 'https://hdh-web.ucsd.edu'
 
 
-data_folder = Path("scraper/scrapedDiningData/")
+data_folder = Path("scrapedDiningData/")
 
 # This method takes a URL of a food's nutritional 
 # page and formats it on the csv
@@ -112,8 +113,10 @@ def scrapeRestauraunts(url):
     print(resturaunt)
 
     # write the header for the csv
-    # csvName = data_folder / (resturaunt + '.csv')
-    csvName = resturaunt + '.csv'
+    csvName = data_folder / (resturaunt + '.csv')
+    print(csvName)
+    # return
+    # csvName = resturaunt + '.csv'
     with open(csvName, 'w') as csv_file:
         writer = csv.writer(csv_file)
         writer.writerow(["food", "cal", "calFromFat",  
