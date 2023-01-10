@@ -4,6 +4,7 @@ import { Link, useNavigate } from "react-router-dom";
 import API from "../API"
 
 export const CreateAccount = () => {
+<<<<<<< HEAD
     // jump between pages
     let nav = useNavigate();
 
@@ -12,15 +13,22 @@ export const CreateAccount = () => {
     const [errorText, setErrorText] = useState("");
 
 
+=======
+>>>>>>> origin
     //Initial state of empty form
     const emptyForm = {
         username: "",
         password: "",
+<<<<<<< HEAD
         confirmpassword: "",
+=======
+        confirmPassword: "",
+>>>>>>> origin
     };
 
     const [formData, updateFormData] = useState(emptyForm);
 
+<<<<<<< HEAD
     const handleChange = (e) => {
         updateFormData({
             ...formData,
@@ -54,6 +62,10 @@ export const CreateAccount = () => {
             nav("/");
             console.log("successful user creation");
         }
+=======
+    const handleUsernameChange = (e) => {
+
+>>>>>>> origin
     }
 
     return (

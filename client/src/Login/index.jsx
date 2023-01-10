@@ -82,7 +82,6 @@ export const Login = () => {
 
                     <Link id="reglink" to="/create-account">Register Account</Link>
                     
-                    
                 </div>
                 <div>
                     
