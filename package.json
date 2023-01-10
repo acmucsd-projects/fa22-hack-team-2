@@ -1,8 +1,13 @@
 {
   "name": "fa22-hack-team-2",
   "version": "1.0.0",
+<<<<<<< HEAD
   "description": "Template for building projects with the MERN (MongoDB, Express, React, Node.js) stack. This template was generated using `create-react-app` and `express-generator` for the client and server, respectively.",
   "main": "index.js",
+=======
+  "description": "Template for building projects with the MERN (MongoDB, Express, React, Node.js) stack.\r This template was generated using `create-react-app` and `express-generator` for the\r client and server, respectively.",
+  "main": "dining.js",
+>>>>>>> origin/api-routes
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,6 +26,10 @@
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
+<<<<<<< HEAD
+=======
+    "mongoose": "^6.7.1",
+>>>>>>> origin/api-routes
     "nodemon": "^2.0.20"
   }
 }
