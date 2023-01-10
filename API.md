@@ -18,4 +18,3 @@ I won't list the results for these queries since they will just be random food i
  - `serverURL/api/food/64Degrees?r=Vegan&r=Wellness&r=Contains%20Soy&protein=10-20`
  - `serverURL/api/food/CafeVentanas?name=Avocado%20Toast`
  - `serverURL/api/food/64Degrees?protein=10-20&fat=5-10&sugar=0-5`
- - 
