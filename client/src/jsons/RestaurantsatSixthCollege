@@ -23,8 +23,6 @@
             "proteinDV": "",
             "sodium": "1929.4",
             "sodiumDV": "84",
-            "allergens": "Contains Dairy, Contains Soy, Contains Wheat, Contains Fish, Contains Gluten, Sustainability, Contains Dairy, Contains Soy, Contains Wheat, Contains Fish, Sustainability, ",
-            "price": "10.00",
             "restrictions": [
                 "Contains Dairy",
                 "Contains Soy",
@@ -37,7 +35,8 @@
                 "Contains Wheat",
                 "Contains Fish",
                 "Sustainability"
-            ]
+            ],
+            "price": "10.00"
         },
         {
             "food": "Bean & Cheese Burrito",
@@ -61,8 +60,6 @@
             "proteinDV": "",
             "sodium": "1310",
             "sodiumDV": "57",
-            "allergens": "Vegetarian, Contains Dairy, Contains Soy, Contains Wheat, Contains Gluten, Sustainability, Vegetarian, Contains Dairy, Contains Soy, Contains Wheat, Sustainability, ",
-            "price": "5.00",
             "restrictions": [
                 "Vegetarian",
                 "Contains Dairy",
@@ -75,7 +72,8 @@
                 "Contains Soy",
                 "Contains Wheat",
                 "Sustainability"
-            ]
+            ],
+            "price": "5.00"
         },
         {
             "food": "Bean Squared Burrito",
@@ -99,8 +97,6 @@
             "proteinDV": "",
             "sodium": "2004.5",
             "sodiumDV": "87",
-            "allergens": "Vegetarian, Contains Dairy, Contains Soy, Contains Wheat, Contains Gluten, Sustainability, Vegetarian, Contains Dairy, Contains Soy, Contains Wheat, Sustainability, ",
-            "price": "6.00",
             "restrictions": [
                 "Vegetarian",
                 "Contains Dairy",
@@ -113,41 +109,8 @@
                 "Contains Soy",
                 "Contains Wheat",
                 "Sustainability"
-            ]
-        },
-        {
-            "food": "Carne Asada Burrito",
-            "cal": "642",
-            "calFromFat": "153",
-            "totFat": "17",
-            "totFatDV": "45",
-            "totCarb": "79.2",
-            "totCarbDV": "",
-            "satFat": "7",
-            "satFatDV": "35",
-            "dietaryFiber": "11",
-            "dietaryFiberDV": "37",
-            "transFat": "0",
-            "transFatDV": "",
-            "sugars": "7.2",
-            "sugarsDV": "6",
-            "cholesterol": "87.1",
-            "cholesterolDV": "",
-            "protein": "45.8",
-            "proteinDV": "",
-            "sodium": "2705.6",
-            "sodiumDV": "118",
-            "allergens": "Contains Dairy, Contains Soy, Contains Wheat, Contains Gluten, Contains Dairy, Contains Soy, Contains Wheat, ",
-            "price": "9.00",
-            "restrictions": [
-                "Contains Dairy",
-                "Contains Soy",
-                "Contains Wheat",
-                "Contains Gluten",
-                "Contains Dairy",
-                "Contains Soy",
-                "Contains Wheat"
-            ]
+            ],
+            "price": "6.00"
         },
         {
             "food": "Carnitas Burrito",
@@ -171,15 +134,14 @@
             "proteinDV": "",
             "sodium": "1895.9",
             "sodiumDV": "82",
-            "allergens": "Contains Soy, Contains Wheat, Contains Gluten, Contains Soy, Contains Wheat, ",
-            "price": "8.50",
             "restrictions": [
                 "Contains Soy",
                 "Contains Wheat",
                 "Contains Gluten",
                 "Contains Soy",
                 "Contains Wheat"
-            ]
+            ],
+            "price": "8.50"
         },
         {
             "food": "El Jefe Burrito",
@@ -203,8 +165,6 @@
             "proteinDV": "",
             "sodium": "3701.5",
             "sodiumDV": "161",
-            "allergens": "Contains Dairy, Contains Soy, Contains Wheat, Contains Gluten, Contains Dairy, Contains Soy, Contains Wheat, ",
-            "price": "11.00",
             "restrictions": [
                 "Contains Dairy",
                 "Contains Soy",
@@ -213,7 +173,8 @@
                 "Contains Dairy",
                 "Contains Soy",
                 "Contains Wheat"
-            ]
+            ],
+            "price": "11.00"
         },
         {
             "food": "Pollo Asada Burrito",
@@ -237,15 +198,14 @@
             "proteinDV": "",
             "sodium": "2895.2",
             "sodiumDV": "126",
-            "allergens": "Contains Soy, Contains Wheat, Contains Gluten, Contains Soy, Contains Wheat, ",
-            "price": "8.50",
             "restrictions": [
                 "Contains Soy",
                 "Contains Wheat",
                 "Contains Gluten",
                 "Contains Soy",
                 "Contains Wheat"
-            ]
+            ],
+            "price": "8.50"
         },
         {
             "food": "Shrimp Asada Burrito",
@@ -269,8 +229,6 @@
             "proteinDV": "",
             "sodium": "2202.1",
             "sodiumDV": "96",
-            "allergens": "Contains Dairy, Contains Soy, Contains Wheat, Contains Shellfish, Contains Gluten, Contains Dairy, Contains Soy, Contains Wheat, Contains Shellfish, ",
-            "price": "8.50",
             "restrictions": [
                 "Contains Dairy",
                 "Contains Soy",
@@ -281,43 +239,8 @@
                 "Contains Soy",
                 "Contains Wheat",
                 "Contains Shellfish"
-            ]
-        },
-        {
-            "food": "Surf & Turf Burrito",
-            "cal": "573",
-            "calFromFat": "175",
-            "totFat": "19.4",
-            "totFatDV": "51",
-            "totCarb": "60.8",
-            "totCarbDV": "",
-            "satFat": "6.3",
-            "satFatDV": "32",
-            "dietaryFiber": "9.7",
-            "dietaryFiberDV": "32",
-            "transFat": "0",
-            "transFatDV": "",
-            "sugars": "5.8",
-            "sugarsDV": "4",
-            "cholesterol": "167.8",
-            "cholesterolDV": "",
-            "protein": "43.3",
-            "proteinDV": "",
-            "sodium": "1891.7",
-            "sodiumDV": "82",
-            "allergens": "Contains Dairy, Contains Soy, Contains Wheat, Contains Shellfish, Contains Gluten, Contains Dairy, Contains Soy, Contains Wheat, Contains Shellfish, ",
-            "price": "10.00",
-            "restrictions": [
-                "Contains Dairy",
-                "Contains Soy",
-                "Contains Wheat",
-                "Contains Shellfish",
-                "Contains Gluten",
-                "Contains Dairy",
-                "Contains Soy",
-                "Contains Wheat",
-                "Contains Shellfish"
-            ]
+            ],
+            "price": "8.50"
         },
         {
             "food": "Veggie Burrito",
@@ -341,8 +264,6 @@
             "proteinDV": "",
             "sodium": "1530.5",
             "sodiumDV": "67",
-            "allergens": "Vegetarian, Contains Dairy, Contains Soy, Contains Wheat, Contains Gluten, Sustainability, Vegetarian, Contains Dairy, Contains Soy, Contains Wheat, Sustainability, ",
-            "price": "7.50",
             "restrictions": [
                 "Vegetarian",
                 "Contains Dairy",
@@ -355,7 +276,8 @@
                 "Contains Soy",
                 "Contains Wheat",
                 "Sustainability"
-            ]
+            ],
+            "price": "7.50"
         },
         {
             "food": "Battered Fish Burrito Bowl",
@@ -379,8 +301,6 @@
             "proteinDV": "",
             "sodium": "1668.4",
             "sodiumDV": "73",
-            "allergens": "Contains Dairy, Contains Soy, Contains Wheat, Contains Fish, Contains Gluten, Sustainability, Contains Dairy, Contains Soy, Contains Wheat, Contains Fish, Sustainability, ",
-            "price": "10.00",
             "restrictions": [
                 "Contains Dairy",
                 "Contains Soy",
@@ -393,7 +313,8 @@
                 "Contains Wheat",
                 "Contains Fish",
                 "Sustainability"
-            ]
+            ],
+            "price": "10.00"
         },
         {
             "food": "Bean & Rice Bowl",
@@ -417,8 +338,6 @@
             "proteinDV": "",
             "sodium": "1153",
             "sodiumDV": "50",
-            "allergens": "Vegetarian, Contains Dairy, Sustainability, Vegetarian, Contains Dairy, Sustainability, ",
-            "price": "5.00",
             "restrictions": [
                 "Vegetarian",
                 "Contains Dairy",
@@ -426,36 +345,8 @@
                 "Vegetarian",
                 "Contains Dairy",
                 "Sustainability"
-            ]
-        },
-        {
-            "food": "Carne Asada Burrito Bowl",
-            "cal": "448",
-            "calFromFat": "140",
-            "totFat": "15.6",
-            "totFatDV": "41",
-            "totCarb": "35",
-            "totCarbDV": "",
-            "satFat": "7.9",
-            "satFatDV": "40",
-            "dietaryFiber": "5.9",
-            "dietaryFiberDV": "20",
-            "transFat": "0",
-            "transFatDV": "",
-            "sugars": "7",
-            "sugarsDV": "5",
-            "cholesterol": "108.2",
-            "cholesterolDV": "",
-            "protein": "41",
-            "proteinDV": "",
-            "sodium": "2204.5",
-            "sodiumDV": "96",
-            "allergens": "Contains Dairy, Contains Dairy, ",
-            "price": "9.00",
-            "restrictions": [
-                "Contains Dairy",
-                "Contains Dairy"
-            ]
+            ],
+            "price": "5.00"
         },
         {
             "food": "Carnitas Burrito Bowl",
@@ -479,14 +370,13 @@
             "proteinDV": "",
             "sodium": "2312.5",
             "sodiumDV": "101",
-            "allergens": "Contains Dairy, Contains Soy, Contains Dairy, Contains Soy, ",
-            "price": "8.50",
             "restrictions": [
                 "Contains Dairy",
                 "Contains Soy",
                 "Contains Dairy",
                 "Contains Soy"
-            ]
+            ],
+            "price": "8.50"
         },
         {
             "food": "Pollo Asada Burrito Bowl",
@@ -510,12 +400,11 @@
             "proteinDV": "",
             "sodium": "2440.3",
             "sodiumDV": "106",
-            "allergens": "Contains Dairy, Contains Dairy, ",
-            "price": "8.50",
             "restrictions": [
                 "Contains Dairy",
                 "Contains Dairy"
-            ]
+            ],
+            "price": "8.50"
         },
         {
             "food": "Shrimp Asada Burrito Bowl",
@@ -539,8 +428,6 @@
             "proteinDV": "",
             "sodium": "1697.6",
             "sodiumDV": "74",
-            "allergens": "Contains Dairy, Contains Shellfish, Sustainability, Contains Dairy, Contains Shellfish, Sustainability, ",
-            "price": "8.50",
             "restrictions": [
                 "Contains Dairy",
                 "Contains Shellfish",
@@ -548,38 +435,8 @@
                 "Contains Dairy",
                 "Contains Shellfish",
                 "Sustainability"
-            ]
-        },
-        {
-            "food": "Surf & Turf Burrito Bowl",
-            "cal": "472",
-            "calFromFat": "171",
-            "totFat": "18.9",
-            "totFatDV": "50",
-            "totCarb": "34.6",
-            "totCarbDV": "",
-            "satFat": "7.4",
-            "satFatDV": "37",
-            "dietaryFiber": "5.9",
-            "dietaryFiberDV": "20",
-            "transFat": "0",
-            "transFatDV": "",
-            "sugars": "6.5",
-            "sugarsDV": "5",
-            "cholesterol": "188.9",
-            "cholesterolDV": "",
-            "protein": "40.7",
-            "proteinDV": "",
-            "sodium": "1951.1",
-            "sodiumDV": "85",
-            "allergens": "Contains Dairy, Contains Shellfish, Contains Dairy, Contains Shellfish, ",
-            "price": "10.00",
-            "restrictions": [
-                "Contains Dairy",
-                "Contains Shellfish",
-                "Contains Dairy",
-                "Contains Shellfish"
-            ]
+            ],
+            "price": "8.50"
         },
         {
             "food": "Veggie Burrito Bowl",
@@ -603,8 +460,6 @@
             "proteinDV": "",
             "sodium": "1571.7",
             "sodiumDV": "68",
-            "allergens": "Vegetarian, Contains Dairy, Sustainability, Vegetarian, Contains Dairy, Sustainability, ",
-            "price": "7.50",
             "restrictions": [
                 "Vegetarian",
                 "Contains Dairy",
@@ -612,38 +467,38 @@
                 "Vegetarian",
                 "Contains Dairy",
                 "Sustainability"
-            ]
+            ],
+            "price": "7.50"
         },
         {
-            "food": "Agua de Sandia",
-            "cal": "30",
+            "food": "Cucumber Agua Fresca",
+            "cal": "16",
             "calFromFat": "1",
             "totFat": "0.1",
             "totFatDV": "0",
-            "totCarb": "7.6",
+            "totCarb": "3.3",
             "totCarbDV": "",
             "satFat": "0",
             "satFatDV": "0",
-            "dietaryFiber": "0.4",
-            "dietaryFiberDV": "1",
+            "dietaryFiber": "0.6",
+            "dietaryFiberDV": "2",
             "transFat": "0",
             "transFatDV": "",
-            "sugars": "6.1",
-            "sugarsDV": "5",
+            "sugars": "2.4",
+            "sugarsDV": "2",
             "cholesterol": "0",
             "cholesterolDV": "",
             "protein": "0.5",
             "proteinDV": "",
-            "sodium": "17.5",
+            "sodium": "16.1",
             "sodiumDV": "1",
-            "allergens": "Vegan, Sustainability, Vegan, Sustainability, ",
-            "price": "3.50",
             "restrictions": [
                 "Vegan",
                 "Sustainability",
                 "Vegan",
                 "Sustainability"
-            ]
+            ],
+            "price": "3.50"
         },
         {
             "food": "Charro Beans",
@@ -667,8 +522,6 @@
             "proteinDV": "",
             "sodium": "460.2",
             "sodiumDV": "20",
-            "allergens": "Vegan, Contains Soy, Sustainability, Vegan, Contains Soy, Sustainability, ",
-            "price": "1.50",
             "restrictions": [
                 "Vegan",
                 "Contains Soy",
@@ -676,7 +529,8 @@
                 "Vegan",
                 "Contains Soy",
                 "Sustainability"
-            ]
+            ],
+            "price": "1.50"
         },
         {
             "food": "Chips and Guacamole",
@@ -700,8 +554,6 @@
             "proteinDV": "",
             "sodium": "188.6",
             "sodiumDV": "8",
-            "allergens": "Vegan, Wellness, Sustainability, Vegan, Wellness, Sustainability, ",
-            "price": "2.50",
             "restrictions": [
                 "Vegan",
                 "Wellness",
@@ -709,7 +561,8 @@
                 "Vegan",
                 "Wellness",
                 "Sustainability"
-            ]
+            ],
+            "price": "2.50"
         },
         {
             "food": "Cilantro Rice",
@@ -733,8 +586,6 @@
             "proteinDV": "",
             "sodium": "751.8",
             "sodiumDV": "33",
-            "allergens": "Vegan, Contains Soy, Sustainability, Vegan, Contains Soy, Sustainability, ",
-            "price": "1.50",
             "restrictions": [
                 "Vegan",
                 "Contains Soy",
@@ -742,7 +593,8 @@
                 "Vegan",
                 "Contains Soy",
                 "Sustainability"
-            ]
+            ],
+            "price": "1.50"
         },
         {
             "food": "Refried Beans",
@@ -766,43 +618,41 @@
             "proteinDV": "",
             "sodium": "460.2",
             "sodiumDV": "20",
-            "allergens": "Vegan, Vegan, ",
-            "price": "1.50",
             "restrictions": [
                 "Vegan",
                 "Vegan"
-            ]
+            ],
+            "price": "1.50"
         },
         {
             "food": "Tortilla  Chips",
-            "cal": "64",
-            "calFromFat": "9",
-            "totFat": "1",
+            "cal": "73",
+            "calFromFat": "11",
+            "totFat": "1.2",
             "totFatDV": "3",
-            "totCarb": "12.7",
+            "totCarb": "15.2",
             "totCarbDV": "",
-            "satFat": "0.1",
-            "satFatDV": "1",
-            "dietaryFiber": "1.8",
-            "dietaryFiberDV": "6",
+            "satFat": "0",
+            "satFatDV": "0",
+            "dietaryFiber": "3",
+            "dietaryFiberDV": "10",
             "transFat": "0",
             "transFatDV": "",
-            "sugars": "0.3",
+            "sugars": "0",
             "sugarsDV": "0",
             "cholesterol": "0",
             "cholesterolDV": "",
-            "protein": "1.6",
+            "protein": "1",
             "proteinDV": "",
-            "sodium": "69.5",
+            "sodium": "61.8",
             "sodiumDV": "3",
-            "allergens": "Vegan, Sustainability, Vegan, Sustainability, ",
-            "price": "1.50",
             "restrictions": [
                 "Vegan",
                 "Sustainability",
                 "Vegan",
                 "Sustainability"
-            ]
+            ],
+            "price": "1.50"
         },
         {
             "food": "Chipotle Lime Crema",
@@ -826,8 +676,6 @@
             "proteinDV": "",
             "sodium": "145.5",
             "sodiumDV": "6",
-            "allergens": "Vegetarian, Contains Dairy, Sustainability, Vegetarian, Contains Dairy, Sustainability, ",
-            "price": ".75",
             "restrictions": [
                 "Vegetarian",
                 "Contains Dairy",
@@ -835,7 +683,8 @@
                 "Vegetarian",
                 "Contains Dairy",
                 "Sustainability"
-            ]
+            ],
+            "price": ".75"
         },
         {
             "food": "Guacamole",
@@ -859,14 +708,13 @@
             "proteinDV": "",
             "sodium": "24.8",
             "sodiumDV": "1",
-            "allergens": "Vegan, Sustainability, Vegan, Sustainability, ",
-            "price": "1.25",
             "restrictions": [
                 "Vegan",
                 "Sustainability",
                 "Vegan",
                 "Sustainability"
-            ]
+            ],
+            "price": "1.25"
         },
         {
             "food": "Pollo Asada",
@@ -890,9 +738,8 @@
             "proteinDV": "",
             "sodium": "1281.6",
             "sodiumDV": "56",
-            "allergens": "",
-            "price": "4.00",
-            "restrictions": []
+            "restrictions": [],
+            "price": "4.00"
         },
         {
             "food": "Pork Carnitas",
@@ -916,12 +763,11 @@
             "proteinDV": "",
             "sodium": "675.5",
             "sodiumDV": "29",
-            "allergens": "Contains Soy, Contains Soy, ",
-            "price": "4.00",
             "restrictions": [
                 "Contains Soy",
                 "Contains Soy"
-            ]
+            ],
+            "price": "4.00"
         },
         {
             "food": "Sauteed Mixed Vegetables",
@@ -945,14 +791,13 @@
             "proteinDV": "",
             "sodium": "413",
             "sodiumDV": "18",
-            "allergens": "Vegan, Sustainability, Vegan, Sustainability, ",
-            "price": "2.50",
             "restrictions": [
                 "Vegan",
                 "Sustainability",
                 "Vegan",
                 "Sustainability"
-            ]
+            ],
+            "price": "2.50"
         },
         {
             "food": "Shrimp Asada",
@@ -976,8 +821,6 @@
             "proteinDV": "",
             "sodium": "543.2",
             "sodiumDV": "24",
-            "allergens": "Wellness, Contains Shellfish, Sustainability, Wellness, Contains Shellfish, Sustainability, ",
-            "price": "5.00",
             "restrictions": [
                 "Wellness",
                 "Contains Shellfish",
@@ -985,561 +828,8 @@
                 "Wellness",
                 "Contains Shellfish",
                 "Sustainability"
-            ]
-        },
-        {
-            "food": "Korean Beef Burrito",
-            "cal": "777",
-            "calFromFat": "176",
-            "totFat": "19.5",
-            "totFatDV": "51",
-            "totCarb": "101.7",
-            "totCarbDV": "",
-            "satFat": "6.2",
-            "satFatDV": "31",
-            "dietaryFiber": "10.8",
-            "dietaryFiberDV": "36",
-            "transFat": "0",
-            "transFatDV": "",
-            "sugars": "18",
-            "sugarsDV": "14",
-            "cholesterol": "84",
-            "cholesterolDV": "",
-            "protein": "48.6",
-            "proteinDV": "",
-            "sodium": "2872.1",
-            "sodiumDV": "125",
-            "allergens": "Contains Soy, Contains Wheat, Contains Gluten, Contains Soy, Contains Wheat, ",
-            "price": "9.00",
-            "restrictions": [
-                "Contains Soy",
-                "Contains Wheat",
-                "Contains Gluten",
-                "Contains Soy",
-                "Contains Wheat"
-            ]
-        },
-        {
-            "food": "Korean Beef Tacos",
-            "cal": "493",
-            "calFromFat": "100",
-            "totFat": "11.1",
-            "totFatDV": "29",
-            "totCarb": "72.2",
-            "totCarbDV": "",
-            "satFat": "1.7",
-            "satFatDV": "8",
-            "dietaryFiber": "0.7",
-            "dietaryFiberDV": "2",
-            "transFat": "0",
-            "transFatDV": "",
-            "sugars": "12.7",
-            "sugarsDV": "10",
-            "cholesterol": "44.5",
-            "cholesterolDV": "",
-            "protein": "25",
-            "proteinDV": "",
-            "sodium": "1483.5",
-            "sodiumDV": "64",
-            "allergens": "Contains Soy, Contains Wheat, Contains Gluten, Contains Soy, Contains Wheat, ",
-            "price": "6.00",
-            "restrictions": [
-                "Contains Soy",
-                "Contains Wheat",
-                "Contains Gluten",
-                "Contains Soy",
-                "Contains Wheat"
-            ]
-        },
-        {
-            "food": "Korean Cauliflower Burrito",
-            "cal": "637",
-            "calFromFat": "132",
-            "totFat": "14.6",
-            "totFatDV": "39",
-            "totCarb": "111",
-            "totCarbDV": "",
-            "satFat": "4.5",
-            "satFatDV": "22",
-            "dietaryFiber": "13.5",
-            "dietaryFiberDV": "45",
-            "transFat": "0",
-            "transFatDV": "",
-            "sugars": "24.8",
-            "sugarsDV": "19",
-            "cholesterol": "0",
-            "cholesterolDV": "",
-            "protein": "19",
-            "proteinDV": "",
-            "sodium": "3157.9",
-            "sodiumDV": "137",
-            "allergens": "Vegetarian, Contains Soy, Contains Wheat, Contains Gluten, Vegetarian, Contains Soy, Contains Wheat, ",
-            "price": "7.50",
-            "restrictions": [
-                "Vegetarian",
-                "Contains Soy",
-                "Contains Wheat",
-                "Contains Gluten",
-                "Vegetarian",
-                "Contains Soy",
-                "Contains Wheat"
-            ]
-        },
-        {
-            "food": "Korean Cauliflower Tacos",
-            "cal": "429",
-            "calFromFat": "75",
-            "totFat": "8.3",
-            "totFatDV": "22",
-            "totCarb": "79.5",
-            "totCarbDV": "",
-            "satFat": "0.8",
-            "satFatDV": "4",
-            "dietaryFiber": "1.3",
-            "dietaryFiberDV": "4",
-            "transFat": "0",
-            "transFatDV": "",
-            "sugars": "15.9",
-            "sugarsDV": "12",
-            "cholesterol": "2.5",
-            "cholesterolDV": "",
-            "protein": "9.2",
-            "proteinDV": "",
-            "sodium": "1286.9",
-            "sodiumDV": "56",
-            "allergens": "Vegetarian, Contains Soy, Contains Wheat, Contains Gluten, Vegetarian, Contains Soy, Contains Wheat, ",
-            "price": "5.00",
-            "restrictions": [
-                "Vegetarian",
-                "Contains Soy",
-                "Contains Wheat",
-                "Contains Gluten",
-                "Vegetarian",
-                "Contains Soy",
-                "Contains Wheat"
-            ]
-        },
-        {
-            "food": "Korean Chicken Burrito",
-            "cal": "796",
-            "calFromFat": "214",
-            "totFat": "23.7",
-            "totFatDV": "62",
-            "totCarb": "102.4",
-            "totCarbDV": "",
-            "satFat": "7",
-            "satFatDV": "35",
-            "dietaryFiber": "10.8",
-            "dietaryFiberDV": "36",
-            "transFat": "0",
-            "transFatDV": "",
-            "sugars": "18.5",
-            "sugarsDV": "14",
-            "cholesterol": "153.2",
-            "cholesterolDV": "",
-            "protein": "43.6",
-            "proteinDV": "",
-            "sodium": "2995",
-            "sodiumDV": "130",
-            "allergens": "Contains Soy, Contains Wheat, Contains Gluten, Contains Soy, Contains Wheat, ",
-            "price": "8.50",
-            "restrictions": [
-                "Contains Soy",
-                "Contains Wheat",
-                "Contains Gluten",
-                "Contains Soy",
-                "Contains Wheat"
-            ]
-        },
-        {
-            "food": "Korean Chicken Tacos",
-            "cal": "503",
-            "calFromFat": "119",
-            "totFat": "13.2",
-            "totFatDV": "35",
-            "totCarb": "72.6",
-            "totCarbDV": "",
-            "satFat": "2.1",
-            "satFatDV": "10",
-            "dietaryFiber": "0.7",
-            "dietaryFiberDV": "2",
-            "transFat": "0",
-            "transFatDV": "",
-            "sugars": "12.9",
-            "sugarsDV": "10",
-            "cholesterol": "79.1",
-            "cholesterolDV": "",
-            "protein": "22.5",
-            "proteinDV": "",
-            "sodium": "1549.4",
-            "sodiumDV": "67",
-            "allergens": "Contains Soy, Contains Wheat, Contains Fish, Contains Gluten, Contains Soy, Contains Wheat, Contains Fish, ",
-            "price": "6.00",
-            "restrictions": [
-                "Contains Soy",
-                "Contains Wheat",
-                "Contains Fish",
-                "Contains Gluten",
-                "Contains Soy",
-                "Contains Wheat",
-                "Contains Fish"
-            ]
-        },
-        {
-            "food": "Aztec Pinto Beans",
-            "cal": "92",
-            "calFromFat": "14",
-            "totFat": "1.6",
-            "totFatDV": "4",
-            "totCarb": "15.3",
-            "totCarbDV": "",
-            "satFat": "0.2",
-            "satFatDV": "1",
-            "dietaryFiber": "4.4",
-            "dietaryFiberDV": "15",
-            "transFat": "0",
-            "transFatDV": "",
-            "sugars": "1.6",
-            "sugarsDV": "1",
-            "cholesterol": "0",
-            "cholesterolDV": "",
-            "protein": "4.4",
-            "proteinDV": "",
-            "sodium": "503.9",
-            "sodiumDV": "22",
-            "allergens": "Vegan, Sustainability, Vegan, Sustainability, ",
-            "price": "1.50",
-            "restrictions": [
-                "Vegan",
-                "Sustainability",
-                "Vegan",
-                "Sustainability"
-            ]
-        },
-        {
-            "food": "Cotija Cheese",
-            "cal": "91",
-            "calFromFat": "64",
-            "totFat": "7.1",
-            "totFatDV": "19",
-            "totCarb": "1",
-            "totCarbDV": "",
-            "satFat": "4.6",
-            "satFatDV": "23",
-            "dietaryFiber": "0",
-            "dietaryFiberDV": "0",
-            "transFat": "0",
-            "transFatDV": "",
-            "sugars": "0",
-            "sugarsDV": "0",
-            "cholesterol": "25.3",
-            "cholesterolDV": "",
-            "protein": "7.1",
-            "proteinDV": "",
-            "sodium": "435.4",
-            "sodiumDV": "19",
-            "allergens": "Vegetarian, Contains Dairy, Sustainability, Vegetarian, Contains Dairy, Sustainability, ",
-            "price": "",
-            "restrictions": [
-                "Vegetarian",
-                "Contains Dairy",
-                "Sustainability",
-                "Vegetarian",
-                "Contains Dairy",
-                "Sustainability"
-            ]
-        },
-        {
-            "food": "Jalapenos",
-            "cal": "4",
-            "calFromFat": "0",
-            "totFat": "0.1",
-            "totFatDV": "0",
-            "totCarb": "0.9",
-            "totCarbDV": "",
-            "satFat": "0",
-            "satFatDV": "0",
-            "dietaryFiber": "0.4",
-            "dietaryFiberDV": "1",
-            "transFat": "0",
-            "transFatDV": "",
-            "sugars": "0.5",
-            "sugarsDV": "0",
-            "cholesterol": "0",
-            "cholesterolDV": "",
-            "protein": "0.1",
-            "proteinDV": "",
-            "sodium": "0.4",
-            "sodiumDV": "0",
-            "allergens": "Vegan, Sustainability, Vegan, Sustainability, ",
-            "price": "",
-            "restrictions": [
-                "Vegan",
-                "Sustainability",
-                "Vegan",
-                "Sustainability"
-            ]
-        },
-        {
-            "food": "Korean Gochujang Sauce",
-            "cal": "67",
-            "calFromFat": "17",
-            "totFat": "1.9",
-            "totFatDV": "5",
-            "totCarb": "10.6",
-            "totCarbDV": "",
-            "satFat": "0.3",
-            "satFatDV": "1",
-            "dietaryFiber": "0",
-            "dietaryFiberDV": "0",
-            "transFat": "0",
-            "transFatDV": "",
-            "sugars": "7.3",
-            "sugarsDV": "6",
-            "cholesterol": "0",
-            "cholesterolDV": "",
-            "protein": "0.8",
-            "proteinDV": "",
-            "sodium": "662.2",
-            "sodiumDV": "29",
-            "allergens": "Vegetarian, Contains Soy, Contains Wheat, Contains Gluten, Contains Sesame, Sustainability, Vegetarian, Contains Soy, Contains Wheat, Contains Gluten, Sustainability, ",
-            "price": "",
-            "restrictions": [
-                "Vegetarian",
-                "Contains Soy",
-                "Contains Wheat",
-                "Contains Gluten",
-                "Contains Sesame",
-                "Sustainability",
-                "Vegetarian",
-                "Contains Soy",
-                "Contains Wheat",
-                "Contains Gluten",
-                "Sustainability"
-            ]
-        },
-        {
-            "food": "Napa Cabbage",
-            "cal": "4",
-            "calFromFat": "0",
-            "totFat": "0.1",
-            "totFatDV": "0",
-            "totCarb": "0.7",
-            "totCarbDV": "",
-            "satFat": "0",
-            "satFatDV": "0",
-            "dietaryFiber": "0.5",
-            "dietaryFiberDV": "2",
-            "transFat": "0",
-            "transFatDV": "",
-            "sugars": "",
-            "sugarsDV": "",
-            "cholesterol": "0",
-            "cholesterolDV": "",
-            "protein": "0.4",
-            "proteinDV": "",
-            "sodium": "2.6",
-            "sodiumDV": "0",
-            "allergens": "Vegan, Sustainability, Vegan, Sustainability, ",
-            "price": "",
-            "restrictions": [
-                "Vegan",
-                "Sustainability",
-                "Vegan",
-                "Sustainability"
-            ]
-        },
-        {
-            "food": "Pineapple Salsa",
-            "cal": "14",
-            "calFromFat": "0",
-            "totFat": "0",
-            "totFatDV": "0",
-            "totCarb": "3.6",
-            "totCarbDV": "",
-            "satFat": "0",
-            "satFatDV": "0",
-            "dietaryFiber": "0.4",
-            "dietaryFiberDV": "1",
-            "transFat": "0",
-            "transFatDV": "",
-            "sugars": "2.7",
-            "sugarsDV": "2",
-            "cholesterol": "0",
-            "cholesterolDV": "",
-            "protein": "0.2",
-            "proteinDV": "",
-            "sodium": "0.4",
-            "sodiumDV": "0",
-            "allergens": "Vegan, Sustainability, Vegan, Sustainability, ",
-            "price": "",
-            "restrictions": [
-                "Vegan",
-                "Sustainability",
-                "Vegan",
-                "Sustainability"
-            ]
-        },
-        {
-            "food": "Quick Kimchi Slaw",
-            "cal": "38",
-            "calFromFat": "18",
-            "totFat": "2",
-            "totFatDV": "5",
-            "totCarb": "4.6",
-            "totCarbDV": "",
-            "satFat": "0.3",
-            "satFatDV": "2",
-            "dietaryFiber": "0.5",
-            "dietaryFiberDV": "2",
-            "transFat": "0",
-            "transFatDV": "",
-            "sugars": "3.7",
-            "sugarsDV": "3",
-            "cholesterol": "2.5",
-            "cholesterolDV": "",
-            "protein": "0.2",
-            "proteinDV": "",
-            "sodium": "113.5",
-            "sodiumDV": "5",
-            "allergens": "Vegetarian, Sustainability, Vegetarian, Sustainability, ",
-            "price": "",
-            "restrictions": [
-                "Vegetarian",
-                "Sustainability",
-                "Vegetarian",
-                "Sustainability"
-            ]
-        },
-        {
-            "food": "Steamed Rice",
-            "cal": "111",
-            "calFromFat": "2",
-            "totFat": "0.2",
-            "totFatDV": "1",
-            "totCarb": "24",
-            "totCarbDV": "",
-            "satFat": "0.1",
-            "satFatDV": "0",
-            "dietaryFiber": "0.3",
-            "dietaryFiberDV": "1",
-            "transFat": "0",
-            "transFatDV": "",
-            "sugars": "0",
-            "sugarsDV": "0",
-            "cholesterol": "0",
-            "cholesterolDV": "",
-            "protein": "2.3",
-            "proteinDV": "",
-            "sodium": "1.8",
-            "sodiumDV": "0",
-            "allergens": "Vegan, Wellness, Sustainability, Vegan, Wellness, Sustainability, ",
-            "price": "1.50",
-            "restrictions": [
-                "Vegan",
-                "Wellness",
-                "Sustainability",
-                "Vegan",
-                "Wellness",
-                "Sustainability"
-            ]
-        },
-        {
-            "food": "Korean BBQ Chicken Thigh",
-            "cal": "200",
-            "calFromFat": "85",
-            "totFat": "9.4",
-            "totFatDV": "25",
-            "totCarb": "5.2",
-            "totCarbDV": "",
-            "satFat": "2.2",
-            "satFatDV": "11",
-            "dietaryFiber": "0.1",
-            "dietaryFiberDV": "0",
-            "transFat": "0",
-            "transFatDV": "",
-            "sugars": "4.5",
-            "sugarsDV": "3",
-            "cholesterol": "114.9",
-            "cholesterolDV": "",
-            "protein": "20.5",
-            "proteinDV": "",
-            "sodium": "980.8",
-            "sodiumDV": "43",
-            "allergens": "Contains Soy, Contains Soy, ",
-            "price": "4.00",
-            "restrictions": [
-                "Contains Soy",
-                "Contains Soy"
-            ]
-        },
-        {
-            "food": "Korean Beef",
-            "cal": "185",
-            "calFromFat": "56",
-            "totFat": "6.2",
-            "totFatDV": "16",
-            "totCarb": "4.6",
-            "totCarbDV": "",
-            "satFat": "1.7",
-            "satFatDV": "8",
-            "dietaryFiber": "0.1",
-            "dietaryFiberDV": "0",
-            "transFat": "0",
-            "transFatDV": "",
-            "sugars": "4.1",
-            "sugarsDV": "3",
-            "cholesterol": "63",
-            "cholesterolDV": "",
-            "protein": "24.3",
-            "proteinDV": "",
-            "sodium": "888.7",
-            "sodiumDV": "39",
-            "allergens": "Contains Soy, Contains Wheat, Contains Gluten, Contains Soy, Contains Wheat, ",
-            "price": "4.00",
-            "restrictions": [
-                "Contains Soy",
-                "Contains Wheat",
-                "Contains Gluten",
-                "Contains Soy",
-                "Contains Wheat"
-            ]
-        },
-        {
-            "food": "Korean Cauliflower",
-            "cal": "92",
-            "calFromFat": "19",
-            "totFat": "2.1",
-            "totFatDV": "6",
-            "totCarb": "15.4",
-            "totCarbDV": "",
-            "satFat": "0.3",
-            "satFatDV": "1",
-            "dietaryFiber": "1.1",
-            "dietaryFiberDV": "4",
-            "transFat": "0",
-            "transFatDV": "",
-            "sugars": "8.1",
-            "sugarsDV": "6",
-            "cholesterol": "0",
-            "cholesterolDV": "",
-            "protein": "2",
-            "proteinDV": "",
-            "sodium": "681.5",
-            "sodiumDV": "30",
-            "allergens": "Vegetarian, Contains Soy, Contains Wheat, Contains Gluten, Sustainability, Vegetarian, Contains Soy, Contains Wheat, Sustainability, ",
-            "price": "3.00",
-            "restrictions": [
-                "Vegetarian",
-                "Contains Soy",
-                "Contains Wheat",
-                "Contains Gluten",
-                "Sustainability",
-                "Vegetarian",
-                "Contains Soy",
-                "Contains Wheat",
-                "Sustainability"
-            ]
+            ],
+            "price": "5.00"
         },
         {
             "food": "BYO Poke Bowl",
@@ -1563,8 +853,6 @@
             "proteinDV": "",
             "sodium": "2433.5",
             "sodiumDV": "106",
-            "allergens": "Contains Soy, Contains Wheat, Contains Fish, Contains Shellfish, Contains Eggs, Contains Gluten, Contains Soy, Contains Wheat, Contains Fish, Contains Shellfish, Contains Eggs, ",
-            "price": "11.25",
             "restrictions": [
                 "Contains Soy",
                 "Contains Wheat",
@@ -1577,7 +865,8 @@
                 "Contains Fish",
                 "Contains Shellfish",
                 "Contains Eggs"
-            ]
+            ],
+            "price": "11.25"
         },
         {
             "food": "Bahng Bowl",
@@ -1601,8 +890,6 @@
             "proteinDV": "",
             "sodium": "1160.8",
             "sodiumDV": "50",
-            "allergens": "Contains Dairy, Contains Soy, Contains Fish, Contains Eggs, Contains Sesame, Sustainability, Contains Dairy, Contains Soy, Contains Fish, Contains Eggs, Contains Gluten, Sustainability, ",
-            "price": "9.75",
             "restrictions": [
                 "Contains Dairy",
                 "Contains Soy",
@@ -1616,7 +903,8 @@
                 "Contains Eggs",
                 "Contains Gluten",
                 "Sustainability"
-            ]
+            ],
+            "price": "9.75"
         },
         {
             "food": "Lava Poke Bowl",
@@ -1640,8 +928,6 @@
             "proteinDV": "",
             "sodium": "1832.1",
             "sodiumDV": "80",
-            "allergens": "Contains Soy, Contains Wheat, Contains Fish, Contains Shellfish, Contains Eggs, Contains Gluten, Contains Sesame, Sustainability, Contains Soy, Contains Wheat, Contains Fish, Contains Shellfish, Contains Eggs, Contains Gluten, Sustainability, ",
-            "price": "9.75",
             "restrictions": [
                 "Contains Soy",
                 "Contains Wheat",
@@ -1658,7 +944,8 @@
                 "Contains Eggs",
                 "Contains Gluten",
                 "Sustainability"
-            ]
+            ],
+            "price": "9.75"
         },
         {
             "food": "Lilo Poke Bowl",
@@ -1682,8 +969,6 @@
             "proteinDV": "",
             "sodium": "1512.2",
             "sodiumDV": "66",
-            "allergens": "Vegetarian, Contains Soy, Contains Sesame, Sustainability, Vegetarian, Contains Soy, Contains Gluten, Sustainability, ",
-            "price": "8.75",
             "restrictions": [
                 "Vegetarian",
                 "Contains Soy",
@@ -1693,7 +978,8 @@
                 "Contains Soy",
                 "Contains Gluten",
                 "Sustainability"
-            ]
+            ],
+            "price": "8.75"
         },
         {
             "food": "Makai Poke Bowl",
@@ -1717,8 +1003,6 @@
             "proteinDV": "",
             "sodium": "1909.7",
             "sodiumDV": "83",
-            "allergens": "Contains Soy, Contains Fish, Contains Shellfish, Contains Sesame, Sustainability, Contains Soy, Contains Fish, Contains Shellfish, Contains Gluten, Sustainability, ",
-            "price": "9.75",
             "restrictions": [
                 "Contains Soy",
                 "Contains Fish",
@@ -1730,7 +1014,8 @@
                 "Contains Shellfish",
                 "Contains Gluten",
                 "Sustainability"
-            ]
+            ],
+            "price": "9.75"
         },
         {
             "food": "Ohana Poke Bowl",
@@ -1754,8 +1039,6 @@
             "proteinDV": "",
             "sodium": "1740",
             "sodiumDV": "76",
-            "allergens": "Contains Soy, Contains Wheat, Contains Fish, Contains Gluten, Contains Sesame, Sustainability, Contains Soy, Contains Wheat, Contains Fish, Contains Gluten, Sustainability, ",
-            "price": "9.75",
             "restrictions": [
                 "Contains Soy",
                 "Contains Wheat",
@@ -1768,7 +1051,8 @@
                 "Contains Fish",
                 "Contains Gluten",
                 "Sustainability"
-            ]
+            ],
+            "price": "9.75"
         },
         {
             "food": "Brown Rice",
@@ -1792,8 +1076,6 @@
             "proteinDV": "",
             "sodium": "8.5",
             "sodiumDV": "0",
-            "allergens": "Vegan, Wellness, Sustainability, Vegan, Wellness, Sustainability, ",
-            "price": "",
             "restrictions": [
                 "Vegan",
                 "Wellness",
@@ -1801,7 +1083,8 @@
                 "Vegan",
                 "Wellness",
                 "Sustainability"
-            ]
+            ],
+            "price": ""
         },
         {
             "food": "Mixed Greens\n Base",
@@ -1825,14 +1108,13 @@
             "proteinDV": "",
             "sodium": "15.5",
             "sodiumDV": "1",
-            "allergens": "Vegan, Sustainability, Vegan, Sustainability, ",
-            "price": "",
             "restrictions": [
                 "Vegan",
                 "Sustainability",
                 "Vegan",
                 "Sustainability"
-            ]
+            ],
+            "price": ""
         },
         {
             "food": "Steamed Rice",
@@ -1856,8 +1138,6 @@
             "proteinDV": "",
             "sodium": "3.6",
             "sodiumDV": "0",
-            "allergens": "Vegan, Wellness, Sustainability, Vegan, Wellness, Sustainability, ",
-            "price": "",
             "restrictions": [
                 "Vegan",
                 "Wellness",
@@ -1865,7 +1145,8 @@
                 "Vegan",
                 "Wellness",
                 "Sustainability"
-            ]
+            ],
+            "price": ""
         },
         {
             "food": "Makai Ahi Tuna",
@@ -1889,8 +1170,6 @@
             "proteinDV": "",
             "sodium": "15.7",
             "sodiumDV": "1",
-            "allergens": "Wellness, Contains Fish, Sustainability, Wellness, Contains Fish, Sustainability, ",
-            "price": "3.00",
             "restrictions": [
                 "Wellness",
                 "Contains Fish",
@@ -1898,7 +1177,8 @@
                 "Wellness",
                 "Contains Fish",
                 "Sustainability"
-            ]
+            ],
+            "price": "3.00"
         },
         {
             "food": "Salmon Poke",
@@ -1922,14 +1202,13 @@
             "proteinDV": "",
             "sodium": "17.3",
             "sodiumDV": "1",
-            "allergens": "Contains Fish, Sustainability, Contains Fish, Sustainability, ",
-            "price": "3.00",
             "restrictions": [
                 "Contains Fish",
                 "Sustainability",
                 "Contains Fish",
                 "Sustainability"
-            ]
+            ],
+            "price": "3.00"
         },
         {
             "food": "Shrimp",
@@ -1953,8 +1232,6 @@
             "proteinDV": "",
             "sodium": "198.5",
             "sodiumDV": "9",
-            "allergens": "Wellness, Contains Shellfish, Sustainability, Wellness, Contains Shellfish, Sustainability, ",
-            "price": "3.00",
             "restrictions": [
                 "Wellness",
                 "Contains Shellfish",
@@ -1962,7 +1239,8 @@
                 "Wellness",
                 "Contains Shellfish",
                 "Sustainability"
-            ]
+            ],
+            "price": "3.00"
         },
         {
             "food": "Spicy Tuna",
@@ -1986,8 +1264,6 @@
             "proteinDV": "",
             "sodium": "57.3",
             "sodiumDV": "2",
-            "allergens": "Contains Fish, Contains Sesame, Sustainability, Contains Fish, Contains Gluten, Sustainability, ",
-            "price": "2.50",
             "restrictions": [
                 "Contains Fish",
                 "Contains Sesame",
@@ -1995,7 +1271,8 @@
                 "Contains Fish",
                 "Contains Gluten",
                 "Sustainability"
-            ]
+            ],
+            "price": "2.50"
         },
         {
             "food": "Tofu",
@@ -2019,8 +1296,6 @@
             "proteinDV": "",
             "sodium": "1.7",
             "sodiumDV": "0",
-            "allergens": "Vegan, Wellness, Contains Soy, Sustainability, Vegan, Wellness, Contains Soy, Sustainability, ",
-            "price": "2.50",
             "restrictions": [
                 "Vegan",
                 "Wellness",
@@ -2030,7 +1305,8 @@
                 "Wellness",
                 "Contains Soy",
                 "Sustainability"
-            ]
+            ],
+            "price": "2.50"
         },
         {
             "food": "Avocado",
@@ -2054,8 +1330,6 @@
             "proteinDV": "",
             "sodium": "2.3",
             "sodiumDV": "0",
-            "allergens": "Vegan, Wellness, Sustainability, Vegan, Wellness, Sustainability, ",
-            "price": "1.50",
             "restrictions": [
                 "Vegan",
                 "Wellness",
@@ -2063,7 +1337,8 @@
                 "Vegan",
                 "Wellness",
                 "Sustainability"
-            ]
+            ],
+            "price": "1.50"
         },
         {
             "food": "Crispy Onions",
@@ -2087,8 +1362,6 @@
             "proteinDV": "",
             "sodium": "60.8",
             "sodiumDV": "3",
-            "allergens": "Vegan, Contains Wheat, Contains Gluten, Sustainability, Vegan, Contains Wheat, Sustainability, ",
-            "price": "",
             "restrictions": [
                 "Vegan",
                 "Contains Wheat",
@@ -2097,7 +1370,8 @@
                 "Vegan",
                 "Contains Wheat",
                 "Sustainability"
-            ]
+            ],
+            "price": ""
         },
         {
             "food": "Edamame",
@@ -2121,8 +1395,6 @@
             "proteinDV": "",
             "sodium": "1.7",
             "sodiumDV": "0",
-            "allergens": "Vegan, Wellness, Contains Soy, Sustainability, Vegan, Wellness, Contains Soy, Sustainability, ",
-            "price": "",
             "restrictions": [
                 "Vegan",
                 "Wellness",
@@ -2132,7 +1404,8 @@
                 "Wellness",
                 "Contains Soy",
                 "Sustainability"
-            ]
+            ],
+            "price": ""
         },
         {
             "food": "Jalapenos",
@@ -2156,14 +1429,13 @@
             "proteinDV": "",
             "sodium": "0.4",
             "sodiumDV": "0",
-            "allergens": "Vegan, Sustainability, Vegan, Sustainability, ",
-            "price": "",
             "restrictions": [
                 "Vegan",
                 "Sustainability",
                 "Vegan",
                 "Sustainability"
-            ]
+            ],
+            "price": ""
         },
         {
             "food": "Krab Mix",
@@ -2187,8 +1459,6 @@
             "proteinDV": "",
             "sodium": "195.6",
             "sodiumDV": "9",
-            "allergens": "Contains Soy, Contains Wheat, Contains Fish, Contains Shellfish, Contains Eggs, Contains Gluten, Sustainability, Contains Soy, Contains Wheat, Contains Fish, Contains Shellfish, Contains Eggs, Sustainability, ",
-            "price": "1.50",
             "restrictions": [
                 "Contains Soy",
                 "Contains Wheat",
@@ -2203,7 +1473,8 @@
                 "Contains Shellfish",
                 "Contains Eggs",
                 "Sustainability"
-            ]
+            ],
+            "price": "1.50"
         },
         {
             "food": "Mango",
@@ -2227,14 +1498,13 @@
             "proteinDV": "",
             "sodium": "0.3",
             "sodiumDV": "0",
-            "allergens": "Vegan, Sustainability, Vegan, Sustainability, ",
-            "price": "",
             "restrictions": [
                 "Vegan",
                 "Sustainability",
                 "Vegan",
                 "Sustainability"
-            ]
+            ],
+            "price": ""
         },
         {
             "food": "Pickled Ginger",
@@ -2258,14 +1528,13 @@
             "proteinDV": "",
             "sodium": "94.5",
             "sodiumDV": "4",
-            "allergens": "Vegan, Sustainability, Vegan, Sustainability, ",
-            "price": "",
             "restrictions": [
                 "Vegan",
                 "Sustainability",
                 "Vegan",
                 "Sustainability"
-            ]
+            ],
+            "price": ""
         },
         {
             "food": "Pickled Red Onion",
@@ -2289,8 +1558,6 @@
             "proteinDV": "",
             "sodium": "23.6",
             "sodiumDV": "1",
-            "allergens": "Vegetarian, Wellness, Sustainability, Vegetarian, Wellness, Sustainability, ",
-            "price": "",
             "restrictions": [
                 "Vegetarian",
                 "Wellness",
@@ -2298,7 +1565,8 @@
                 "Vegetarian",
                 "Wellness",
                 "Sustainability"
-            ]
+            ],
+            "price": ""
         },
         {
             "food": "Radish",
@@ -2322,14 +1590,13 @@
             "proteinDV": "",
             "sodium": "",
             "sodiumDV": "",
-            "allergens": "Vegan, Sustainability, Vegan, Sustainability, ",
-            "price": "",
             "restrictions": [
                 "Vegan",
                 "Sustainability",
                 "Vegan",
                 "Sustainability"
-            ]
+            ],
+            "price": ""
         },
         {
             "food": "Seaweed Salad",
@@ -2353,8 +1620,6 @@
             "proteinDV": "",
             "sodium": "191.4",
             "sodiumDV": "8",
-            "allergens": "Vegan, Contains Sesame, Sustainability, Vegan, Contains Gluten, Sustainability, ",
-            "price": "1.25",
             "restrictions": [
                 "Vegan",
                 "Contains Sesame",
@@ -2362,7 +1627,8 @@
                 "Vegan",
                 "Contains Gluten",
                 "Sustainability"
-            ]
+            ],
+            "price": "1.25"
         },
         {
             "food": "Shredded Carrots",
@@ -2386,14 +1652,13 @@
             "proteinDV": "",
             "sodium": "19.6",
             "sodiumDV": "1",
-            "allergens": "Vegan, Sustainability, Vegan, Sustainability, ",
-            "price": "",
             "restrictions": [
                 "Vegan",
                 "Sustainability",
                 "Vegan",
                 "Sustainability"
-            ]
+            ],
+            "price": ""
         },
         {
             "food": "Shredded Red Cabbage",
@@ -2417,14 +1682,13 @@
             "proteinDV": "",
             "sodium": "7.7",
             "sodiumDV": "0",
-            "allergens": "Vegan, Sustainability, Vegan, Sustainability, ",
-            "price": "",
             "restrictions": [
                 "Vegan",
                 "Sustainability",
                 "Vegan",
                 "Sustainability"
-            ]
+            ],
+            "price": ""
         },
         {
             "food": "Sliced Cucumbers",
@@ -2448,8 +1712,6 @@
             "proteinDV": "",
             "sodium": "0.6",
             "sodiumDV": "0",
-            "allergens": "Vegan, Wellness, Sustainability, Vegan, Wellness, Sustainability, ",
-            "price": "",
             "restrictions": [
                 "Vegan",
                 "Wellness",
@@ -2457,7 +1719,8 @@
                 "Vegan",
                 "Wellness",
                 "Sustainability"
-            ]
+            ],
+            "price": ""
         },
         {
             "food": "Sliced Green Onion",
@@ -2481,14 +1744,13 @@
             "proteinDV": "",
             "sodium": "4.5",
             "sodiumDV": "0",
-            "allergens": "Vegan, Sustainability, Vegan, Sustainability, ",
-            "price": "",
             "restrictions": [
                 "Vegan",
                 "Sustainability",
                 "Vegan",
                 "Sustainability"
-            ]
+            ],
+            "price": ""
         },
         {
             "food": "Spicy Krab Mixture",
@@ -2512,8 +1774,6 @@
             "proteinDV": "",
             "sodium": "234.4",
             "sodiumDV": "10",
-            "allergens": "Contains Soy, Contains Wheat, Contains Fish, Contains Shellfish, Contains Eggs, Contains Gluten, Contains Soy, Contains Wheat, Contains Fish, Contains Shellfish, Contains Eggs, ",
-            "price": "1.50",
             "restrictions": [
                 "Contains Soy",
                 "Contains Wheat",
@@ -2526,7 +1786,8 @@
                 "Contains Fish",
                 "Contains Shellfish",
                 "Contains Eggs"
-            ]
+            ],
+            "price": "1.50"
         },
         {
             "food": "Whipped Cream Cheese",
@@ -2550,9 +1811,8 @@
             "proteinDV": "",
             "sodium": "45.5",
             "sodiumDV": "2",
-            "allergens": "",
-            "price": "",
-            "restrictions": []
+            "restrictions": [],
+            "price": ""
         },
         {
             "food": "Bang Bang Sauce",
@@ -2576,8 +1836,6 @@
             "proteinDV": "",
             "sodium": "314.8",
             "sodiumDV": "14",
-            "allergens": "Vegetarian, Contains Soy, Contains Eggs, Vegetarian, Contains Soy, Contains Eggs, ",
-            "price": "",
             "restrictions": [
                 "Vegetarian",
                 "Contains Soy",
@@ -2585,7 +1843,8 @@
                 "Vegetarian",
                 "Contains Soy",
                 "Contains Eggs"
-            ]
+            ],
+            "price": ""
         },
         {
             "food": "House Makai Sauce",
@@ -2609,8 +1868,6 @@
             "proteinDV": "",
             "sodium": "782.6",
             "sodiumDV": "34",
-            "allergens": "Contains Soy, Contains Shellfish, Contains Sesame, Sustainability, Contains Soy, Contains Shellfish, Contains Gluten, Sustainability, ",
-            "price": "",
             "restrictions": [
                 "Contains Soy",
                 "Contains Shellfish",
@@ -2620,7 +1877,8 @@
                 "Contains Shellfish",
                 "Contains Gluten",
                 "Sustainability"
-            ]
+            ],
+            "price": ""
         },
         {
             "food": "Lava Sauce",
@@ -2644,8 +1902,6 @@
             "proteinDV": "",
             "sodium": "660.2",
             "sodiumDV": "29",
-            "allergens": "Vegetarian, Contains Soy, Sustainability, Vegetarian, Contains Soy, Sustainability, ",
-            "price": "",
             "restrictions": [
                 "Vegetarian",
                 "Contains Soy",
@@ -2653,7 +1909,8 @@
                 "Vegetarian",
                 "Contains Soy",
                 "Sustainability"
-            ]
+            ],
+            "price": ""
         },
         {
             "food": "Ponzu Sauce",
@@ -2677,8 +1934,6 @@
             "proteinDV": "",
             "sodium": "941.3",
             "sodiumDV": "41",
-            "allergens": "Vegetarian, Contains Soy, Contains Sesame, Sustainability, Vegetarian, Contains Soy, Contains Gluten, Sustainability, ",
-            "price": "",
             "restrictions": [
                 "Vegetarian",
                 "Contains Soy",
@@ -2688,7 +1943,8 @@
                 "Contains Soy",
                 "Contains Gluten",
                 "Sustainability"
-            ]
+            ],
+            "price": ""
         },
         {
             "food": "Sriracha",
@@ -2712,14 +1968,13 @@
             "proteinDV": "",
             "sodium": "797",
             "sodiumDV": "35",
-            "allergens": "Vegetarian, Sustainability, Vegetarian, Sustainability, ",
-            "price": "",
             "restrictions": [
                 "Vegetarian",
                 "Sustainability",
                 "Vegetarian",
                 "Sustainability"
-            ]
+            ],
+            "price": ""
         },
         {
             "food": "Chopped Cilantro",
@@ -2743,14 +1998,13 @@
             "proteinDV": "",
             "sodium": "13",
             "sodiumDV": "1",
-            "allergens": "Vegan, Sustainability, Vegan, Sustainability, ",
-            "price": "",
             "restrictions": [
                 "Vegan",
                 "Sustainability",
                 "Vegan",
                 "Sustainability"
-            ]
+            ],
+            "price": ""
         },
         {
             "food": "Nori Strips",
@@ -2774,14 +2028,13 @@
             "proteinDV": "",
             "sodium": "0",
             "sodiumDV": "0",
-            "allergens": "Vegan, Sustainability, Vegan, Sustainability, ",
-            "price": "",
             "restrictions": [
                 "Vegan",
                 "Sustainability",
                 "Vegan",
                 "Sustainability"
-            ]
+            ],
+            "price": ""
         },
         {
             "food": "Sesame Seeds",
@@ -2805,8 +2058,6 @@
             "proteinDV": "",
             "sodium": "3.8",
             "sodiumDV": "0",
-            "allergens": "Vegan, Contains Sesame, Sustainability, Vegan, Contains Gluten, Sustainability, ",
-            "price": "",
             "restrictions": [
                 "Vegan",
                 "Contains Sesame",
@@ -2814,7 +2065,8 @@
                 "Vegan",
                 "Contains Gluten",
                 "Sustainability"
-            ]
+            ],
+            "price": ""
         },
         {
             "food": "Wonton Strips",
@@ -2838,8 +2090,6 @@
             "proteinDV": "",
             "sodium": "30.4",
             "sodiumDV": "1",
-            "allergens": "Vegan, Contains Soy, Contains Wheat, Contains Gluten, Sustainability, Vegan, Contains Soy, Contains Wheat, Sustainability, ",
-            "price": "",
             "restrictions": [
                 "Vegan",
                 "Contains Soy",
@@ -2850,85 +2100,1108 @@
                 "Contains Soy",
                 "Contains Wheat",
                 "Sustainability"
-            ]
+            ],
+            "price": ""
         },
         {
-            "food": "Wonton Strips",
-            "cal": "74",
-            "calFromFat": "37",
-            "totFat": "4.1",
-            "totFatDV": "11",
-            "totCarb": "8.8",
+            "food": "Chicken Ramen Soup Bowl",
+            "cal": "761",
+            "calFromFat": "107",
+            "totFat": "11.9",
+            "totFatDV": "31",
+            "totCarb": "123.9",
             "totCarbDV": "",
-            "satFat": "1",
-            "satFatDV": "5",
-            "dietaryFiber": "1.4",
-            "dietaryFiberDV": "5",
+            "satFat": "3.4",
+            "satFatDV": "17",
+            "dietaryFiber": "7",
+            "dietaryFiberDV": "23",
             "transFat": "0",
             "transFatDV": "",
-            "sugars": "0.7",
+            "sugars": "6.9",
+            "sugarsDV": "5",
+            "cholesterol": "136.1",
+            "cholesterolDV": "",
+            "protein": "40",
+            "proteinDV": "",
+            "sodium": "3787.9",
+            "sodiumDV": "165",
+            "restrictions": [
+                "Contains Dairy",
+                "Contains Soy",
+                "Contains Wheat",
+                "Contains Eggs",
+                "Contains Gluten",
+                "Contains Sesame",
+                "Contains Dairy",
+                "Contains Soy",
+                "Contains Wheat",
+                "Contains Eggs",
+                "Contains Gluten"
+            ],
+            "price": "10.00"
+        },
+        {
+            "food": "Laksa Vegetable Ramen",
+            "cal": "923",
+            "calFromFat": "259",
+            "totFat": "28.7",
+            "totFatDV": "75",
+            "totCarb": "144.4",
+            "totCarbDV": "",
+            "satFat": "20.4",
+            "satFatDV": "102",
+            "dietaryFiber": "7.6",
+            "dietaryFiberDV": "25",
+            "transFat": "0",
+            "transFatDV": "",
+            "sugars": "18",
+            "sugarsDV": "14",
+            "cholesterol": "107.8",
+            "cholesterolDV": "",
+            "protein": "26.8",
+            "proteinDV": "",
+            "sodium": "2038.3",
+            "sodiumDV": "89",
+            "restrictions": [
+                "Vegetarian",
+                "Contains Soy",
+                "Contains Wheat",
+                "Contains Eggs",
+                "Contains Gluten",
+                "Contains Sesame",
+                "Sustainability",
+                "Vegetarian",
+                "Contains Soy",
+                "Contains Wheat",
+                "Contains Eggs",
+                "Contains Gluten",
+                "Sustainability"
+            ],
+            "price": "9.50"
+        },
+        {
+            "food": "Niigata Ramen",
+            "cal": "946",
+            "calFromFat": "252",
+            "totFat": "27.9",
+            "totFatDV": "73",
+            "totCarb": "144",
+            "totCarbDV": "",
+            "satFat": "20.1",
+            "satFatDV": "101",
+            "dietaryFiber": "7.3",
+            "dietaryFiberDV": "24",
+            "transFat": "0",
+            "transFatDV": "",
+            "sugars": "16.5",
+            "sugarsDV": "13",
+            "cholesterol": "209.8",
+            "cholesterolDV": "",
+            "protein": "34.4",
+            "proteinDV": "",
+            "sodium": "2255.7",
+            "sodiumDV": "98",
+            "restrictions": [
+                "Contains Soy",
+                "Contains Wheat",
+                "Contains Shellfish",
+                "Contains Eggs",
+                "Contains Gluten",
+                "Contains Sesame",
+                "Sustainability",
+                "Contains Soy",
+                "Contains Wheat",
+                "Contains Shellfish",
+                "Contains Eggs",
+                "Contains Gluten",
+                "Sustainability"
+            ],
+            "price": "11.00"
+        },
+        {
+            "food": "Sakura Ramen",
+            "cal": "972",
+            "calFromFat": "329",
+            "totFat": "36.4",
+            "totFatDV": "96",
+            "totCarb": "128.4",
+            "totCarbDV": "",
+            "satFat": "12.6",
+            "satFatDV": "63",
+            "dietaryFiber": "5.1",
+            "dietaryFiberDV": "17",
+            "transFat": "0",
+            "transFatDV": "",
+            "sugars": "10",
+            "sugarsDV": "8",
+            "cholesterol": "149.6",
+            "cholesterolDV": "",
+            "protein": "32",
+            "proteinDV": "",
+            "sodium": "4670.1",
+            "sodiumDV": "203",
+            "restrictions": [
+                "Contains Dairy",
+                "Contains Soy",
+                "Contains Wheat",
+                "Contains Eggs",
+                "Contains Gluten",
+                "Contains Sesame",
+                "Contains Dairy",
+                "Contains Soy",
+                "Contains Wheat",
+                "Contains Eggs",
+                "Contains Gluten"
+            ],
+            "price": "10.50"
+        },
+        {
+            "food": "Citrus Chili Paste",
+            "cal": "11",
+            "calFromFat": "5",
+            "totFat": "0.5",
+            "totFatDV": "1",
+            "totCarb": "0.6",
+            "totCarbDV": "",
+            "satFat": "0",
+            "satFatDV": "0",
+            "dietaryFiber": "0.3",
+            "dietaryFiberDV": "1",
+            "transFat": "0",
+            "transFatDV": "",
+            "sugars": "0.2",
+            "sugarsDV": "0",
+            "cholesterol": "0",
+            "cholesterolDV": "",
+            "protein": "0.1",
+            "proteinDV": "",
+            "sodium": "6.5",
+            "sodiumDV": "0",
+            "restrictions": [
+                "Vegan",
+                "Sustainability",
+                "Vegan",
+                "Sustainability"
+            ],
+            "price": ""
+        },
+        {
+            "food": "Garlic Chili Oil",
+            "cal": "221",
+            "calFromFat": "223",
+            "totFat": "24.7",
+            "totFatDV": "65",
+            "totCarb": "1",
+            "totCarbDV": "",
+            "satFat": "1.8",
+            "satFatDV": "9",
+            "dietaryFiber": "0.5",
+            "dietaryFiberDV": "2",
+            "transFat": "0",
+            "transFatDV": "",
+            "sugars": "0.2",
+            "sugarsDV": "0",
+            "cholesterol": "0",
+            "cholesterolDV": "",
+            "protein": "0.2",
+            "proteinDV": "",
+            "sodium": "15.7",
+            "sodiumDV": "1",
+            "restrictions": [
+                "Vegan",
+                "Sustainability",
+                "Vegan",
+                "Sustainability"
+            ],
+            "price": ""
+        },
+        {
+            "food": "Sriracha",
+            "cal": "3",
+            "calFromFat": "1",
+            "totFat": "0.1",
+            "totFatDV": "0",
+            "totCarb": "0.5",
+            "totCarbDV": "",
+            "satFat": "0",
+            "satFatDV": "0",
+            "dietaryFiber": "0.1",
+            "dietaryFiberDV": "0",
+            "transFat": "",
+            "transFatDV": "",
+            "sugars": "0.4",
+            "sugarsDV": "0",
+            "cholesterol": "0",
+            "cholesterolDV": "",
+            "protein": "0.2",
+            "proteinDV": "",
+            "sodium": "797",
+            "sodiumDV": "35",
+            "restrictions": [
+                "Vegetarian",
+                "Sustainability",
+                "Vegetarian",
+                "Sustainability"
+            ],
+            "price": ""
+        },
+        {
+            "food": "Blanched Shrimp",
+            "cal": "58",
+            "calFromFat": "7",
+            "totFat": "0.8",
+            "totFatDV": "2",
+            "totCarb": "0.7",
+            "totCarbDV": "",
+            "satFat": "0.1",
+            "satFatDV": "0",
+            "dietaryFiber": "0",
+            "dietaryFiberDV": "0",
+            "transFat": "0",
+            "transFatDV": "",
+            "sugars": "0",
+            "sugarsDV": "0",
+            "cholesterol": "102.1",
+            "cholesterolDV": "",
+            "protein": "11",
+            "proteinDV": "",
+            "sodium": "283.5",
+            "sodiumDV": "12",
+            "restrictions": [
+                "Wellness",
+                "Contains Shellfish",
+                "Sustainability",
+                "Wellness",
+                "Contains Shellfish",
+                "Sustainability"
+            ],
+            "price": "4.50"
+        },
+        {
+            "food": "Char Siu Chicken",
+            "cal": "104",
+            "calFromFat": "43",
+            "totFat": "4.7",
+            "totFatDV": "12",
+            "totCarb": "0.7",
+            "totCarbDV": "",
+            "satFat": "1.3",
+            "satFatDV": "6",
+            "dietaryFiber": "0",
+            "dietaryFiberDV": "0",
+            "transFat": "0",
+            "transFatDV": "",
+            "sugars": "0.6",
+            "sugarsDV": "0",
+            "cholesterol": "76.6",
+            "cholesterolDV": "",
+            "protein": "13.6",
+            "proteinDV": "",
+            "sodium": "179",
+            "sodiumDV": "8",
+            "restrictions": [
+                "Wellness",
+                "Contains Soy",
+                "Contains Wheat",
+                "Contains Gluten",
+                "Sustainability",
+                "Wellness",
+                "Contains Soy",
+                "Contains Wheat",
+                "Sustainability"
+            ],
+            "price": "3.50"
+        },
+        {
+            "food": "Char SiuTofu",
+            "cal": "68",
+            "calFromFat": "32",
+            "totFat": "3.5",
+            "totFatDV": "9",
+            "totCarb": "2.2",
+            "totCarbDV": "",
+            "satFat": "0.7",
+            "satFatDV": "4",
+            "dietaryFiber": "1.1",
+            "dietaryFiberDV": "4",
+            "transFat": "0",
+            "transFatDV": "",
+            "sugars": "0.9",
             "sugarsDV": "1",
             "cholesterol": "0",
             "cholesterolDV": "",
-            "protein": "1.4",
+            "protein": "6.8",
             "proteinDV": "",
-            "sodium": "30.4",
-            "sodiumDV": "1",
-            "allergens": "",
-            "price": "",
-            "restrictions": []
+            "sodium": "121.2",
+            "sodiumDV": "5",
+            "restrictions": [
+                "Vegetarian",
+                "Wellness",
+                "Contains Soy",
+                "Contains Wheat",
+                "Contains Gluten",
+                "Contains Sesame",
+                "Sustainability",
+                "Vegetarian",
+                "Wellness",
+                "Contains Soy",
+                "Contains Wheat",
+                "Contains Gluten",
+                "Sustainability"
+            ],
+            "price": "2.50"
         },
         {
-            "food": "Wonton Strips",
-            "cal": "74",
-            "calFromFat": "37",
-            "totFat": "4.1",
-            "totFatDV": "11",
-            "totCarb": "8.8",
+            "food": "Kamaboko",
+            "cal": "8",
+            "calFromFat": "0",
+            "totFat": "0",
+            "totFatDV": "0",
+            "totCarb": "1.3",
             "totCarbDV": "",
-            "satFat": "1",
-            "satFatDV": "5",
-            "dietaryFiber": "1.4",
+            "satFat": "0",
+            "satFatDV": "0",
+            "dietaryFiber": "0",
+            "dietaryFiberDV": "0",
+            "transFat": "0",
+            "transFatDV": "",
+            "sugars": "0.4",
+            "sugarsDV": "0",
+            "cholesterol": "1.4",
+            "cholesterolDV": "",
+            "protein": "0.7",
+            "proteinDV": "",
+            "sodium": "101.2",
+            "sodiumDV": "4",
+            "restrictions": [
+                "Contains Soy",
+                "Contains Wheat",
+                "Contains Fish",
+                "Contains Gluten",
+                "Sustainability",
+                "Contains Soy",
+                "Contains Wheat",
+                "Contains Fish",
+                "Sustainability"
+            ],
+            "price": "1.00"
+        },
+        {
+            "food": "Ramen Egg",
+            "cal": "25",
+            "calFromFat": "13",
+            "totFat": "1.4",
+            "totFatDV": "4",
+            "totCarb": "1.2",
+            "totCarbDV": "",
+            "satFat": "0.4",
+            "satFatDV": "2",
+            "dietaryFiber": "0",
+            "dietaryFiberDV": "0",
+            "transFat": "0",
+            "transFatDV": "",
+            "sugars": "1.1",
+            "sugarsDV": "1",
+            "cholesterol": "53.9",
+            "cholesterolDV": "",
+            "protein": "1.6",
+            "proteinDV": "",
+            "sodium": "353.9",
+            "sodiumDV": "15",
+            "restrictions": [
+                "Vegetarian",
+                "Contains Soy",
+                "Contains Eggs",
+                "Contains Sesame",
+                "Sustainability",
+                "Vegetarian",
+                "Contains Soy",
+                "Contains Eggs",
+                "Contains Gluten",
+                "Sustainability"
+            ],
+            "price": "1.25"
+        },
+        {
+            "food": "Ramen Noodle",
+            "cal": "104",
+            "calFromFat": "3",
+            "totFat": "0.3",
+            "totFatDV": "1",
+            "totCarb": "22",
+            "totCarbDV": "",
+            "satFat": "0",
+            "satFatDV": "0",
+            "dietaryFiber": "0.8",
+            "dietaryFiberDV": "3",
+            "transFat": "0",
+            "transFatDV": "",
+            "sugars": "0",
+            "sugarsDV": "0",
+            "cholesterol": "0",
+            "cholesterolDV": "",
+            "protein": "3.3",
+            "proteinDV": "",
+            "sodium": "219.5",
+            "sodiumDV": "10",
+            "restrictions": [
+                "Vegetarian",
+                "Contains Wheat",
+                "Contains Eggs",
+                "Contains Gluten",
+                "Sustainability",
+                "Vegetarian",
+                "Contains Wheat",
+                "Contains Eggs",
+                "Sustainability"
+            ],
+            "price": "2.50"
+        },
+        {
+            "food": "Roasted Pork Belly",
+            "cal": "283",
+            "calFromFat": "241",
+            "totFat": "26.8",
+            "totFatDV": "70",
+            "totCarb": "4.6",
+            "totCarbDV": "",
+            "satFat": "10",
+            "satFatDV": "50",
+            "dietaryFiber": "0.1",
+            "dietaryFiberDV": "0",
+            "transFat": "0",
+            "transFatDV": "",
+            "sugars": "4.4",
+            "sugarsDV": "3",
+            "cholesterol": "36.2",
+            "cholesterolDV": "",
+            "protein": "4.6",
+            "proteinDV": "",
+            "sodium": "616.3",
+            "sodiumDV": "27",
+            "restrictions": [],
+            "price": "4.50"
+        },
+        {
+            "food": "Andouille Sausage Sandwich",
+            "cal": "537",
+            "calFromFat": "329",
+            "totFat": "36.5",
+            "totFatDV": "96",
+            "totCarb": "49.9",
+            "totCarbDV": "",
+            "satFat": "12",
+            "satFatDV": "60",
+            "dietaryFiber": "3.2",
+            "dietaryFiberDV": "11",
+            "transFat": "0",
+            "transFatDV": "",
+            "sugars": "10",
+            "sugarsDV": "8",
+            "cholesterol": "73.7",
+            "cholesterolDV": "",
+            "protein": "23.3",
+            "proteinDV": "",
+            "sodium": "1858.8",
+            "sodiumDV": "81",
+            "restrictions": [
+                "Contains Soy",
+                "Contains Wheat",
+                "Contains Gluten",
+                "Contains Soy",
+                "Contains Wheat"
+            ],
+            "price": "6.50"
+        },
+        {
+            "food": "BBQ Salmon",
+            "cal": "255",
+            "calFromFat": "135",
+            "totFat": "14.9",
+            "totFatDV": "39",
+            "totCarb": "1.6",
+            "totCarbDV": "",
+            "satFat": "3",
+            "satFatDV": "15",
+            "dietaryFiber": "0.1",
+            "dietaryFiberDV": "0",
+            "transFat": "0",
+            "transFatDV": "",
+            "sugars": "1.5",
+            "sugarsDV": "1",
+            "cholesterol": "75.9",
+            "cholesterolDV": "",
+            "protein": "26.7",
+            "proteinDV": "",
+            "sodium": "89.2",
+            "sodiumDV": "4",
+            "restrictions": [
+                "Wellness",
+                "Contains Fish",
+                "Sustainability",
+                "Wellness",
+                "Contains Fish",
+                "Sustainability"
+            ],
+            "price": "9.75"
+        },
+        {
+            "food": "Beyond Italian Sausage",
+            "cal": "248",
+            "calFromFat": "143",
+            "totFat": "15.9",
+            "totFatDV": "42",
+            "totCarb": "7.9",
+            "totCarbDV": "",
+            "satFat": "6.9",
+            "satFatDV": "35",
+            "dietaryFiber": "0",
+            "dietaryFiberDV": "0",
+            "transFat": "0",
+            "transFatDV": "",
+            "sugars": "0",
+            "sugarsDV": "0",
+            "cholesterol": "0",
+            "cholesterolDV": "",
+            "protein": "16.9",
+            "proteinDV": "",
+            "sodium": "535.9",
+            "sodiumDV": "23",
+            "restrictions": [
+                "Vegan",
+                "Sustainability",
+                "Vegan",
+                "Sustainability"
+            ],
+            "price": "7.00"
+        },
+        {
+            "food": "Beyond Italian Sausage Sandwich",
+            "cal": "587",
+            "calFromFat": "236",
+            "totFat": "26.1",
+            "totFatDV": "69",
+            "totCarb": "60.2",
+            "totCarbDV": "",
+            "satFat": "9.8",
+            "satFatDV": "49",
+            "dietaryFiber": "4.3",
+            "dietaryFiberDV": "14",
+            "transFat": "0",
+            "transFatDV": "",
+            "sugars": "12.3",
+            "sugarsDV": "9",
+            "cholesterol": "0",
+            "cholesterolDV": "",
+            "protein": "28.5",
+            "proteinDV": "",
+            "sodium": "1264.6",
+            "sodiumDV": "55",
+            "restrictions": [
+                "Vegetarian",
+                "Contains Soy",
+                "Contains Wheat",
+                "Contains Gluten",
+                "Vegetarian",
+                "Contains Soy",
+                "Contains Wheat"
+            ],
+            "price": "8.50"
+        },
+        {
+            "food": "Loaded Mac n Cheese",
+            "cal": "423",
+            "calFromFat": "218",
+            "totFat": "24.2",
+            "totFatDV": "64",
+            "totCarb": "36.1",
+            "totCarbDV": "",
+            "satFat": "15.9",
+            "satFatDV": "79",
+            "dietaryFiber": "1.8",
+            "dietaryFiberDV": "6",
+            "transFat": "0",
+            "transFatDV": "",
+            "sugars": "4.1",
+            "sugarsDV": "3",
+            "cholesterol": "84.8",
+            "cholesterolDV": "",
+            "protein": "14.2",
+            "proteinDV": "",
+            "sodium": "460.9",
+            "sodiumDV": "20",
+            "restrictions": [
+                "Vegetarian",
+                "Contains Dairy",
+                "Contains Wheat",
+                "Contains Gluten",
+                "Vegetarian",
+                "Contains Dairy",
+                "Contains Wheat"
+            ],
+            "price": "3.50"
+        },
+        {
+            "food": "Pulled Pork",
+            "cal": "264",
+            "calFromFat": "65",
+            "totFat": "7.2",
+            "totFatDV": "19",
+            "totCarb": "0",
+            "totCarbDV": "",
+            "satFat": "2.2",
+            "satFatDV": "11",
+            "dietaryFiber": "0",
+            "dietaryFiberDV": "0",
+            "transFat": "0",
+            "transFatDV": "",
+            "sugars": "0",
+            "sugarsDV": "0",
+            "cholesterol": "139.5",
+            "cholesterolDV": "",
+            "protein": "46.7",
+            "proteinDV": "",
+            "sodium": "1305.2",
+            "sodiumDV": "57",
+            "restrictions": [],
+            "price": "6.50"
+        },
+        {
+            "food": "Pulled Pork Sandwich",
+            "cal": "606",
+            "calFromFat": "206",
+            "totFat": "22.9",
+            "totFatDV": "60",
+            "totCarb": "58.3",
+            "totCarbDV": "",
+            "satFat": "7",
+            "satFatDV": "35",
+            "dietaryFiber": "1.5",
             "dietaryFiberDV": "5",
             "transFat": "0",
             "transFatDV": "",
-            "sugars": "0.7",
-            "sugarsDV": "1",
-            "cholesterol": "0",
+            "sugars": "19.4",
+            "sugarsDV": "15",
+            "cholesterol": "137.5",
             "cholesterolDV": "",
-            "protein": "1.4",
+            "protein": "40.2",
             "proteinDV": "",
-            "sodium": "30.4",
-            "sodiumDV": "1",
-            "allergens": "",
-            "price": "",
-            "restrictions": []
+            "sodium": "1480.5",
+            "sodiumDV": "64",
+            "restrictions": [
+                "Contains Dairy",
+                "Contains Soy",
+                "Contains Wheat",
+                "Contains Eggs",
+                "Contains Gluten",
+                "Contains Dairy",
+                "Contains Soy",
+                "Contains Wheat",
+                "Contains Eggs"
+            ],
+            "price": "7.00"
         },
         {
-            "food": "Wonton Strips",
-            "cal": "74",
-            "calFromFat": "37",
-            "totFat": "4.1",
-            "totFatDV": "11",
-            "totCarb": "8.8",
+            "food": "Rooftop Loaded Fries",
+            "cal": "592",
+            "calFromFat": "398",
+            "totFat": "44.1",
+            "totFatDV": "116",
+            "totCarb": "42.6",
             "totCarbDV": "",
-            "satFat": "1",
-            "satFatDV": "5",
-            "dietaryFiber": "1.4",
-            "dietaryFiberDV": "5",
+            "satFat": "11.6",
+            "satFatDV": "58",
+            "dietaryFiber": "1",
+            "dietaryFiberDV": "3",
+            "transFat": "0.1",
+            "transFatDV": "",
+            "sugars": "3.5",
+            "sugarsDV": "3",
+            "cholesterol": "49.3",
+            "cholesterolDV": "",
+            "protein": "7.7",
+            "proteinDV": "",
+            "sodium": "920.9",
+            "sodiumDV": "40",
+            "restrictions": [
+                "Vegetarian",
+                "Contains Dairy",
+                "Contains Soy",
+                "Contains Wheat",
+                "Contains Gluten",
+                "Vegetarian",
+                "Contains Dairy",
+                "Contains Soy",
+                "Contains Wheat"
+            ],
+            "price": "4.00"
+        },
+        {
+            "food": "Smoked BBQ Ribs",
+            "cal": "493",
+            "calFromFat": "327",
+            "totFat": "36.2",
+            "totFatDV": "95",
+            "totCarb": "5",
+            "totCarbDV": "",
+            "satFat": "13.2",
+            "satFatDV": "66",
+            "dietaryFiber": "0.3",
+            "dietaryFiberDV": "1",
             "transFat": "0",
             "transFatDV": "",
-            "sugars": "0.7",
-            "sugarsDV": "1",
+            "sugars": "4.2",
+            "sugarsDV": "3",
+            "cholesterol": "143.3",
+            "cholesterolDV": "",
+            "protein": "34.6",
+            "proteinDV": "",
+            "sodium": "179.7",
+            "sodiumDV": "8",
+            "restrictions": [
+                "Contains Soy",
+                "Contains Soy"
+            ],
+            "price": "8.50"
+        },
+        {
+            "food": "Baked Beans",
+            "cal": "234",
+            "calFromFat": "32",
+            "totFat": "3.5",
+            "totFatDV": "9",
+            "totCarb": "38.8",
+            "totCarbDV": "",
+            "satFat": "0.3",
+            "satFatDV": "2",
+            "dietaryFiber": "9.1",
+            "dietaryFiberDV": "30",
+            "transFat": "0",
+            "transFatDV": "",
+            "sugars": "7.8",
+            "sugarsDV": "6",
             "cholesterol": "0",
             "cholesterolDV": "",
-            "protein": "1.4",
+            "protein": "13.7",
             "proteinDV": "",
-            "sodium": "30.4",
+            "sodium": "211",
+            "sodiumDV": "9",
+            "restrictions": [
+                "Vegetarian",
+                "Wellness",
+                "Contains Soy",
+                "Sustainability",
+                "Vegetarian",
+                "Wellness",
+                "Contains Soy",
+                "Sustainability"
+            ],
+            "price": "2.50"
+        },
+        {
+            "food": "Creamy Mac and Cheese",
+            "cal": "316",
+            "calFromFat": "164",
+            "totFat": "18.1",
+            "totFatDV": "48",
+            "totCarb": "26.6",
+            "totCarbDV": "",
+            "satFat": "11.9",
+            "satFatDV": "59",
+            "dietaryFiber": "0.9",
+            "dietaryFiberDV": "3",
+            "transFat": "0",
+            "transFatDV": "",
+            "sugars": "1.6",
+            "sugarsDV": "1",
+            "cholesterol": "62.8",
+            "cholesterolDV": "",
+            "protein": "11.1",
+            "proteinDV": "",
+            "sodium": "359.5",
+            "sodiumDV": "16",
+            "restrictions": [
+                "Vegetarian",
+                "Contains Dairy",
+                "Contains Wheat",
+                "Contains Gluten",
+                "Vegetarian",
+                "Contains Dairy",
+                "Contains Wheat"
+            ],
+            "price": "2.50"
+        },
+        {
+            "food": "Smoked Veggie Plate",
+            "cal": "85",
+            "calFromFat": "12",
+            "totFat": "1.3",
+            "totFatDV": "3",
+            "totCarb": "17.5",
+            "totCarbDV": "",
+            "satFat": "0.3",
+            "satFatDV": "2",
+            "dietaryFiber": "3.3",
+            "dietaryFiberDV": "11",
+            "transFat": "0",
+            "transFatDV": "",
+            "sugars": "11.9",
+            "sugarsDV": "9",
+            "cholesterol": "0.7",
+            "cholesterolDV": "",
+            "protein": "2.8",
+            "proteinDV": "",
+            "sodium": "196.8",
+            "sodiumDV": "9",
+            "restrictions": [
+                "Vegetarian",
+                "Contains Dairy",
+                "Contains Soy",
+                "Sustainability",
+                "Vegetarian",
+                "Contains Dairy",
+                "Contains Soy",
+                "Sustainability"
+            ],
+            "price": "4.00"
+        },
+        {
+            "food": "Waffle Fries",
+            "cal": "420",
+            "calFromFat": "283",
+            "totFat": "31.4",
+            "totFatDV": "83",
+            "totCarb": "33.6",
+            "totCarbDV": "",
+            "satFat": "3",
+            "satFatDV": "15",
+            "dietaryFiber": "0",
+            "dietaryFiberDV": "0",
+            "transFat": "0.1",
+            "transFatDV": "",
+            "sugars": "0",
+            "sugarsDV": "0",
+            "cholesterol": "0",
+            "cholesterolDV": "",
+            "protein": "3.2",
+            "proteinDV": "",
+            "sodium": "752.4",
+            "sodiumDV": "33",
+            "restrictions": [
+                "Vegan",
+                "Contains Soy",
+                "Contains Wheat",
+                "Contains Gluten",
+                "Sustainability",
+                "Vegan",
+                "Contains Soy",
+                "Contains Wheat",
+                "Sustainability"
+            ],
+            "price": "3.00"
+        },
+        {
+            "food": "Jalapeno Cheddar Cornbread",
+            "cal": "238",
+            "calFromFat": "106",
+            "totFat": "11.8",
+            "totFatDV": "31",
+            "totCarb": "29.4",
+            "totCarbDV": "",
+            "satFat": "2.1",
+            "satFatDV": "10",
+            "dietaryFiber": "1.1",
+            "dietaryFiberDV": "4",
+            "transFat": "0",
+            "transFatDV": "",
+            "sugars": "10.7",
+            "sugarsDV": "8",
+            "cholesterol": "21.9",
+            "cholesterolDV": "",
+            "protein": "4.9",
+            "proteinDV": "",
+            "sodium": "312.4",
+            "sodiumDV": "14",
+            "restrictions": [
+                "Vegetarian",
+                "Contains Dairy",
+                "Contains Wheat",
+                "Contains Eggs",
+                "Contains Gluten",
+                "Sustainability",
+                "Vegetarian",
+                "Contains Dairy",
+                "Contains Wheat",
+                "Contains Eggs",
+                "Sustainability"
+            ],
+            "price": "2.50"
+        },
+        {
+            "food": "Potato Salad",
+            "cal": "155",
+            "calFromFat": "75",
+            "totFat": "8.4",
+            "totFatDV": "22",
+            "totCarb": "17.1",
+            "totCarbDV": "",
+            "satFat": "2.1",
+            "satFatDV": "10",
+            "dietaryFiber": "2.3",
+            "dietaryFiberDV": "8",
+            "transFat": "0",
+            "transFatDV": "",
+            "sugars": "1.8",
+            "sugarsDV": "1",
+            "cholesterol": "9.5",
+            "cholesterolDV": "",
+            "protein": "2.6",
+            "proteinDV": "",
+            "sodium": "202.7",
+            "sodiumDV": "9",
+            "restrictions": [
+                "Vegetarian",
+                "Contains Dairy",
+                "Contains Soy",
+                "Contains Eggs",
+                "Sustainability",
+                "Vegetarian",
+                "Contains Dairy",
+                "Contains Soy",
+                "Contains Eggs",
+                "Sustainability"
+            ],
+            "price": "2.50"
+        },
+        {
+            "food": "Standard Cole Slaw",
+            "cal": "287",
+            "calFromFat": "221",
+            "totFat": "24.5",
+            "totFatDV": "64",
+            "totCarb": "15.1",
+            "totCarbDV": "",
+            "satFat": "3.9",
+            "satFatDV": "20",
+            "dietaryFiber": "1.8",
+            "dietaryFiberDV": "6",
+            "transFat": "0",
+            "transFatDV": "",
+            "sugars": "13.2",
+            "sugarsDV": "10",
+            "cholesterol": "21.2",
+            "cholesterolDV": "",
+            "protein": "1.1",
+            "proteinDV": "",
+            "sodium": "396.5",
+            "sodiumDV": "17",
+            "restrictions": [
+                "Vegetarian",
+                "Wellness",
+                "Contains Soy",
+                "Contains Eggs",
+                "Sustainability",
+                "Vegetarian",
+                "Wellness",
+                "Contains Soy",
+                "Contains Eggs",
+                "Sustainability"
+            ],
+            "price": "2.50"
+        },
+        {
+            "food": "Kansas City BBQ Sauce",
+            "cal": "36",
+            "calFromFat": "8",
+            "totFat": "0.9",
+            "totFatDV": "2",
+            "totCarb": "6.9",
+            "totCarbDV": "",
+            "satFat": "0.1",
+            "satFatDV": "0",
+            "dietaryFiber": "0.4",
+            "dietaryFiberDV": "1",
+            "transFat": "0",
+            "transFatDV": "",
+            "sugars": "5.4",
+            "sugarsDV": "4",
+            "cholesterol": "0",
+            "cholesterolDV": "",
+            "protein": "0.4",
+            "proteinDV": "",
+            "sodium": "127.1",
+            "sodiumDV": "6",
+            "restrictions": [
+                "Vegetarian",
+                "Contains Soy",
+                "Sustainability",
+                "Vegetarian",
+                "Contains Soy",
+                "Sustainability"
+            ],
+            "price": ""
+        },
+        {
+            "food": "Mustard Sauce",
+            "cal": "35",
+            "calFromFat": "7",
+            "totFat": "0.8",
+            "totFatDV": "2",
+            "totCarb": "6.7",
+            "totCarbDV": "",
+            "satFat": "0.2",
+            "satFatDV": "1",
+            "dietaryFiber": "0.6",
+            "dietaryFiberDV": "2",
+            "transFat": "0",
+            "transFatDV": "",
+            "sugars": "5.7",
+            "sugarsDV": "4",
+            "cholesterol": "0.7",
+            "cholesterolDV": "",
+            "protein": "0.6",
+            "proteinDV": "",
+            "sodium": "147.4",
+            "sodiumDV": "6",
+            "restrictions": [
+                "Vegetarian",
+                "Contains Dairy",
+                "Contains Soy",
+                "Vegetarian",
+                "Contains Dairy",
+                "Contains Soy"
+            ],
+            "price": ""
+        },
+        {
+            "food": "Southern Sweet Tea",
+            "cal": "106",
+            "calFromFat": "0",
+            "totFat": "0",
+            "totFatDV": "0",
+            "totCarb": "26.4",
+            "totCarbDV": "",
+            "satFat": "0",
+            "satFatDV": "0",
+            "dietaryFiber": "0.3",
+            "dietaryFiberDV": "1",
+            "transFat": "0",
+            "transFatDV": "",
+            "sugars": "25.8",
+            "sugarsDV": "20",
+            "cholesterol": "0",
+            "cholesterolDV": "",
+            "protein": "0.1",
+            "proteinDV": "",
+            "sodium": "24.5",
             "sodiumDV": "1",
-            "allergens": "",
-            "price": "",
-            "restrictions": []
+            "restrictions": [
+                "Vegan",
+                "Sustainability",
+                "Vegan",
+                "Sustainability"
+            ],
+            "price": "3.00"
         }
     ]
 }

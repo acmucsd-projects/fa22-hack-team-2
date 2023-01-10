@@ -23,8 +23,7 @@ def parse_data(file):
         # parse each line and write it into a JSON format
         for foodItem in reader:
             # split allergens and restrictions into a list
-            # TODO: change "allergens" to "restrictions" once web parser changes
-            restrictionsList = [restriction.strip() for restriction in foodItem["allergens"].split(",")]
+            restrictionsList = [restriction.strip() for restriction in foodItem["restrictions"].split(",")]
 
             foodItem["restrictions"] = restrictionsList[:-1]
 
