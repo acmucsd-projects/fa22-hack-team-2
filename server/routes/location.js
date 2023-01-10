@@ -59,6 +59,15 @@ router.get('/food/:hall/:food', async (req, res) => {
     res.send(posts)
 })
 
+//put request to delete all documents in the hall collection
+router.put('/deleteAll/food', async (req,res) => {
+    location.deleteMany({}).then(function(){
+        res.send("\n" + "DATA DELETED");
+    }).catch(function(error){
+        res.send(error);
+    });
+})
+
 //main api route to query food from a spcecific dining hall based on food characteristics
 router.get('/food/:hall', async (req,res) => {
     const query = []
