@@ -12,12 +12,12 @@ const DEFAULT_MAX_BUDGET = 0;
 const PriceSelection = (props) => {
     
     // TODO: load initial elements from user data, if extant
-    const [maxBudget, setMaxBudget] = useState(DEFAULT_MAX_BUDGET);
+    let [maxBudget, setMaxBudget] = useState(DEFAULT_MAX_BUDGET);
 
     const handleChange = (value) => { 
         console.log('PS handleChange() called');
         console.log(value);
-        setMaxBudget(value);
+        maxBudget = value
         console.log(maxBudget);   // Contains state preceding rerender
   
         console.log(props);

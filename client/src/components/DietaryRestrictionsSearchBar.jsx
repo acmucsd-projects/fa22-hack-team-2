@@ -14,7 +14,7 @@ const DietaryRestrictionsSearchBar = (props) => {        // NOTE: react-select i
                                                     // https://react-select.com/home
     
     // TODO: GET dietary restrictions to load into the multiselect, if logged in
-    const [selectedOptions, setSelectedOptions] = useState([]);
+    let [selectedOptions, setSelectedOptions] = useState([]);
 
     // TODO: Replace mock list of dietary restrictions
     const dietaryRestrictions = [{value: 'vegan', label: 'Vegan'},
@@ -29,9 +29,9 @@ const DietaryRestrictionsSearchBar = (props) => {        // NOTE: react-select i
     const handleChange = (selectedOptionsOnChange) => { 
         // Locally store selection
         console.log('DSRB handleChange() called');
-        console.log(selectedOptionsOnChange);
-        setSelectedOptions(selectedOptionsOnChange);
-        console.log(selectedOptions);           // FIXME: Contains state preceding rerender
+        console.log(selectedOptionsOnChange)
+        selectedOptions = selectedOptionsOnChange
+        console.log(selectedOptions)
 
 
 

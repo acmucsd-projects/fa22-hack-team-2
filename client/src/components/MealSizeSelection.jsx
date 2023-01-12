@@ -9,7 +9,7 @@ import { useState } from "react";
 const MealSizeSelection = (props) => {
 
     // TODO: load initial elements from user data, if extant
-    const [selectedOption, setselectedOption] = useState([]);
+    let [selectedOption, setselectedOption] = useState([]);
 
     // Mock list of meal size options
     const mealSizeOptions = [{value: 'large_meal', label: 'Large Meal'},
@@ -21,8 +21,8 @@ const MealSizeSelection = (props) => {
     const handleChange = (selectedOptionOnChange) => { 
         console.log('MSS handleChange() called');
         console.log(selectedOptionOnChange);
-        setselectedOption(selectedOptionOnChange);
-        console.log(selectedOption);   // Contains state preceding rerender
+        selectedOption = selectedOptionOnChange;
+        console.log(selectedOption); 
     
         props.parentCallback(selectedOption);
     }
