@@ -7,6 +7,10 @@ export const DisplayChoice = () => {
     // jump between pages
     let nav = useNavigate();
 
+    // get info from preferences component
+    //TODO: NOTE: Assumes that nav was called in preferences page with {state:{username: user.username, foodList: foodListArray}}
+    let loc = useLocation();
+
     //TODO: use useLocation to process list of foods that fit criteria
 
     //initial state of food recommendation
