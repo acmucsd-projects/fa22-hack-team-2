@@ -2,12 +2,61 @@ import {React, useState} from "react";
 import "./style.css";
 import { useNavigate, useLocation } from "react-router-dom";
 import API from "../API"
+import { useEffect } from "react";
 
 export const DisplayChoice = () => {
     // jump between pages
     let nav = useNavigate();
 
-    //TODO: use useLocation to process list of foods that fit criteria
+    let preferences = useLocation().state.preferences;
+    let username = useLocation().state.username;
+
+    // e.g. /CafeVentanas?name=Avocado%20Toast
+    let query = "";
+
+    let diningHalls = ["64Degrees", "CafeVentanas", "CanyonVistaMarketplace", 
+        "ClubMed", "Foodworx", "OceanView", "Pines", "RestaurantsatSixthCollege", 
+        "Roots", "The Bistro"];
+
+    const [foodCandidates, setFoodCandidates] = useState([]);
+
+    useEffect(() => {
+        let preferredFoods = [];
+
+        console.log("preferences (in DisplayChoice): ");
+        console.log(preferences);
+        console.log(username);
+
+        // Construct query based on preferences to acquire all foods satisfying prefs
+        for (let diningHall in diningHalls) {
+            let query = diningHall;
+            query += "?";
+
+            // Add restrictions filter
+            for (let i = 0; i < preferences.dietaryRestrictions.length - 1; i++) {
+                query += ("r=" + preferences.dietaryRestrictions.at(i));
+                query += "&";
+            }
+            if (preferences.dietaryRestrictions.length > 0) {
+                query += ("r=" + preferences.dietaryRestrictions
+                    .at(preferences.dietaryRestrictions.length - 1));
+            }
+            
+            // Add satisfiable foods for the current dining hall
+            API.getFoods(query).then((response) => {
+                preferredFoods.push(response.data);
+            });
+        }
+
+        console.log(preferredFoods);
+        setFoodCandidates(preferredFoods);
+
+        console.log(foodCandidates);
+        console.log(foodCandidates[0]);
+
+        console.log(foodCandidates[0]["food"]);
+        updateFormData(foodCandidates[0]["food"]);
+    });
 
     //initial state of food recommendation
     const foodInit = {
@@ -43,7 +92,7 @@ export const DisplayChoice = () => {
     //send user back to preferences page
     //TODO: Resend user data to preferences component
     const handleNewOrder = () => {
-        nav("/preferences");
+        nav("/preferences", {state:{username: username}});
     }
 
     return (
