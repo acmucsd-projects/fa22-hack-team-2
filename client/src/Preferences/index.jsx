@@ -54,7 +54,7 @@ export const Preferences = () => {
             await API.updatePreferences(payload);
             console.log("successfully updated preferences");
         }
-        nav("/display-choice", {state:{preferences: preferences, username: loggedInUsername}});
+        // nav("/display-choice", {state:{preferences: preferences, username: loggedInUsername}});
     }
 
     // TODO: load preferences if user is logged in
@@ -71,8 +71,8 @@ export const Preferences = () => {
             <PriceSelection 
                 parentCallback={handleMaxBudgetCallback} 
                 data={[{loggedInUsername: loggedInUsername}, {loggedIn: loggedIn}]} />
-            {/* <Link to="/display-choice" state={[{preferences: preferences}, {username: loggedInUsername}]}><button onClick={handleClick}> Generate choice </button></Link> */}
-            <button onClick={handleClick}> Generate choice </button>
+            <Link to="/display-choice" state={{preferences: preferences, username: loggedInUsername}}><button onClick={handleClick}> Generate choice </button></Link>
+            {/* <button onClick={handleClick}> Generate choice </button> */}
         </form>
     )
 }

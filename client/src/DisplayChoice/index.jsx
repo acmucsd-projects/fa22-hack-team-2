@@ -51,6 +51,9 @@ export const DisplayChoice = () => {
         console.log(preferredFoods);
         setFoodCandidates(preferredFoods);
 
+        console.log(foodCandidates);
+        console.log(foodCandidates[0]);
+
         console.log(foodCandidates[0]["food"]);
         updateFormData(foodCandidates[0]["food"]);
     });
