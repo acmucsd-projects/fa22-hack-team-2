@@ -3,12 +3,14 @@ import "./style.css";
 import DietaryRestrictionsSearchBar from '../components/DietaryRestrictionsSearchBar';
 import MealSizeSelection from '../components/MealSizeSelection';
 import PriceSelection from '../components/PriceSelection';
-import { Link, useLocation } from "react-router-dom"
+import { Link, useLocation, useNavigate } from "react-router-dom"
 import API from "../API"
 
 const MOCK_USER = "mockuser";
 
 export const Preferences = () => {
+    let nav = useNavigate();
+    
     let loggedInUsername = useLocation().state.username;
     let loggedIn = (loggedInUsername != "");
     
@@ -46,18 +48,18 @@ export const Preferences = () => {
         }
         console.log("loggedIn: " + loggedIn);
         console.log("loggedInUsername: " + loggedInUsername);
+        console.log("preferences: " );
+        console.log(preferences);
         if (loggedIn) {
             await API.updatePreferences(payload);
             console.log("successfully updated preferences");
         }
+        nav("/display-choice", {state:{preferences: preferences, username: loggedInUsername}});
     }
 
     // TODO: load preferences if user is logged in
     return (
         <form>
-            <script>
-                console.log(preferences);
-            </script>
             <DietaryRestrictionsSearchBar 
                 parentCallback={handleDietaryRestrictionsCallback} 
                 data={[{loggedInUsername: loggedInUsername}, {loggedIn: loggedIn}]}/>
@@ -69,7 +71,8 @@ export const Preferences = () => {
             <PriceSelection 
                 parentCallback={handleMaxBudgetCallback} 
                 data={[{loggedInUsername: loggedInUsername}, {loggedIn: loggedIn}]} />
-            <Link to="/choice"><button onClick={handleClick}> Generate choice </button></Link>
+            {/* <Link to="/display-choice" state={[{preferences: preferences}, {username: loggedInUsername}]}><button onClick={handleClick}> Generate choice </button></Link> */}
+            <button onClick={handleClick}> Generate choice </button>
         </form>
     )
 }

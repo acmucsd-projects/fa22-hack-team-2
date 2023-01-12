@@ -22,6 +22,11 @@ const API = {
     // Get user after logging in
     getUser: function() {
         return axios.get(serverURL + "/api/register");
+    },
+
+    // TODO: implement food query, e.g. /api/food/CafeVentanas?name=Avocado%20Toast
+    getFoods: function(payload) {
+        return axios.get(serverURL + "/api/food" + payload);    
     }
 
 }
