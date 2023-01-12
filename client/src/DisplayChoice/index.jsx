@@ -28,8 +28,8 @@ export const DisplayChoice = () => {
         console.log(username);
 
         // Construct query based on preferences to acquire all foods satisfying prefs
-        for (let diningHall in diningHalls) {
-            let query = diningHall;
+        for (let i in diningHalls) {
+            let query = diningHalls[i];
             query += "?";
 
             // Add restrictions filter
@@ -41,6 +41,8 @@ export const DisplayChoice = () => {
                 query += ("r=" + preferences.dietaryRestrictions
                     .at(preferences.dietaryRestrictions.length - 1));
             }
+
+            console.log(query);
             
             // Add satisfiable foods for the current dining hall
             API.getFoods(query).then((response) => {
