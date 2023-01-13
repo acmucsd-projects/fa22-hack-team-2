@@ -84,7 +84,12 @@ router.get('/food/:hall', async (req,res) => {
         query.push({'food.totCarb': {$gt : min_carb, $lt: max_carb}})
     } if (req.query.r) {
         const restriction = req.query.r
-        query.push({'food.restrictions' : { "$all": restriction }})
+        //console.log(restriction.length)
+        if (typeof restriction == 'string') {
+            query.push({'food.restrictions': req.query.r})
+        } else {
+            query.push({'food.restrictions' : { "$all": restriction }})
+        }
     } if (req.query.name) {
         query.push({'food.food' : req.query.name})
     } if (req.query.size) {

@@ -18,7 +18,7 @@ const DietaryRestrictionsSearchBar = (props) => {        // NOTE: react-select i
 
     // TODO: Replace mock list of dietary restrictions
     const dietaryRestrictions = [{value: 'vegan', label: 'Vegan'},
-        {value: 'vegetarian', label: 'Vegeterian'},
+        {value: 'vegetarian', label: 'Vegetarian'},
         {value: 'contains_dairy', label: 'Contains Dairy'},
         {value: 'tree_nuts_allergy', label: 'Contains Gluten'},
         {value: 'peanut_allergy', label: 'Contains Wheat'},

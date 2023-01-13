@@ -18,7 +18,7 @@ export const DisplayChoice = () => {
         "ClubMed", "Foodworx", "OceanView", "Pines", "RestaurantsatSixthCollege", 
         "Roots", "The Bistro"];
 
-    const [foodCandidates, setFoodCandidates] = useState([]);
+    let [foodCandidates, setFoodCandidates] = useState([]);
 
     useEffect(() => {
         let preferredFoods = [];
@@ -29,7 +29,8 @@ export const DisplayChoice = () => {
 
         // Construct query based on preferences to acquire all foods satisfying prefs
         for (let i in diningHalls) {
-            let query = diningHalls[i];
+            let query = "/";
+            query += diningHalls[i];
             query += "?";
 
             // Add restrictions filter
@@ -44,18 +45,28 @@ export const DisplayChoice = () => {
 
             console.log(query);
             
+            // Array of foods for the given dining hall
+            let preferredFoodsAtHall = [];
+            // TODO: aggregate individual elements into single array; not nested by dining hall
+
             // Add satisfiable foods for the current dining hall
             API.getFoods(query).then((response) => {
                 preferredFoods.push(response.data);
             });
+
+
         }
 
-        console.log(preferredFoods);
-        setFoodCandidates(preferredFoods);
+        //console.log(preferredFoods);
+        foodCandidates = preferredFoods;
 
+        console.log("base is ");
         console.log(foodCandidates);
-        console.log(foodCandidates[0]);
+        console.log(typeof foodCandidates);
+        console.log("0 is ");
+        console.log(foodCandidates.at(0));
 
+        console.log("0 food is");
         console.log(foodCandidates[0]["food"]);
         updateFormData(foodCandidates[0]["food"]);
     });
