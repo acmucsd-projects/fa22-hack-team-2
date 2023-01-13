@@ -19,11 +19,10 @@ const DietaryRestrictionsSearchBar = (props) => {        // NOTE: react-select i
     // TODO: Replace mock list of dietary restrictions
     const dietaryRestrictions = [{value: 'vegan', label: 'Vegan'},
         {value: 'vegetarian', label: 'Vegeterian'},
-        {value: 'lactose_intolerant', label: 'Lactose Intolerant'},
-        {value: 'tree_nuts_allergy', label: 'Tree Nuts Allergy'},
-        {value: 'peanut_allergy', label: 'Peanut Allergy'},
-        {value: 'gluten_intolerant', label: 'Gluent Intolerant'},
-        {value: 'keto', label: 'Keto'}];
+        {value: 'contains_dairy', label: 'Contains Dairy'},
+        {value: 'tree_nuts_allergy', label: 'Contains Gluten'},
+        {value: 'peanut_allergy', label: 'Contains Wheat'},
+        {value: 'gluten_intolerant', label: 'Contains TreeNuts'}];
 
     // Parameter is an array with elements {value: 'vegetarian', label: 'Vegeterian}
     const handleChange = (selectedOptionsOnChange) => { 
