@@ -46,15 +46,20 @@ export const DisplayChoice = () => {
             console.log(query);
             
             // Array of foods for the given dining hall
-            let preferredFoodsAtHall = [];
+            
             // TODO: aggregate individual elements into single array; not nested by dining hall
 
             // Add satisfiable foods for the current dining hall
             API.getFoods(query).then((response) => {
-                preferredFoods.push(response.data);
+                console.log("response.data: ");
+                console.log(response.data);
+                for (let i in response.data) {
+                    // Create deep copy of object - DOESNT SEEM TO FIX THE REFERENCE AFTER THIS BLOCK
+                    preferredFoods.push(JSON.parse(JSON.stringify(response.data.at(i))));
+                    console.log(preferredFoods[0]); // FIXME: somehow this is defined in this scope, but undefined at the later log
+                    console.log(preferredFoods[0].food);
+                }
             });
-
-
         }
 
         //console.log(preferredFoods);
@@ -64,11 +69,17 @@ export const DisplayChoice = () => {
         console.log(foodCandidates);
         console.log(typeof foodCandidates);
         console.log("0 is ");
-        console.log(foodCandidates.at(0));
+        console.log(foodCandidates[0]);
+
+        console.log("base is ");
+        console.log(preferredFoods);
+        console.log(typeof preferredFoods);
+        console.log("0 is ");
+        console.log(preferredFoods[0]);
 
         console.log("0 food is");
-        console.log(foodCandidates[0]["food"]);
-        updateFormData(foodCandidates[0]["food"]);
+        console.log(foodCandidates[0].food);
+        updateFormData(foodCandidates[0].food);
     });
 
     //initial state of food recommendation
