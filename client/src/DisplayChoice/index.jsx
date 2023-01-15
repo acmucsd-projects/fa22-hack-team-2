@@ -60,6 +60,9 @@ export const DisplayChoice = () => {
                     console.log(preferredFoods[0].food);
                 }
             });
+            console.log("preferredFoods[0], in loop scope: ");
+            console.log(preferredFoods[0]);
+            console.log(preferredFoods[0].food); // FIXME: not defined outside of the scope of the query function
         }
 
         //console.log(preferredFoods);
