@@ -5,84 +5,91 @@ import API from "../API"
 import { useEffect } from "react";
 
 export const DisplayChoice = () => {
-    // jump between pages
+    const firstRender = useDetectFirstRender();
+    
     let nav = useNavigate();
 
     let preferences = useLocation().state.preferences;
     let username = useLocation().state.username;
 
-    // e.g. /CafeVentanas?name=Avocado%20Toast
-    let query = "";
-
+    
     let diningHalls = ["64Degrees", "CafeVentanas", "CanyonVistaMarketplace", 
         "ClubMed", "Foodworx", "OceanView", "Pines", "RestaurantsatSixthCollege", 
         "Roots", "The Bistro"];
 
     let [foodCandidates, setFoodCandidates] = useState([]);
 
+    let [preferredFoods, setPreferredFoods] = useState([]);
+
     useEffect(() => {
-        let preferredFoods = [];
+        if (firstRender) {
 
-        console.log("preferences (in DisplayChoice): ");
-        console.log(preferences);
-        console.log(username);
-
-        // Construct query based on preferences to acquire all foods satisfying prefs
-        for (let i in diningHalls) {
-            let query = "/";
-            query += diningHalls[i];
-            query += "?";
-
-            // Add restrictions filter
-            for (let i = 0; i < preferences.dietaryRestrictions.length - 1; i++) {
-                query += ("r=" + preferences.dietaryRestrictions.at(i));
-                query += "&";
-            }
-            if (preferences.dietaryRestrictions.length > 0) {
-                query += ("r=" + preferences.dietaryRestrictions
-                    .at(preferences.dietaryRestrictions.length - 1));
-            }
-
-            console.log(query);
+            setPreferredFoods([]);
             
-            // Array of foods for the given dining hall
-            
-            // TODO: aggregate individual elements into single array; not nested by dining hall
+            console.log("preferences (in DisplayChoice): ");
+            console.log(preferences);
+            console.log(username);
 
-            // Add satisfiable foods for the current dining hall
-            API.getFoods(query).then((response) => {
-                console.log("response.data: ");
-                console.log(response.data);
-                for (let i in response.data) {
-                    // Create deep copy of object - DOESNT SEEM TO FIX THE REFERENCE AFTER THIS BLOCK
-                    preferredFoods.push(JSON.parse(JSON.stringify(response.data.at(i))));
-                    console.log(preferredFoods[0]); // FIXME: somehow this is defined in this scope, but undefined at the later log
-                    console.log(preferredFoods[0].food);
+            // Construct query based on preferences to acquire all foods satisfying prefs
+            // e.g. /CafeVentanas?name=Avocado%20Toast
+            for (let i in diningHalls) {
+                let query = "/";
+                query += diningHalls[i];
+                query += "?";
+
+                // Add restrictions filter
+                for (let i = 0; i < preferences.dietaryRestrictions.length - 1; i++) {
+                    query += ("r=" + preferences.dietaryRestrictions.at(i));
+                    query += "&";
                 }
-            });
-            console.log("preferredFoods[0], in loop scope: ");
+                if (preferences.dietaryRestrictions.length > 0) {
+                    query += ("r=" + preferences.dietaryRestrictions
+                        .at(preferences.dietaryRestrictions.length - 1));
+                }
+
+                console.log(query);
+
+                // Add satisfiable foods for the current dining hall
+                API.getFoods(query).then((response) => {
+                    console.log("response.data: ");
+                    console.log(response.data);
+                    for (let i in response.data) {
+                        // Create deep copy of object - DOESNT SEEM TO FIX THE REFERENCE AFTER THIS BLOCK
+                        preferredFoods.push(JSON.parse(JSON.stringify(response.data.at(i))));
+                        console.log(preferredFoods); 
+                        console.log(preferredFoods[0]); // FIXME: somehow this is defined in this scope, but undefined at the later log
+                        // console.log(preferredFoods[0].food);
+
+                        // hard work-around undefined value bug to generate a single option
+                        updateFormData(preferredFoods[0].food);
+
+                    }
+                });
+                console.log("preferredFoods[0], in loop scope: ");
+                console.log(preferredFoods); // This displays all foods corresponding to its array indices, clearly correct
+                console.log(preferredFoods[0]); // FIXME: This is somehow undefined
+                // console.log(preferredFoods[0].food); // Can't be accessed since the former value is undefined
+            }
+
+            //console.log(preferredFoods);
+            foodCandidates = preferredFoods;
+
+            console.log("base is ");
+            console.log(foodCandidates);
+            console.log(typeof foodCandidates);
+            console.log("0 is ");
+            console.log(foodCandidates[0]);
+
+            console.log("base is ");
+            console.log(preferredFoods);
+            console.log(typeof preferredFoods);
+            console.log("0 is ");
             console.log(preferredFoods[0]);
-            console.log(preferredFoods[0].food); // FIXME: not defined outside of the scope of the query function
+
+            console.log("0 food is");
+            // console.log(foodCandidates[0].food);
+            // updateFormData(foodCandidates[0].food);
         }
-
-        //console.log(preferredFoods);
-        foodCandidates = preferredFoods;
-
-        console.log("base is ");
-        console.log(foodCandidates);
-        console.log(typeof foodCandidates);
-        console.log("0 is ");
-        console.log(foodCandidates[0]);
-
-        console.log("base is ");
-        console.log(preferredFoods);
-        console.log(typeof preferredFoods);
-        console.log("0 is ");
-        console.log(preferredFoods[0]);
-
-        console.log("0 food is");
-        console.log(foodCandidates[0].food);
-        updateFormData(foodCandidates[0].food);
     });
 
     //initial state of food recommendation
@@ -189,3 +196,13 @@ export const DisplayChoice = () => {
         </>
     )
 }
+
+export function useDetectFirstRender() {
+    const [firstRender, setFirstRender] = useState(true);
+  
+    useEffect(() => {
+      setFirstRender(false);
+    }, []);
+  
+    return firstRender;
+  }
